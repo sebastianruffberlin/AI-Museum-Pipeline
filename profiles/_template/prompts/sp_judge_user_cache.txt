@@ -1,0 +1,26 @@
+Pruefe das Ergebnis des ersten Modells und erstelle die korrigierte Endfassung.
+
+[FRAMEWORK]
+"""
+${FRAMEWORK}
+"""
+
+[TAXONOMIE]
+"""
+${TAX}
+"""
+
+[OBJEKT]
+"""
+${item.context_data_string||''}
+"""
+
+[MASTER_CAPTION]
+"""
+${item.master_caption||''}
+"""
+
+[ERGEBNIS_MODELL_1]
+"""
+${JSON.stringify({objektbefund:item.gen_objektbefund,schwerpunkte:item.gen_schwerpunkte,nicht_vergeben:item.gen_nicht_vergeben})}
+"""

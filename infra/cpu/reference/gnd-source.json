@@ -1,0 +1,9 @@
+{
+  "provider": "Deutsche Nationalbibliothek",
+  "authority": "GND Sachbegriffe",
+  "policy": "rolling",
+  "source_url": "https://data.dnb.de/opendata/authorities-gnd-sachbegriff_lds.jsonld.gz",
+  "filename": "authorities-gnd-sachbegriff_lds.jsonld.gz",
+  "index": "gnd_sachbegriffe",
+  "provenance": "Record download timestamp and SHA256 for each installation. Do not require a historic row count or historic SHA256."
+}

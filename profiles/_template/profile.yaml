@@ -1,0 +1,30 @@
+id: museum-template
+name: Generic German museum starter profile
+locale: de-DE
+output_language: de
+
+metadata: metadata.yaml
+prompts_dir: prompts
+
+tagging:
+  config: tagging/profile.yaml
+  policy: tagging/policy.yaml
+  debias_map: tagging/debias_map.json
+
+emotion:
+  # Built-in museums-agnostic default. It only runs in workflows that enable emotion.
+  config: emotion/profile.yaml
+
+authority:
+  config: authority/profile.yaml
+
+# Topics are intentionally NOT activated here.
+# The pipeline provides the engine, but each institution must first create its
+# own framework + taxonomy from profiles/_template/topics/.
+
+captions:
+  prompts:
+    fallback: cap_002_fallback
+    system: cap_002_system
+    user: cap_002_user
+    synthesis_system: cap_002_synthese_system

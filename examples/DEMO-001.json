@@ -1,0 +1,81 @@
+{
+  "note": "Synthetic illustrative joined view of pipeline-owned result tables; not a benchmark, museum collection record or literal API response.",
+  "input": {
+    "object_id": "DEMO-001",
+    "object_type": "photograph",
+    "title": "Urban street scene",
+    "dating": "1970s",
+    "image_url": "https://example.org/demo-001.jpg"
+  },
+  "output": {
+    "caption": {
+      "master_caption": "Representative consolidated visual description would be stored here.",
+      "status": "vorschlag"
+    },
+    "keywords": [
+      {
+        "cluster": "Inhalt_Motiv",
+        "keyword": "Straßenverkehr",
+        "status": "accepted",
+        "gnd_name": "example authority label",
+        "gnd_id": "example-id"
+      },
+      {
+        "cluster": "Inhalt_Motiv",
+        "keyword": "Straßenbahn",
+        "status": "accepted",
+        "gnd_name": null,
+        "gnd_id": null
+      },
+      {
+        "cluster": "Gebrauchskontext",
+        "keyword": "Reklame",
+        "status": "accepted",
+        "gnd_name": null,
+        "gnd_id": null
+      }
+    ],
+    "image_features": {
+      "format": "landscape",
+      "farbigkeit": "colour",
+      "farben": [
+        "#777777",
+        "#d8d2c8"
+      ],
+      "farbnamen": [
+        "example nearest colour name"
+      ]
+    },
+    "emotion_assignments": [
+      {
+        "preferred_label": "Dynamik",
+        "judge_status": "example",
+        "evidence": [
+          "movement / traffic in image"
+        ]
+      }
+    ],
+    "topic_assignments": [
+      {
+        "topic": "INSTITUTION_DEFINED_TOPIC",
+        "status": "possible relation — research required",
+        "judge_status": "example",
+        "note": "Placeholder only; the public repository ships no institution topic contents."
+      }
+    ],
+    "embeddings": [
+      {
+        "kind": "siglip2",
+        "vec": "omitted"
+      },
+      {
+        "kind": "dinov3",
+        "vec": "omitted"
+      },
+      {
+        "kind": "bge_m3",
+        "vec": "omitted"
+      }
+    ]
+  }
+}

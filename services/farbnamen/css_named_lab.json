@@ -1,0 +1,1489 @@
+{
+ "meta": {
+  "quelle": "CSS Named Colors (W3C, 148), Datenbasis color-name-lists html.json (MIT)",
+  "rolle": "normierter Anker - exakte Webfarbnamen",
+  "anzahl": 148
+ },
+ "farben": [
+  {
+   "name": "aqua",
+   "hex": "#00ffff",
+   "L": 91.1,
+   "a": -48.1,
+   "b": -14.1,
+   "chroma": 50.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "aliceblue",
+   "hex": "#f0f8ff",
+   "L": 97.2,
+   "a": -1.3,
+   "b": -4.3,
+   "chroma": 4.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "antiquewhite",
+   "hex": "#faebd7",
+   "L": 93.7,
+   "a": 1.8,
+   "b": 11.5,
+   "chroma": 11.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "black",
+   "hex": "#000000",
+   "L": 0.0,
+   "a": 0.0,
+   "b": 0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "blue",
+   "hex": "#0000ff",
+   "L": 32.3,
+   "a": 79.2,
+   "b": -107.9,
+   "chroma": 133.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "cyan",
+   "hex": "#00ffff",
+   "L": 91.1,
+   "a": -48.1,
+   "b": -14.1,
+   "chroma": 50.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkblue",
+   "hex": "#00008b",
+   "L": 14.8,
+   "a": 50.4,
+   "b": -68.7,
+   "chroma": 85.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkcyan",
+   "hex": "#008b8b",
+   "L": 52.2,
+   "a": -30.6,
+   "b": -9.0,
+   "chroma": 31.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkgreen",
+   "hex": "#006400",
+   "L": 36.2,
+   "a": -43.4,
+   "b": 41.9,
+   "chroma": 60.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkturquoise",
+   "hex": "#00ced1",
+   "L": 75.3,
+   "a": -40.0,
+   "b": -13.5,
+   "chroma": 42.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "deepskyblue",
+   "hex": "#00bfff",
+   "L": 72.5,
+   "a": -17.6,
+   "b": -42.5,
+   "chroma": 46.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "green",
+   "hex": "#008000",
+   "L": 46.2,
+   "a": -51.7,
+   "b": 49.9,
+   "chroma": 71.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lime",
+   "hex": "#00ff00",
+   "L": 87.7,
+   "a": -86.2,
+   "b": 83.2,
+   "chroma": 119.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumblue",
+   "hex": "#0000cd",
+   "L": 25.0,
+   "a": 67.2,
+   "b": -91.5,
+   "chroma": 113.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumspringgreen",
+   "hex": "#00fa9a",
+   "L": 87.3,
+   "a": -70.7,
+   "b": 32.5,
+   "chroma": 77.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "navy",
+   "hex": "#000080",
+   "L": 13.0,
+   "a": 47.5,
+   "b": -64.7,
+   "chroma": 80.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "springgreen",
+   "hex": "#00ff7f",
+   "L": 88.5,
+   "a": -76.9,
+   "b": 47.0,
+   "chroma": 90.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "teal",
+   "hex": "#008080",
+   "L": 48.3,
+   "a": -28.8,
+   "b": -8.5,
+   "chroma": 30.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "midnightblue",
+   "hex": "#191970",
+   "L": 15.9,
+   "a": 31.7,
+   "b": -49.6,
+   "chroma": 58.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "dodgerblue",
+   "hex": "#1e90ff",
+   "L": 59.4,
+   "a": 10.0,
+   "b": -63.4,
+   "chroma": 64.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightseagreen",
+   "hex": "#20b2aa",
+   "L": 65.8,
+   "a": -37.5,
+   "b": -6.3,
+   "chroma": 38.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "forestgreen",
+   "hex": "#228b22",
+   "L": 50.6,
+   "a": -49.6,
+   "b": 45.0,
+   "chroma": 67.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "seagreen",
+   "hex": "#2e8b57",
+   "L": 51.5,
+   "a": -39.7,
+   "b": 20.0,
+   "chroma": 44.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkslategray",
+   "hex": "#2f4f4f",
+   "L": 31.3,
+   "a": -11.7,
+   "b": -3.7,
+   "chroma": 12.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkslategrey",
+   "hex": "#2f4f4f",
+   "L": 31.3,
+   "a": -11.7,
+   "b": -3.7,
+   "chroma": 12.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "limegreen",
+   "hex": "#32cd32",
+   "L": 72.6,
+   "a": -67.1,
+   "b": 61.4,
+   "chroma": 91.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumseagreen",
+   "hex": "#3cb371",
+   "L": 65.3,
+   "a": -48.2,
+   "b": 24.3,
+   "chroma": 54.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "turquoise",
+   "hex": "#40e0d0",
+   "L": 81.3,
+   "a": -44.1,
+   "b": -4.0,
+   "chroma": 44.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "royalblue",
+   "hex": "#4169e1",
+   "L": 47.8,
+   "a": 26.3,
+   "b": -65.3,
+   "chroma": 70.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "steelblue",
+   "hex": "#4682b4",
+   "L": 52.5,
+   "a": -4.1,
+   "b": -32.2,
+   "chroma": 32.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkslateblue",
+   "hex": "#483d8b",
+   "L": 30.8,
+   "a": 26.1,
+   "b": -42.1,
+   "chroma": 49.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumturquoise",
+   "hex": "#48d1cc",
+   "L": 76.9,
+   "a": -37.4,
+   "b": -8.4,
+   "chroma": 38.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "indigo",
+   "hex": "#4b0082",
+   "L": 20.5,
+   "a": 51.7,
+   "b": -53.3,
+   "chroma": 74.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkolivegreen",
+   "hex": "#556b2f",
+   "L": 42.2,
+   "a": -18.8,
+   "b": 30.6,
+   "chroma": 35.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "cadetblue",
+   "hex": "#5f9ea0",
+   "L": 61.2,
+   "a": -19.7,
+   "b": -7.4,
+   "chroma": 21.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "cornflowerblue",
+   "hex": "#6495ed",
+   "L": 61.9,
+   "a": 9.3,
+   "b": -49.3,
+   "chroma": 50.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumaquamarine",
+   "hex": "#66cdaa",
+   "L": 75.7,
+   "a": -38.3,
+   "b": 8.3,
+   "chroma": 39.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "dimgray",
+   "hex": "#696969",
+   "L": 44.4,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "dimgrey",
+   "hex": "#696969",
+   "L": 44.4,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "slateblue",
+   "hex": "#6a5acd",
+   "L": 45.3,
+   "a": 36.0,
+   "b": -57.8,
+   "chroma": 68.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "olivedrab",
+   "hex": "#6b8e23",
+   "L": 54.7,
+   "a": -28.2,
+   "b": 49.7,
+   "chroma": 57.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "slategray",
+   "hex": "#708090",
+   "L": 52.8,
+   "a": -2.1,
+   "b": -10.6,
+   "chroma": 10.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "slategrey",
+   "hex": "#708090",
+   "L": 52.8,
+   "a": -2.1,
+   "b": -10.6,
+   "chroma": 10.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightslategray",
+   "hex": "#778899",
+   "L": 55.9,
+   "a": -2.2,
+   "b": -11.1,
+   "chroma": 11.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightslategrey",
+   "hex": "#778899",
+   "L": 55.9,
+   "a": -2.2,
+   "b": -11.1,
+   "chroma": 11.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumslateblue",
+   "hex": "#7b68ee",
+   "L": 52.2,
+   "a": 41.1,
+   "b": -65.4,
+   "chroma": 77.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lawngreen",
+   "hex": "#7cfc00",
+   "L": 88.9,
+   "a": -67.9,
+   "b": 85.0,
+   "chroma": 108.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "aquamarine",
+   "hex": "#7fffd4",
+   "L": 92.0,
+   "a": -45.5,
+   "b": 9.7,
+   "chroma": 46.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "chartreuse",
+   "hex": "#7fff00",
+   "L": 89.9,
+   "a": -68.1,
+   "b": 85.8,
+   "chroma": 109.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "gray",
+   "hex": "#808080",
+   "L": 53.6,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "grey",
+   "hex": "#808080",
+   "L": 53.6,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "maroon",
+   "hex": "#800000",
+   "L": 25.5,
+   "a": 48.1,
+   "b": 38.1,
+   "chroma": 61.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "olive",
+   "hex": "#808000",
+   "L": 51.9,
+   "a": -12.9,
+   "b": 56.7,
+   "chroma": 58.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "purple",
+   "hex": "#800080",
+   "L": 29.8,
+   "a": 58.9,
+   "b": -36.5,
+   "chroma": 69.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightskyblue",
+   "hex": "#87cefa",
+   "L": 79.7,
+   "a": -10.8,
+   "b": -28.5,
+   "chroma": 30.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "skyblue",
+   "hex": "#87ceeb",
+   "L": 79.2,
+   "a": -14.8,
+   "b": -21.3,
+   "chroma": 25.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "blueviolet",
+   "hex": "#8a2be2",
+   "L": 42.2,
+   "a": 69.9,
+   "b": -74.8,
+   "chroma": 102.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkmagenta",
+   "hex": "#8b008b",
+   "L": 32.6,
+   "a": 62.6,
+   "b": -38.7,
+   "chroma": 73.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkred",
+   "hex": "#8b0000",
+   "L": 28.1,
+   "a": 51.0,
+   "b": 41.3,
+   "chroma": 65.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "saddlebrown",
+   "hex": "#8b4513",
+   "L": 37.5,
+   "a": 26.4,
+   "b": 41.0,
+   "chroma": 48.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkseagreen",
+   "hex": "#8fbc8f",
+   "L": 72.1,
+   "a": -23.8,
+   "b": 18.0,
+   "chroma": 29.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightgreen",
+   "hex": "#90ee90",
+   "L": 86.5,
+   "a": -46.3,
+   "b": 36.9,
+   "chroma": 59.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumpurple",
+   "hex": "#9370db",
+   "L": 55.0,
+   "a": 36.8,
+   "b": -50.1,
+   "chroma": 62.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkviolet",
+   "hex": "#9400d3",
+   "L": 39.6,
+   "a": 76.3,
+   "b": -70.4,
+   "chroma": 103.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "palegreen",
+   "hex": "#98fb98",
+   "L": 90.8,
+   "a": -48.3,
+   "b": 38.5,
+   "chroma": 61.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkorchid",
+   "hex": "#9932cc",
+   "L": 43.4,
+   "a": 65.2,
+   "b": -60.1,
+   "chroma": 88.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "yellowgreen",
+   "hex": "#9acd32",
+   "L": 76.5,
+   "a": -38.0,
+   "b": 66.6,
+   "chroma": 76.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "sienna",
+   "hex": "#a0522d",
+   "L": 43.8,
+   "a": 29.3,
+   "b": 35.6,
+   "chroma": 46.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "brown",
+   "hex": "#a52a2a",
+   "L": 37.5,
+   "a": 49.7,
+   "b": 30.5,
+   "chroma": 58.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkgray",
+   "hex": "#a9a9a9",
+   "L": 69.2,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkgrey",
+   "hex": "#a9a9a9",
+   "L": 69.2,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "greenyellow",
+   "hex": "#adff2f",
+   "L": 92.0,
+   "a": -52.5,
+   "b": 81.9,
+   "chroma": 97.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightblue",
+   "hex": "#add8e6",
+   "L": 83.8,
+   "a": -10.9,
+   "b": -11.5,
+   "chroma": 15.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "paleturquoise",
+   "hex": "#afeeee",
+   "L": 90.1,
+   "a": -19.6,
+   "b": -6.4,
+   "chroma": 20.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightsteelblue",
+   "hex": "#b0c4de",
+   "L": 78.5,
+   "a": -1.3,
+   "b": -15.2,
+   "chroma": 15.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "powderblue",
+   "hex": "#b0e0e6",
+   "L": 86.1,
+   "a": -14.1,
+   "b": -8.0,
+   "chroma": 16.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "firebrick",
+   "hex": "#b22222",
+   "L": 39.1,
+   "a": 55.9,
+   "b": 37.6,
+   "chroma": 67.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkgoldenrod",
+   "hex": "#b8860b",
+   "L": 59.2,
+   "a": 9.9,
+   "b": 62.7,
+   "chroma": 63.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumorchid",
+   "hex": "#ba55d3",
+   "L": 53.6,
+   "a": 59.1,
+   "b": -47.4,
+   "chroma": 75.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "rosybrown",
+   "hex": "#bc8f8f",
+   "L": 63.6,
+   "a": 17.0,
+   "b": 6.6,
+   "chroma": 18.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkkhaki",
+   "hex": "#bdb76b",
+   "L": 73.4,
+   "a": -8.8,
+   "b": 39.3,
+   "chroma": 40.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "silver",
+   "hex": "#c0c0c0",
+   "L": 77.7,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mediumvioletred",
+   "hex": "#c71585",
+   "L": 44.8,
+   "a": 71.0,
+   "b": -15.2,
+   "chroma": 72.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "indianred",
+   "hex": "#cd5c5c",
+   "L": 53.4,
+   "a": 44.8,
+   "b": 22.1,
+   "chroma": 50.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "peru",
+   "hex": "#cd853f",
+   "L": 61.8,
+   "a": 21.4,
+   "b": 47.9,
+   "chroma": 52.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "chocolate",
+   "hex": "#d2691e",
+   "L": 56.0,
+   "a": 37.1,
+   "b": 56.7,
+   "chroma": 67.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "tan",
+   "hex": "#d2b48c",
+   "L": 75.0,
+   "a": 5.0,
+   "b": 24.4,
+   "chroma": 24.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightgray",
+   "hex": "#d3d3d3",
+   "L": 84.6,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightgrey",
+   "hex": "#d3d3d3",
+   "L": 84.6,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "thistle",
+   "hex": "#d8bfd8",
+   "L": 80.1,
+   "a": 13.2,
+   "b": -9.2,
+   "chroma": 16.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "goldenrod",
+   "hex": "#daa520",
+   "L": 70.8,
+   "a": 8.5,
+   "b": 68.8,
+   "chroma": 69.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "orchid",
+   "hex": "#da70d6",
+   "L": 62.8,
+   "a": 55.3,
+   "b": -34.4,
+   "chroma": 65.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "palevioletred",
+   "hex": "#db7093",
+   "L": 60.6,
+   "a": 45.5,
+   "b": 0.4,
+   "chroma": 45.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "crimson",
+   "hex": "#dc143c",
+   "L": 47.0,
+   "a": 70.9,
+   "b": 33.6,
+   "chroma": 78.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "gainsboro",
+   "hex": "#dcdcdc",
+   "L": 87.8,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "plum",
+   "hex": "#dda0dd",
+   "L": 73.4,
+   "a": 32.5,
+   "b": -22.0,
+   "chroma": 39.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "burlywood",
+   "hex": "#deb887",
+   "L": 77.0,
+   "a": 7.1,
+   "b": 30.0,
+   "chroma": 30.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightcyan",
+   "hex": "#e0ffff",
+   "L": 97.9,
+   "a": -9.9,
+   "b": -3.4,
+   "chroma": 10.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lavender",
+   "hex": "#e6e6fa",
+   "L": 91.8,
+   "a": 3.7,
+   "b": -9.7,
+   "chroma": 10.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darksalmon",
+   "hex": "#e9967a",
+   "L": 69.9,
+   "a": 28.2,
+   "b": 27.7,
+   "chroma": 39.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "palegoldenrod",
+   "hex": "#eee8aa",
+   "L": 91.1,
+   "a": -7.3,
+   "b": 31.0,
+   "chroma": 31.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "violet",
+   "hex": "#ee82ee",
+   "L": 69.7,
+   "a": 56.4,
+   "b": -36.8,
+   "chroma": 67.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "azure",
+   "hex": "#f0ffff",
+   "L": 98.9,
+   "a": -4.9,
+   "b": -1.7,
+   "chroma": 5.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "honeydew",
+   "hex": "#f0fff0",
+   "L": 98.6,
+   "a": -7.6,
+   "b": 5.5,
+   "chroma": 9.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "khaki",
+   "hex": "#f0e68c",
+   "L": 90.3,
+   "a": -9.0,
+   "b": 45.0,
+   "chroma": 45.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightcoral",
+   "hex": "#f08080",
+   "L": 66.2,
+   "a": 42.8,
+   "b": 19.5,
+   "chroma": 47.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "sandybrown",
+   "hex": "#f4a460",
+   "L": 74.0,
+   "a": 23.0,
+   "b": 46.8,
+   "chroma": 52.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "beige",
+   "hex": "#f5f5dc",
+   "L": 95.9,
+   "a": -4.2,
+   "b": 12.0,
+   "chroma": 12.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mintcream",
+   "hex": "#f5fffa",
+   "L": 99.2,
+   "a": -4.2,
+   "b": 1.2,
+   "chroma": 4.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "wheat",
+   "hex": "#f5deb3",
+   "L": 89.4,
+   "a": 1.5,
+   "b": 24.0,
+   "chroma": 24.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "whitesmoke",
+   "hex": "#f5f5f5",
+   "L": 96.5,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "ghostwhite",
+   "hex": "#f8f8ff",
+   "L": 97.8,
+   "a": 1.3,
+   "b": -3.4,
+   "chroma": 3.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightgoldenrodyellow",
+   "hex": "#fafad2",
+   "L": 97.4,
+   "a": -6.5,
+   "b": 19.2,
+   "chroma": 20.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "linen",
+   "hex": "#faf0e6",
+   "L": 95.3,
+   "a": 1.7,
+   "b": 6.0,
+   "chroma": 6.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "salmon",
+   "hex": "#fa8072",
+   "L": 67.3,
+   "a": 45.2,
+   "b": 29.1,
+   "chroma": 53.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "oldlace",
+   "hex": "#fdf5e6",
+   "L": 96.8,
+   "a": 0.2,
+   "b": 8.2,
+   "chroma": 8.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "bisque",
+   "hex": "#ffe4c4",
+   "L": 92.0,
+   "a": 4.4,
+   "b": 19.0,
+   "chroma": 19.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "blanchedalmond",
+   "hex": "#ffebcd",
+   "L": 93.9,
+   "a": 2.1,
+   "b": 17.0,
+   "chroma": 17.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "coral",
+   "hex": "#ff7f50",
+   "L": 67.3,
+   "a": 45.4,
+   "b": 47.5,
+   "chroma": 65.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "cornsilk",
+   "hex": "#fff8dc",
+   "L": 97.5,
+   "a": -2.2,
+   "b": 14.3,
+   "chroma": 14.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "darkorange",
+   "hex": "#ff8c00",
+   "L": 69.5,
+   "a": 36.8,
+   "b": 75.5,
+   "chroma": 84.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "deeppink",
+   "hex": "#ff1493",
+   "L": 56.0,
+   "a": 84.6,
+   "b": -5.7,
+   "chroma": 84.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "floralwhite",
+   "hex": "#fffaf0",
+   "L": 98.4,
+   "a": -0.0,
+   "b": 5.4,
+   "chroma": 5.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "fuchsia",
+   "hex": "#ff00ff",
+   "L": 60.3,
+   "a": 98.3,
+   "b": -60.8,
+   "chroma": 115.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "gold",
+   "hex": "#ffd700",
+   "L": 86.9,
+   "a": -1.9,
+   "b": 87.1,
+   "chroma": 87.1,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "hotpink",
+   "hex": "#ff69b4",
+   "L": 65.5,
+   "a": 64.3,
+   "b": -10.7,
+   "chroma": 65.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "ivory",
+   "hex": "#fffff0",
+   "L": 99.6,
+   "a": -2.5,
+   "b": 7.2,
+   "chroma": 7.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lavenderblush",
+   "hex": "#fff0f5",
+   "L": 96.1,
+   "a": 5.9,
+   "b": -0.6,
+   "chroma": 5.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lemonchiffon",
+   "hex": "#fffacd",
+   "L": 97.6,
+   "a": -5.4,
+   "b": 22.2,
+   "chroma": 22.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightpink",
+   "hex": "#ffb6c1",
+   "L": 81.1,
+   "a": 28.0,
+   "b": 5.0,
+   "chroma": 28.4,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightsalmon",
+   "hex": "#ffa07a",
+   "L": 74.7,
+   "a": 31.5,
+   "b": 34.5,
+   "chroma": 46.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "lightyellow",
+   "hex": "#ffffe0",
+   "L": 99.3,
+   "a": -5.1,
+   "b": 14.8,
+   "chroma": 15.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "magenta",
+   "hex": "#ff00ff",
+   "L": 60.3,
+   "a": 98.3,
+   "b": -60.8,
+   "chroma": 115.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "mistyrose",
+   "hex": "#ffe4e1",
+   "L": 92.7,
+   "a": 8.8,
+   "b": 4.8,
+   "chroma": 10.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "moccasin",
+   "hex": "#ffe4b5",
+   "L": 91.7,
+   "a": 2.4,
+   "b": 26.4,
+   "chroma": 26.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "navajowhite",
+   "hex": "#ffdead",
+   "L": 90.1,
+   "a": 4.5,
+   "b": 28.3,
+   "chroma": 28.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "orange",
+   "hex": "#ffa500",
+   "L": 74.9,
+   "a": 23.9,
+   "b": 79.0,
+   "chroma": 82.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "orangered",
+   "hex": "#ff4500",
+   "L": 57.6,
+   "a": 67.8,
+   "b": 69.0,
+   "chroma": 96.7,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "papayawhip",
+   "hex": "#ffefd5",
+   "L": 95.1,
+   "a": 1.3,
+   "b": 14.5,
+   "chroma": 14.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "peachpuff",
+   "hex": "#ffdab9",
+   "L": 89.3,
+   "a": 8.1,
+   "b": 21.0,
+   "chroma": 22.5,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "pink",
+   "hex": "#ffc0cb",
+   "L": 83.6,
+   "a": 24.1,
+   "b": 3.3,
+   "chroma": 24.3,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "red",
+   "hex": "#ff0000",
+   "L": 53.2,
+   "a": 80.1,
+   "b": 67.2,
+   "chroma": 104.6,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "seashell",
+   "hex": "#fff5ee",
+   "L": 97.1,
+   "a": 2.2,
+   "b": 4.5,
+   "chroma": 5.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "snow",
+   "hex": "#fffafa",
+   "L": 98.6,
+   "a": 1.7,
+   "b": 0.6,
+   "chroma": 1.8,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "tomato",
+   "hex": "#ff6347",
+   "L": 62.2,
+   "a": 57.9,
+   "b": 46.4,
+   "chroma": 74.2,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "white",
+   "hex": "#ffffff",
+   "L": 100.0,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "yellow",
+   "hex": "#ffff00",
+   "L": 97.1,
+   "a": -21.6,
+   "b": 94.5,
+   "chroma": 96.9,
+   "quelle": "css",
+   "sprache": "en"
+  },
+  {
+   "name": "rebeccapurple",
+   "hex": "#663399",
+   "L": 32.9,
+   "a": 42.9,
+   "b": -47.2,
+   "chroma": 63.8,
+   "quelle": "css",
+   "sprache": "en"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "museum-pipeline"
+version = "1.0.0"
+description = "Profile-driven multimodal museum enrichment pipeline for self-hosted LLMs"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+  "psycopg[binary]>=3.2,<4",
+  "requests>=2.31",
+  "ijson>=3.3",
+  "Pillow>=10.0",
+  "PyYAML>=6.0",
+  "arize-phoenix-otel",
+  "opentelemetry-exporter-otlp",
+  "openinference-semantic-conventions",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.12"]
+
+[project.scripts]
+museum-pipeline = "museum_pipeline.entrypoint:main"
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+museum_pipeline = ["skills/*/SKILL.md", "skills/*/*.json"]
+
+[tool.ruff.lint]
+# Only pyflakes (real bugs: unused imports, undefined names, etc.).
+# This codebase deliberately uses compact one-line statements
+# (`if x: raise ...`) throughout, which conflicts with several of ruff's
+# broader default/extended style rules (E701/E702) and with opinionated
+# extended rulesets (UP*, BLE001, PL*, S*, SIM*, FURB*, RUF*, TRY*, ISC*,
+# EXE*). Those are a deliberate style choice, not enforced here.
+select = ["F"]

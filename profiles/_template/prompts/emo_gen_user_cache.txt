@@ -1,0 +1,16 @@
+Erschliesse die moegliche affektive WIRKUNG dieses Objekts. Waehle nur aus dem VOKABULAR (per concept_id). Was weder Bild noch master_caption noch Metadaten belegen, taggst du nicht.
+
+[VOKABULAR]
+"""
+${typeof VOCAB==='string'?VOCAB:JSON.stringify(VOCAB)}
+"""
+
+[MASTER_CAPTION]
+"""
+${item.master_caption}
+"""
+
+[MUSEUMSMETADATEN]
+"""
+${item.context_data_string}
+"""

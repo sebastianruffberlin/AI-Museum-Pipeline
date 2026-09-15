@@ -1,0 +1,85 @@
+name: ${GPU_COMPOSE_PROJECT:-museum-pipeline-gpu}
+
+services:
+
+  caddy:
+    image: ${CADDY_IMAGE:-caddy:latest}
+    restart: always
+
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+
+    environment:
+      GPU_DOMAIN: ${GPU_DOMAIN:?GPU_DOMAIN is required}
+      ALLOWED_REMOTE_IP: ${ALLOWED_REMOTE_IP:?ALLOWED_REMOTE_IP is required}
+
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+
+    networks:
+      - gpu-network
+
+
+  llama-swap:
+    image: ${LLAMA_SWAP_IMAGE:-ghcr.io/mostlygeek/llama-swap:cuda}
+    restart: always
+
+    runtime: nvidia
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+    volumes:
+      - ${GPU_CONFIG_DIR:?GPU_CONFIG_DIR is required}/llama-swap.yaml:/app/config.yaml
+      - ${MODELS_DIR:?MODELS_DIR is required}:/models
+
+    networks:
+      - gpu-network
+
+
+  litellm:
+    image: ${LITELLM_IMAGE:-ghcr.io/berriai/litellm:main-latest}
+    restart: always
+
+    environment:
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY:?LITELLM_MASTER_KEY is required}
+      LLAMA_SWAP_API_KEY: ${LLAMA_SWAP_API_KEY:-unused}
+
+    volumes:
+      - ${GPU_CONFIG_DIR:?GPU_CONFIG_DIR is required}/litellm.yaml:/app/config.yaml:ro
+
+    command:
+      - --config
+      - /app/config.yaml
+      - --port
+      - "4000"
+
+    depends_on:
+      - llama-swap
+
+    networks:
+      - gpu-network
+
+
+volumes:
+  caddy-data:
+  caddy-config:
+
+
+networks:
+  gpu-network:
+    driver: bridge

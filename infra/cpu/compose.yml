@@ -1,0 +1,118 @@
+name: ${CPU_COMPOSE_PROJECT:-museum-pipeline}
+
+services:
+
+  postgres:
+    image: ${POSTGRES_IMAGE:-postgres:16}
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: ${PG_DB}
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+    ports:
+      - "127.0.0.1:${PG_PORT:-5432}:5432"
+
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+
+  embeddings:
+    build:
+      context: ../../services/embedding
+
+    restart: unless-stopped
+
+    environment:
+      SIGLIP_ID: ${SIGLIP_ID:-google/siglip2-giant-opt-patch16-384}
+      DINO_ID: ${DINO_ID:-facebook/dinov3-vitl16-pretrain-lvd1689m}
+      BGE_ID: ${BGE_ID:-BAAI/bge-m3}
+      HF_HOME: ${HF_HOME:-/models/huggingface}
+      HF_TOKEN: ${HF_TOKEN:-}
+      IMG_TIMEOUT: ${IMG_TIMEOUT:-30}
+
+      S3_ENDPOINT: ${S3_ENDPOINT:-}
+      S3_BUCKET: ${S3_BUCKET:-}
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-}
+
+    volumes:
+      - embedding-models:/models
+
+    ports:
+      - "127.0.0.1:${EMBEDDING_PORT:-8081}:8081"
+
+    healthcheck:
+      test:
+        - CMD
+        - curl
+        - -fsS
+        - http://localhost:8081/health
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+
+
+  presign:
+    profiles: ["s3"]
+
+    build:
+      context: ../../services/presign
+
+    restart: unless-stopped
+
+    environment:
+      S3_ENDPOINT: ${S3_ENDPOINT:-}
+      S3_BUCKET: ${S3_BUCKET:-}
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-}
+
+    ports:
+      - "127.0.0.1:${PRESIGN_PORT:-8082}:8082"
+
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >
+          import urllib.request;
+          urllib.request.urlopen("http://localhost:8082/health", timeout=3).read()
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+
+  gnd_opensearch:
+    profiles: ["gnd"]
+
+    image: ${OPENSEARCH_IMAGE:-opensearchproject/opensearch:3.8.0}
+    restart: unless-stopped
+
+    environment:
+      discovery.type: single-node
+      DISABLE_INSTALL_DEMO_CONFIG: ${DISABLE_INSTALL_DEMO_CONFIG:-true}
+      DISABLE_SECURITY_PLUGIN: ${DISABLE_SECURITY_PLUGIN:-true}
+      OPENSEARCH_JAVA_OPTS: ${OPENSEARCH_JAVA_OPTS:--Xms2g -Xmx2g}
+
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+
+    ports:
+      - "127.0.0.1:${OPENSEARCH_PORT:-9200}:9200"
+
+
+volumes:
+  postgres-data:
+  embedding-models:
+  opensearch-data:

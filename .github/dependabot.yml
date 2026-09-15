@@ -1,0 +1,32 @@
+version: 2
+updates:
+  # Root package (pyproject.toml)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels: ["dependencies"]
+
+  # Embedding service (separate requirements.txt, own container)
+  - package-ecosystem: "pip"
+    directory: "/services/embedding"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels: ["dependencies"]
+
+  # Presign service (separate requirements.txt, own container)
+  - package-ecosystem: "pip"
+    directory: "/services/presign"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels: ["dependencies"]
+
+  # GitHub Actions workflow versions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies", "ci"]

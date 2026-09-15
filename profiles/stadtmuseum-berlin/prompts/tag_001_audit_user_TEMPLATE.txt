@@ -1,0 +1,37 @@
+Hier sind die Eingabedaten für das zu bearbeitende Objekt.
+Wende die Regeln aus dem System-Prompt strikt an.
+
+=== DATENBASIS ===
+
+[INPUT 1: BILD]
+(Das Bild ist angehängt)
+
+[INPUT 2: KONSOLIDIERTER BEFUND – master_caption (primäre Quelle)]
+"""
+${item.master_caption}
+"""
+
+[INPUT 3A: ROHER BEFUND – QUELLE A (Qwen, zur Verifikation)]
+"""
+${item.caption_1}
+"""
+
+[INPUT 3B: ROHER BEFUND – QUELLE B (Gemma, zur Verifikation)]
+"""
+${item.caption_2}
+"""
+
+[INPUT 4: MUSEUMSMETADATEN (Fakten)]
+"""
+${item.context_data_string}
+"""
+
+[INPUT 5: Die vorgeschlagenen Schlagworte]
+"""
+${LLM2_CONTENT}
+"""
+
+[INPUT 6: Das reasoning zu den vorgeschlagenen Schlagworten]
+"""
+${LLM2_REASONING}
+"""

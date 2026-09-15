@@ -1,0 +1,28 @@
+Hier sind die Eingabedaten für das zu bearbeitende Objekt.
+Wende die Regeln aus dem System-Prompt strikt an.
+WICHTIG: Du erhältst das Originalbild, einen konsolidierten visuellen Befund (master_caption) sowie zwei rohe Ausgangsbefunde zur Verifikation. Nutze die master_caption als primäre Quelle. Die rohen Befunde dienen als Fallback wenn du am Bild etwas anderes siehst als die master_caption beschreibt. Was weder master_caption noch Bild belegen, tagge nicht.
+
+=== DATENBASIS ===
+
+[INPUT 1: KONSOLIDIERTER BEFUND – master_caption (primäre Quelle)]
+Enthält am Ende zwei Pflicht-Abschnitte:
+- Abschnitt 7 SENSITIVITÄTS-HINWEIS → steuert deinen Sovereignty-Check / Protokoll_Status.
+- Abschnitt 8 KONFIDENZ/UNSICHERHEIT → als [unsicher] markierte Befunde nur zurückhaltend taggen, nie als harte Tatsache.
+"""
+${item.master_caption}
+"""
+
+[INPUT 2A: ROHER BEFUND – QUELLE A (Qwen, zur Verifikation)]
+"""
+${item.caption_1 || 'nicht verfügbar'}
+"""
+
+[INPUT 2B: ROHER BEFUND – QUELLE B (Gemma, zur Verifikation)]
+"""
+${item.caption_2 || 'nicht verfügbar'}
+"""
+
+[INPUT 3: MUSEUMSMETADATEN (Fakten)]
+"""
+${item.context_data_string}
+"""

@@ -1,0 +1,56 @@
+# AI Museum Pipeline deployment
+#
+# This file contains NO secrets.
+#
+# Copy to:
+#   deployment.yaml
+
+museum_profile: mein-museum
+model_profile: reference
+hardware_profile: h100-80gb
+workflow: core
+
+repository:
+  # url may be omitted entirely when the current checkout has a usable git
+  # origin; the installer detects it automatically. Set it explicitly only
+  # if you deploy from a checkout without a configured origin remote.
+  ref: main
+
+features:
+  # true only for private S3/Object Storage assets
+  s3: false
+
+  # true only when local GND/OpenSearch enrichment is wanted
+  gnd: false
+
+cpu:
+  # The first installer version runs from the CPU/orchestrator host.
+  mode: local
+
+gpu:
+  # managed:
+  #   installer configures an already prepared GPU host via SSH
+  #
+  # external:
+  #   museum provides LCPP_URL + LCPP_AUTH in .env
+  mode: managed
+
+  host: 203.0.113.20
+  ssh_user: root
+
+  # DNS must already point to gpu.host.
+  domain: gpu.meinmuseum.de
+
+  install_path: /opt/museum-pipeline
+  config_dir: /opt/museum-pipeline-gpu-config
+  models_dir: /mnt/models
+
+  # Required for managed GPU installs; there is no institution-specific
+  # default. infra/gpu/generic is the museum-agnostic starting point.
+  #
+  # A fully calibrated, tested reference deployment (exact model digests,
+  # llama-swap/LiteLLM config, verified H100 concurrency contract) is also
+  # available at infra/gpu/stadtmuseum-berlin/h100-80gb -- use it directly
+  # if you run identical H100 80GB hardware, or as a template to calibrate
+  # your own.
+  deployment_path: infra/gpu/generic

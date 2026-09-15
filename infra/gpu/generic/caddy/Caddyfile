@@ -1,0 +1,16 @@
+{$GPU_DOMAIN} {
+    route {
+        @blocked not remote_ip {$ALLOWED_REMOTE_IP}
+        respond @blocked "Access Denied - Museum Network Only" 403
+
+        # Metrics bypass LiteLLM but stay behind the same IP restriction.
+        handle /metrics {
+            reverse_proxy llama-swap:8080
+        }
+
+        # Public OpenAI-compatible inference endpoint.
+        handle {
+            reverse_proxy litellm:4000
+        }
+    }
+}

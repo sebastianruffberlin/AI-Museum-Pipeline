@@ -1,0 +1,19 @@
+SACHBEGRIFF-VALIDIERUNG GEGEN VORAUSGEWÄHLTE GND-TREFFER
+
+BEGRIFF ZUR PRÜFUNG: ${item.term}
+CLUSTER: ${item.cluster}
+BEGRÜNDUNG LLM2: ${item.why}
+URTEIL LLM3: ${item.judge_comment}
+
+KONTEXT (NUR zur Disambiguierung):
+Caption: ${item.caption}
+Metadaten: ${item.metadata}
+
+VORAUSGEWÄHLTE GND-KANDIDATEN:
+${GND_CANDIDATES}
+
+AUFGABE:
+1. Deskriptiv-Gate prüfen.
+2. Kandidaten anhand "preferred_name" und "definition" gegen Begriff und Kontext bewerten.
+3. Besten passenden Kandidaten zuordnen, sonst no_match.
+Gib nur das finale JSON-Objekt aus.

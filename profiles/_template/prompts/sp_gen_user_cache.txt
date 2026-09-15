@@ -1,0 +1,21 @@
+Pruefe dieses Objekt gegen alle im Framework definierten Themen.
+
+[FRAMEWORK]
+"""
+${FRAMEWORK}
+"""
+
+[TAXONOMIE]
+"""
+${TAX}
+"""
+
+[OBJEKT]
+"""
+${item.context_data_string||''}
+"""
+
+[MASTER_CAPTION]
+"""
+${item.master_caption||''}
+"""
