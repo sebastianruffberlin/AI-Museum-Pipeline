@@ -8,5 +8,5 @@ numpy==2.3.4
 sentencepiece==0.2.2
 protobuf==7.36.1
 requests==2.34.2
-boto3==1.43.55
+boto3==1.43.93
 FlagEmbedding==1.4.0
