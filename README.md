@@ -254,7 +254,7 @@ Caption, alle 28 Schlagwörter, alle 4 Machine-Heart-Lesarten.
 
 ![Spirituseisen, Stadtmuseum Berlin, Objekt 92/45](https://museumopen.de/2600/2600/1647228.jpg)
 
-*Bildquelle: [Sammlung Online, Stadtmuseum Berlin](https://sammlung-online.stadtmuseum.de/Details/Index/1647228), Objekt 92/45. Gemeinfrei.*
+*Bildquelle: [Sammlung Online, Stadtmuseum Berlin](https://sammlung-online.stadtmuseum.de/Details/Index/1647228), Objekt 92/45..*
 
 ### Quelldaten
 
