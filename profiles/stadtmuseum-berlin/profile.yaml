@@ -1,0 +1,21 @@
+id: stadtmuseum-berlin
+name: Stadtmuseum Berlin reference profile
+locale: de-DE
+output_language: de
+metadata: metadata.yaml
+prompts_dir: prompts
+tagging:
+  config: tagging/profile.yaml
+  policy: tagging/policy.yaml
+  debias_map: tagging/debias_map.json
+emotion:
+  enabled_by_default: true
+  config: emotion/profile.yaml
+authority:
+  config: authority/profile.yaml
+captions:
+  prompts:
+    fallback: cap_002_fallback
+    system: cap_002_system
+    user: cap_002_user
+    synthesis_system: cap_002_synthese_system

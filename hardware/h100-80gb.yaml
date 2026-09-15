@@ -1,0 +1,62 @@
+name: h100-80gb
+status: verified
+reference_platform: NVIDIA H100 PCIe 80 GB
+notes: Parallelism and context-pool values are the verified V1 reference deployment.
+  parallel_slots is hardware/runtime tuning. context_pool is kept explicit because
+  changing it can change usable context and therefore functional behaviour.
+default_workers: 8
+cpu_workers: 8
+service_workers: 8
+models:
+  qwen3.6-35b-a3b-mtp-q4:
+    parallel_slots: 8
+    context_pool: 65536
+    min_context_per_slot: 8192
+  gemma-4-26b-a4b-qat:
+    parallel_slots: 4
+    context_pool: 32768
+    min_context_per_slot: 8192
+  gemma-4-12b-qat:
+    parallel_slots: 4
+    context_pool: 32768
+    min_context_per_slot: 8192
+  qwen3.6-27b-mtp:
+    parallel_slots: 2
+    context_pool: 32768
+    min_context_per_slot: 16384
+  gemma-4-31b-it:
+    parallel_slots: 1
+    context_pool: 32768
+    min_context_per_slot: 32768
+  gemma-4-31b-it-64k:
+    parallel_slots: 2
+    context_pool: 65536
+    min_context_per_slot: 32768
+  qwen3.6-35b-mtp:
+    parallel_slots: 8
+    context_pool: 65536
+    min_context_per_slot: 8192
+  qwen3.6-27b-mtp-64k:
+    parallel_slots: 1
+    context_pool: 65536
+    min_context_per_slot: 65536
+phase_overrides:
+  tagging.authority:
+    outer_workers: 1
+    inner_workers_from_model: authority.gnd
+  image_embeddings:
+    kind: service
+  image_features:
+    kind: cpu
+  captions.write:
+    kind: cpu
+  tagging.debias:
+    kind: cpu
+  tagging.write:
+    kind: cpu
+  emotion.write:
+    kind: cpu
+  topics.write:
+    kind: cpu
+  text_embeddings:
+    kind: service

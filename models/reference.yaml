@@ -1,0 +1,83 @@
+name: reference
+status: request-parity-verified
+backend: openai-compatible
+
+# Roles are task contracts. Skills refer to roles, never to concrete models.
+roles:
+  caption.primary:
+    model: qwen3.6-35b-a3b-mtp-q4
+    cpu_suffix: -think512
+    reasoning: {type: qwen_budget, budget: 512}
+    generation: {temperature: 0.1, top_p: 0.9, max_tokens: 2500}
+  caption.secondary:
+    model: gemma-4-26b-a4b-qat
+    cpu_suffix: -off
+    reasoning: {type: gemma_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.9, max_tokens: 2500}
+  caption.synthesis:
+    model: gemma-4-12b-qat
+    cpu_suffix: -off
+    reasoning: {type: gemma_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.9, max_tokens: 3000}
+
+  tagging.caption.primary:
+    model: qwen3.6-35b-a3b-mtp-q4
+    cpu_suffix: -think512
+    reasoning: {type: qwen_budget, budget: 512}
+    generation: {temperature: 0.1, top_p: 0.9, max_tokens: 2500}
+  tagging.caption.secondary:
+    model: gemma-4-26b-a4b-qat
+    cpu_suffix: -off
+    reasoning: {type: none}
+    generation: {temperature: 0.1, top_p: 0.9, max_tokens: 2500}
+  tagging.caption.synthesis:
+    model: gemma-4-12b-qat
+    cpu_suffix: -off
+    reasoning: {type: gemma_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.9, max_tokens: 3000}
+  tagging.generator:
+    model: qwen3.6-27b-mtp
+    cpu_suffix: -off
+    reasoning: {type: qwen_thinking, enabled: false}
+    generation: {temperature: 0.2, top_p: 0.8, top_k: 20, presence_penalty: 0.3, max_tokens: 4096}
+  tagging.audit:
+    model: gemma-4-31b-it-64k
+    cpu_suffix: -off
+    reasoning: {type: gemma_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.8, top_k: 20, max_tokens: 10000}
+  tagging.repair:
+    model: gemma-4-12b-qat
+    cpu_suffix: -off
+    reasoning: {type: gemma_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.9, max_tokens: 2000}
+  authority.gnd:
+    model: qwen3.6-35b-mtp
+    cpu_suffix: -off
+    reasoning: {type: qwen_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.8, top_k: 20, presence_penalty: 0.0, frequency_penalty: 0.0, max_tokens: 2048}
+
+  emotion.generator:
+    model: qwen3.6-27b-mtp
+    cpu_suffix: -off
+    reasoning: {type: qwen_thinking, enabled: false}
+    generation: {temperature: 0.2, top_p: 0.8, top_k: 20, max_tokens: 6000}
+  emotion.judge:
+    model: gemma-4-31b-it-64k
+    cpu_suffix: -off
+    reasoning: {type: gemma_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.8, top_k: 20, max_tokens: 6000}
+  topics.generator:
+    model: qwen3.6-27b-mtp-64k
+    cpu_suffix: -off
+    reasoning: {type: qwen_thinking, enabled: false}
+    generation: {temperature: 0.2, top_p: 0.8, top_k: 20, max_tokens: 6000}
+  topics.judge:
+    model: gemma-4-31b-it-64k
+    cpu_suffix: -off
+    reasoning: {type: gemma_thinking, enabled: false}
+    generation: {temperature: 0.1, top_p: 0.8, top_k: 20, max_tokens: 6000}
+
+provenance:
+  caption_model: qwen3.6+gemma4/judge-gemma4-12b
+  caption_version: v2.2
+  tagging_model: AI-Museum-Tagging local_02_V1.4

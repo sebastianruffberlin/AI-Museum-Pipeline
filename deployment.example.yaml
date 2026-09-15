@@ -1,0 +1,49 @@
+# AI Museum Pipeline deployment
+#
+# This file contains NO secrets.
+#
+# Copy to:
+#   deployment.yaml
+
+museum_profile: mein-museum
+model_profile: reference
+hardware_profile: h100-80gb
+workflow: core
+
+repository:
+  # May be omitted when the current checkout has a usable origin.
+  url: https://github.com/sebastianruffberlin/AI-Museum-Tagging-Revisedv2.git
+  ref: main
+
+features:
+  # true only for private S3/Object Storage assets
+  s3: true
+
+  # true only when local GND/OpenSearch enrichment is wanted
+  gnd: true
+
+cpu:
+  # The first installer version runs from the CPU/orchestrator host.
+  mode: local
+
+gpu:
+  # managed:
+  #   installer configures an already prepared GPU host via SSH
+  #
+  # external:
+  #   museum provides LCPP_URL + LCPP_AUTH in .env
+  mode: managed
+
+  host: 203.0.113.20
+  ssh_user: root
+
+  # DNS must already point to gpu.host.
+  domain: gpu.meinmuseum.de
+
+  install_path: /opt/museum-pipeline
+  config_dir: /opt/museum-pipeline-gpu-config
+  models_dir: /mnt/models
+
+  # Tested reference deployment.
+  # Different hardware requires its own calibrated deployment.
+  deployment_path: infra/gpu/stadtmuseum-berlin/h100-80gb

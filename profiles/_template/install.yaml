@@ -1,0 +1,6 @@
+# Optional profile-specific database bootstrap.
+#
+# Paths are relative to this museum profile.
+# Most museums using file-backed vocabularies need no SQL here.
+
+database_sql: []

@@ -1,0 +1,18 @@
+method: machine-heart
+annotation_prefix: emotion_
+vocabulary_version: public-reference-v1
+perspective_type: machine_proposal
+generator_prompt_version: mh_gen_v1
+judge_prompt_version: mh_judge_v1
+
+resources:
+  source: file
+  file_fallback: vocabulary.runtime.json
+
+prompts:
+  generator_system: emo_003_gen_system
+  generator_user: emo_gen_user
+  generator_user_cache: emo_gen_user_cache
+  judge_system: emo_003_judge_system
+  judge_user: emo_judge_user
+  judge_user_cache: emo_judge_user_cache

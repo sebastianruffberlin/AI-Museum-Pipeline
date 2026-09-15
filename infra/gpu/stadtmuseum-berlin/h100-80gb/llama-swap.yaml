@@ -1,0 +1,52 @@
+# Stadtmuseum Berlin reference deployment.
+#
+# Verified on NVIDIA H100 PCIe 80 GB.
+#
+# IMPORTANT:
+# -c and -np values are a pinned runtime contract.
+# Do not tune them casually.
+#
+# 8 API aliases use 6 physical model directories.
+# The two -64k aliases reuse their corresponding base model files.
+
+healthCheckTimeout: 120
+
+models:
+
+  # Caption A
+  "qwen3.6-35b-a3b-mtp-q4":
+    ttl: 0
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/qwen3.6-35b-a3b-mtp-q4/model.gguf --mmproj /models/qwen3.6-35b-a3b-mtp-q4/mmproj.gguf -c 65536 -ngl 99 --flash-attn on --cache-type-k q8_0 --cache-type-v q8_0 --reasoning-budget 1024 -np 8 --spec-type draft-mtp --spec-draft-n-max 2 --spec-draft-p-min 0.75 --alias qwen3.6-35b-a3b-mtp-q4
+
+  # Caption B
+  "gemma-4-26b-a4b-qat":
+    ttl: 0
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/gemma-4-26b-a4b-qat/model.gguf --mmproj /models/gemma-4-26b-a4b-qat/mmproj.gguf -c 32768 -ngl 99 -t 8 --flash-attn on -np 4 --jinja --image-min-tokens 280 --image-max-tokens 560 --alias gemma-4-26b-a4b-qat
+
+  # Caption synthesis / repair
+  "gemma-4-12b-qat":
+    ttl: 0
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/gemma-4-12b-qat/model.gguf --mmproj /models/gemma-4-12b-qat/mmproj.gguf -c 32768 -ngl 99 -t 8 --flash-attn on -np 4 --jinja --image-min-tokens 140 --image-max-tokens 280 --alias gemma-4-12b-qat
+
+  # Tagging / Emotion generator
+  "qwen3.6-27b-mtp":
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/qwen3.6-27b-mtp/model.gguf --mmproj /models/qwen3.6-27b-mtp/mmproj.gguf -c 32768 -ngl 99 --flash-attn on --cache-type-k q8_0 --cache-type-v q8_0 --reasoning-budget 1024 -np 2 --spec-draft-n-max 2 --alias qwen3.6-27b-mtp
+
+  # Tagging / Emotion judge
+  # No explicit -np on the verified live deployment: effective np = 1.
+  "gemma-4-31b-it":
+    ttl: 0
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/gemma-4-31b/model.gguf --mmproj /models/gemma-4-31b/mmproj.gguf -c 32768 -ngl 99 -t 8 --flash-attn on --jinja --image-min-tokens 280 --image-max-tokens 560 --alias gemma-4-31b-it
+
+  # GND matching: one object outside, up to eight term calls inside.
+  "qwen3.6-35b-mtp":
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/qwen3.6-35b-mtp/model.gguf --mmproj /models/qwen3.6-35b-mtp/mmproj.gguf -c 65536 -ngl 99 --flash-attn on --cache-type-k q8_0 --cache-type-v q8_0 --reasoning-budget 1024 -np 8 --spec-draft-n-max 2 --spec-draft-p-min 0.75 --alias qwen3.6-35b-mtp
+
+  # Topics generator: same physical model as qwen3.6-27b-mtp.
+  "qwen3.6-27b-mtp-64k":
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/qwen3.6-27b-mtp/model.gguf --mmproj /models/qwen3.6-27b-mtp/mmproj.gguf -c 65536 -ngl 99 --flash-attn on --cache-type-k q8_0 --cache-type-v q8_0 --reasoning-budget 1024 -np 1 --spec-draft-n-max 2 --alias qwen3.6-27b-mtp-64k
+
+  # Topics judge: same physical model as gemma-4-31b-it.
+  "gemma-4-31b-it-64k":
+    ttl: 0
+    cmd: llama-server --host 0.0.0.0 --port ${PORT} -m /models/gemma-4-31b/model.gguf --mmproj /models/gemma-4-31b/mmproj.gguf -c 65536 -ngl 99 -t 8 --flash-attn on -np 2 --cache-type-k q8_0 --cache-type-v q8_0 --jinja --image-min-tokens 280 --image-max-tokens 560 --alias gemma-4-31b-it-64k

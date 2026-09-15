@@ -1,0 +1,26 @@
+clusters:
+  - Objekttyp
+  - Thema_Phänomen
+  - Inhalt_Motiv
+  - Funktion_Zweck
+  - Visuelle_Merkmale
+  - Form_Gestalt
+  - Bestandteile
+  - Gebrauchskontext
+  - Kultureller_Kontext
+  - Emotion_Atmosphäre
+  - Farbe_Nuancen
+
+meta_keys: [_decolonial_audit_log, Protokoll_Status, _provenance_critique, Kritischer_Hinweis]
+audit_fields: [1_Relevance_Check, 2_Vision_Check, 3_Syntax_Check, 4_Sovereignty_Check, 5_Museo_Check]
+protokoll_status_values: [Open Access, "Restricted Access (Check Local Contexts)"]
+
+prompts:
+  caption_system: tag_001_capA_system
+  caption_user: tag_001_capA_user
+  caption_synthesis_system: tag_001_synth_system
+  generator_system: tag_001_system
+  generator_user: tag_001_user
+  audit_system: tag_001_audit_system
+  audit_user: tag_001_audit_user_TEMPLATE
+  repair_system: tag_001_repair_system

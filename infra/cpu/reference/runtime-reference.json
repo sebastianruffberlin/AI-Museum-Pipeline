@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-09-13",
+  "scope": "CPU orchestrator only; no CPU LLM inference",
+  "reference_host": {
+    "os": "Ubuntu 24.04",
+    "cpu": "AMD EPYC 9645",
+    "vcpus": 16,
+    "ram_gib": 62
+  },
+  "postgres": {
+    "tag": "postgres:16",
+    "observed_version": "16.15",
+    "digest": "postgres@sha256:f1c3376c26f2609ab9f29f71f824103fe2fcd8ee0346485cb6122a4f93df6f94"
+  },
+  "opensearch": {
+    "tag": "opensearchproject/opensearch:3.8.0",
+    "observed_version": "3.8.0",
+    "digest": "opensearchproject/opensearch@sha256:bcc1797519726ceb6d651d4a3e60b7c30da91793914a8dfe75fd441d4f641509"
+  },
+  "embedding_models": {
+    "siglip": {
+      "repository": "google/siglip2-giant-opt-patch16-384",
+      "observed_main_revision": "a713301b217d38485fb2204c808367d10bc3cc40"
+    },
+    "dino": {
+      "repository": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+      "observed_main_revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51"
+    },
+    "bge": {
+      "repository": "BAAI/bge-m3",
+      "observed_main_revision": "5617a9f61b028005a4858fdac845db406aefb181"
+    }
+  },
+  "embedding_policy": "Fresh installs use the configured model IDs and may resolve a newer main revision. The revisions above document the verified reference."
+}

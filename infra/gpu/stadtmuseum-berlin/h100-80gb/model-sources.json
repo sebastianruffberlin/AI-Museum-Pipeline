@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "download_policy": {
+    "default": "rolling",
+    "revision": "main",
+    "fixed": [
+      "model_family",
+      "quant_provider",
+      "hf_repository",
+      "quantization",
+      "model_file",
+      "mmproj_file"
+    ],
+    "reference_snapshot": "The reference byte size and SHA256 describe the verified Stadtmuseum H100 snapshot observed on 2026-09-13. A rolling download may legitimately differ if Unsloth updates a quant or mmproj while keeping the same repository/file name."
+  },
+  "models": [
+    {
+      "local_alias": "qwen3.6-35b-a3b-mtp-q4",
+      "local_dir": "qwen3.6-35b-a3b-mtp-q4",
+      "role": [
+        "caption.primary"
+      ],
+      "model_family": "Qwen3.6-35B-A3B-MTP",
+      "quant_provider": "unsloth",
+      "hf_repository": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+      "quantization": "UD-Q4_K_XL",
+      "model_file": "Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
+      "mmproj_file": "mmproj-BF16.gguf",
+      "reference_model_bytes": 22853663008,
+      "reference_model_sha256": "55983c5a75a1ab969824077b3bb3de4146e82a9234072b48ad4e8f92ad3fe9f1",
+      "reference_mmproj_bytes": 902822528,
+      "reference_mmproj_sha256": "da63cb47a76763c712393f8a017070188a304fa39f8aeea6edc629ed7b975cfa"
+    },
+    {
+      "local_alias": "gemma-4-26b-a4b-qat",
+      "local_dir": "gemma-4-26b-a4b-qat",
+      "role": [
+        "caption.secondary"
+      ],
+      "model_family": "gemma-4-26B-A4B-it-qat",
+      "quant_provider": "unsloth",
+      "hf_repository": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
+      "quantization": "UD-Q4_K_XL",
+      "model_file": "gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf",
+      "mmproj_file": "mmproj-BF16.gguf",
+      "reference_model_bytes": 14249045120,
+      "reference_model_sha256": "dcf179a91153e3a7ece792e48ef872180d9d6ef9b7677f0a0bd3e83cfe624d5e",
+      "reference_mmproj_bytes": 1194828256,
+      "reference_mmproj_sha256": "7b06953ccdbe8cf363f47841a7afaacd2b1c2ff9a8d6b426fdec7521a6878744"
+    },
+    {
+      "local_alias": "gemma-4-12b-qat",
+      "local_dir": "gemma-4-12b-qat",
+      "role": [
+        "caption.synthesis",
+        "tagging.repair"
+      ],
+      "model_family": "gemma-4-12B-it-qat",
+      "quant_provider": "unsloth",
+      "hf_repository": "unsloth/gemma-4-12B-it-qat-GGUF",
+      "quantization": "UD-Q4_K_XL",
+      "model_file": "gemma-4-12B-it-qat-UD-Q4_K_XL.gguf",
+      "mmproj_file": "mmproj-BF16.gguf",
+      "reference_model_bytes": 6716355328,
+      "reference_model_sha256": "cc9ff072e0a8203429ed854e6662c17a6c2bc1e5dca5b475dd4736caaacbc165",
+      "reference_mmproj_bytes": 175115840,
+      "reference_mmproj_sha256": "dcb8103adad042b1bf99df767aaf34eb37c5a73a4a2f0417e4d7ba557e91664f"
+    },
+    {
+      "local_alias": "qwen3.6-27b-mtp",
+      "local_dir": "qwen3.6-27b-mtp",
+      "role": [
+        "tagging.generator",
+        "emotion.generator",
+        "topics.generator",
+        "topics.generator.64k"
+      ],
+      "model_family": "Qwen3.6-27B-MTP",
+      "quant_provider": "unsloth",
+      "hf_repository": "unsloth/Qwen3.6-27B-MTP-GGUF",
+      "quantization": "UD-Q6_K_XL",
+      "model_file": "Qwen3.6-27B-UD-Q6_K_XL.gguf",
+      "mmproj_file": "mmproj-BF16.gguf",
+      "reference_model_bytes": 26015429760,
+      "reference_model_sha256": "f3b4a622e06e8ade06ec5c0eb9b40ed7c9bd707b5fada46c0215f4ab4a6bc32b",
+      "reference_mmproj_bytes": 931146304,
+      "reference_mmproj_sha256": "05353347512982ee62317b9d8c89372bc815f4b4043580e7ef3ad411ec1a1cd3"
+    },
+    {
+      "local_alias": "gemma-4-31b-it",
+      "local_dir": "gemma-4-31b",
+      "role": [
+        "tagging.audit",
+        "emotion.judge",
+        "topics.judge",
+        "topics.judge.64k"
+      ],
+      "model_family": "gemma-4-31B-it",
+      "quant_provider": "unsloth",
+      "hf_repository": "unsloth/gemma-4-31B-it-GGUF",
+      "quantization": "UD-Q4_K_XL",
+      "model_file": "gemma-4-31B-it-UD-Q4_K_XL.gguf",
+      "mmproj_file": "mmproj-BF16.gguf",
+      "reference_model_bytes": 18822968320,
+      "reference_model_sha256": "dd69c1566b0d559f303424e2b00e830837bb6c8b25e5baa08c75f11709bd41db",
+      "reference_mmproj_bytes": 1200726496,
+      "reference_mmproj_sha256": "7a4601b12ec680f706a7e0c7e1f78f579b1db64d485a9e352ee87d4b9daa45e4"
+    },
+    {
+      "local_alias": "qwen3.6-35b-mtp",
+      "local_dir": "qwen3.6-35b-mtp",
+      "role": [
+        "authority.gnd"
+      ],
+      "model_family": "Qwen3.6-35B-A3B-MTP",
+      "quant_provider": "unsloth",
+      "hf_repository": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+      "quantization": "UD-Q6_K_XL",
+      "model_file": "Qwen3.6-35B-A3B-UD-Q6_K_XL.gguf",
+      "mmproj_file": "mmproj-BF16.gguf",
+      "reference_model_bytes": 32611711264,
+      "reference_model_sha256": "35fce994cd36104a7dc1bd8a4bdf13778145664c00fdef6773aebc9246e5019c",
+      "reference_mmproj_bytes": 902822528,
+      "reference_mmproj_sha256": "da63cb47a76763c712393f8a017070188a304fa39f8aeea6edc629ed7b975cfa"
+    }
+  ]
+}

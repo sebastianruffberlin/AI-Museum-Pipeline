@@ -1,0 +1,9 @@
+name: core-topics
+modules:
+  image_embeddings: true
+  image_features: true
+  captions: true
+  tagging: true
+  emotion: false
+  topics: true
+  text_embeddings: true

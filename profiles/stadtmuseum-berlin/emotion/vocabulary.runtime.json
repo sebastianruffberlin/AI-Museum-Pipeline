@@ -1,0 +1,849 @@
+[
+  {
+    "concept_id": "andacht",
+    "begriff": "Andacht",
+    "definition": "Wirkung kontemplativer, sammelnder, oft religioes gepraegter Innerlichkeit.",
+    "nicht_verwenden_wenn": [
+      "setzt eine Person oder Praxis voraus"
+    ]
+  },
+  {
+    "concept_id": "angst",
+    "begriff": "Angst",
+    "definition": "Moegliche, unbestimmte Betrachterreaktion, die das Ganze der Situation betrifft (nicht gegenstandsgebunden).",
+    "nicht_verwenden_wenn": [
+      "nicht als Zustand dargestellter Personen diagnostizieren",
+      "das Objekt hat keine Angst"
+    ]
+  },
+  {
+    "concept_id": "anmut",
+    "begriff": "Anmut",
+    "definition": "Wirkung von Leichtigkeit, Grazie und harmonischer Bewegung."
+  },
+  {
+    "concept_id": "anspannung",
+    "begriff": "Anspannung",
+    "definition": "Wirkung innerer Gespanntheit, Konzentration oder latenter Erwartung."
+  },
+  {
+    "concept_id": "aufbruch",
+    "begriff": "Aufbruch",
+    "definition": "Wirkung von Neubeginn, Zukunftsoffenheit und gerichteter Bewegung nach vorn.",
+    "nicht_verwenden_wenn": [
+      "kann positiv normativ aufgeladen sein"
+    ]
+  },
+  {
+    "concept_id": "ausgelassenheit",
+    "begriff": "Ausgelassenheit",
+    "definition": "Wirkung ungebremster, gemeinschaftlicher Frohgestimmtheit.",
+    "nicht_verwenden_wenn": [
+      "benoetigt Handlung oder Menschengruppe"
+    ]
+  },
+  {
+    "concept_id": "ausschluss",
+    "begriff": "Ausschluss",
+    "definition": "Wirkung von Ausgrenzung, Trennung oder verweigerter Teilhabe.",
+    "nicht_verwenden_wenn": [
+      "konkrete Struktur oder Kontext noetig"
+    ]
+  },
+  {
+    "concept_id": "autoritaet",
+    "begriff": "Autoritaet",
+    "definition": "Wirkung anerkannter oder institutionalisierter Geltung, die Unterordnung oder Respekt einfordert.",
+    "nicht_verwenden_wenn": [
+      "nicht mit innerer Wuerde gleichsetzen"
+    ]
+  },
+  {
+    "concept_id": "bedrohung",
+    "begriff": "Bedrohung",
+    "definition": "Atmosphaerische Praesenz einer moeglichen Gefahr, die aus den materialen Ekstasen des Objekts entsteht (scharfe Kanten, schwere Massen, dunkle Kontraste).",
+    "nicht_verwenden_wenn": [
+      "das Objekt hat KEINE Emotion (nie: das Objekt hat Angst)",
+      "dargestellte Personen nicht als aengstlich diagnostizieren",
+      "reale Gewalt nicht durch aesthetische Begriffe ersetzen"
+    ]
+  },
+  {
+    "concept_id": "befremden",
+    "begriff": "Befremden",
+    "definition": "Moegliche Betrachterreaktion irritierter Distanzierung gegenueber dem Unvertrauten.",
+    "nicht_verwenden_wenn": [
+      "kulturell sensibel - nicht als Werturteil ueber das Dargestellte"
+    ]
+  },
+  {
+    "concept_id": "beklemmung",
+    "begriff": "Beklemmung",
+    "definition": "Koerpernah empfundene Enge, Bedrueckung oder einschraenkende Schwere."
+  },
+  {
+    "concept_id": "besinnlichkeit",
+    "begriff": "Besinnlichkeit",
+    "definition": "Wirkung ruhiger, sammelnder, oft feierlich getoenter Innerlichkeit."
+  },
+  {
+    "concept_id": "demut",
+    "begriff": "Demut",
+    "definition": "Wirkung von Zuruecknahme, Bescheidung und Unterordnung unter ein Groesseres."
+  },
+  {
+    "concept_id": "distanz",
+    "begriff": "Distanz",
+    "definition": "Wahrgenommene Trennung oder Zurueckhaltung zwischen Betrachter und Objekt oder innerhalb der Szene.",
+    "nicht_verwenden_wenn": [
+      "physisch, sozial oder historisch spezifizieren"
+    ]
+  },
+  {
+    "concept_id": "disziplin",
+    "begriff": "Disziplin",
+    "definition": "Wirkung eingeuebter Ordnung, Selbstbeherrschung oder auferlegter Regelbindung.",
+    "nicht_verwenden_wenn": [
+      "normative Zuschreibung - vorsichtig"
+    ]
+  },
+  {
+    "concept_id": "dominanz",
+    "begriff": "Dominanz",
+    "definition": "Wirkung von Ueberordnung und Kontrolle, ohne dass Legitimitaet vorausgesetzt ist."
+  },
+  {
+    "concept_id": "duesternis",
+    "begriff": "Duesternis",
+    "definition": "Verdunkelte, schwere Gesamtwirkung, die Bedrohliches oder Melancholisches nahelegen kann.",
+    "nicht_verwenden_wenn": [
+      "nicht allein aus niedriger Helligkeit ableiten (Form != Atmosphaere)"
+    ]
+  },
+  {
+    "concept_id": "ehrfurcht",
+    "begriff": "Ehrfurcht",
+    "definition": "Rezeptive Wirkung aus Achtung angesichts von Groesse, Macht oder Transzendenz."
+  },
+  {
+    "concept_id": "einsamkeit",
+    "begriff": "Einsamkeit",
+    "definition": "Wirkung fehlender Verbundenheit, auch inmitten einer belebten Szene moeglich.",
+    "nicht_verwenden_wenn": [
+      "nicht mit blosser Menschenleere gleichsetzen (das ist Verlassenheit)"
+    ]
+  },
+  {
+    "concept_id": "ekel",
+    "begriff": "Ekel",
+    "definition": "Moegliche Betrachterreaktion der Abstossung oder Ablehnung.",
+    "nicht_verwenden_wenn": [
+      "starke Zuschreibung - nur mit klarer Evidenz"
+    ]
+  },
+  {
+    "concept_id": "eleganz",
+    "begriff": "Eleganz",
+    "definition": "Wirkung kontrollierter, scheinbar muehelos reduzierter, ausgewogener Gestaltung."
+  },
+  {
+    "concept_id": "entfremdung",
+    "begriff": "Entfremdung",
+    "definition": "Wirkung der Entzweiung von einer zuvor vertrauten Welt oder Gemeinschaft.",
+    "nicht_verwenden_wenn": [
+      "benoetigt soziale oder historische Interpretation"
+    ]
+  },
+  {
+    "concept_id": "erhabenheit",
+    "begriff": "Erhabenheit",
+    "definition": "Wirkung von Groesse, Ueberwaeltigung oder Ueberschreitung alltaeglicher Massstaebe.",
+    "nicht_verwenden_wenn": [
+      "philosophisch/normativ belastet - Wertung offenlegen",
+      "nicht automatisch religioes"
+    ]
+  },
+  {
+    "concept_id": "erinnerung",
+    "begriff": "Erinnerung",
+    "definition": "Wirkung des Vergegenwaertigens von Vergangenem, ohne festgelegte Valenz.",
+    "nicht_verwenden_wenn": [
+      "sehr breit - moeglichst durch spezifischere Begriffe ersetzen"
+    ]
+  },
+  {
+    "concept_id": "ernst",
+    "begriff": "Ernst",
+    "definition": "Wirkung von Gewichtigkeit, Gesammeltheit und feierlicher Schwere.",
+    "nicht_verwenden_wenn": [
+      "nicht mit Trauer gleichsetzen"
+    ]
+  },
+  {
+    "concept_id": "erwartung",
+    "begriff": "Erwartung",
+    "definition": "Moegliche Betrachterreaktion gespannten Bevorstehens mit offenem Ausgang.",
+    "nicht_verwenden_wenn": [
+      "braucht offenen Ausgang"
+    ]
+  },
+  {
+    "concept_id": "faszination",
+    "begriff": "Faszination",
+    "definition": "Wirkung gebannter Aufmerksamkeit und anziehender Neugier gegenueber einem Objekt.",
+    "nicht_verwenden_wenn": [
+      "bei realer Gewalt nicht ohne ethische Dimension vergeben (Aesthetisierung)"
+    ]
+  },
+  {
+    "concept_id": "feierlichkeit",
+    "begriff": "Feierlichkeit",
+    "definition": "Atmosphaere erhoehter Formalitaet, Ernsthaftigkeit und zeremonieller Markierung; Erhebung aus dem Profanen."
+  },
+  {
+    "concept_id": "festlichkeit",
+    "begriff": "Festlichkeit",
+    "definition": "Atmosphaere gemeinschaftlichen Feierns, Ausgelassenheit und geselliger Erhebung.",
+    "nicht_verwenden_wenn": [
+      "nicht mit Feierlichkeit gleichsetzen (gesellig vs. zeremoniell)",
+      "nur bei konkretem Anlass plausibel"
+    ]
+  },
+  {
+    "concept_id": "fremdheit",
+    "begriff": "Fremdheit",
+    "definition": "Wirkung des Unvertrauten, Andersartigen oder nicht Einzuordnenden.",
+    "nicht_verwenden_wenn": [
+      "Gefahr des Othering / Exotismus - kritisch pruefen"
+    ]
+  },
+  {
+    "concept_id": "freude",
+    "begriff": "Freude",
+    "definition": "Moegliche Betrachterreaktion positiver, aktivierender Gestimmtheit.",
+    "nicht_verwenden_wenn": [
+      "nicht automatisch aus einem Laecheln ableiten"
+    ]
+  },
+  {
+    "concept_id": "fuersorge",
+    "begriff": "Fuersorge",
+    "definition": "Wirkung von Zuwendung, Schutz und pflegender Aufmerksamkeit.",
+    "nicht_verwenden_wenn": [
+      "nur bei dargestellter Handlung oder Kontext"
+    ]
+  },
+  {
+    "concept_id": "furcht",
+    "begriff": "Furcht",
+    "definition": "Moegliche, auf ein konkretes innerweltliches Objekt gerichtete Betrachterreaktion."
+  },
+  {
+    "concept_id": "geborgenheit",
+    "begriff": "Geborgenheit",
+    "definition": "Existenzielle Wirkung des Geschuetzt- und Aufgehobenseins gegenueber der Bedrohung der Aussenwelt."
+  },
+  {
+    "concept_id": "gelassenheit",
+    "begriff": "Gelassenheit",
+    "definition": "Wirkung einer souveraenen, in sich ruhenden Haltung gegenueber der Welt, die auch Widrigem standhaelt.",
+    "nicht_verwenden_wenn": [
+      "setzt ein erlebendes/dargestelltes Subjekt voraus - nicht aus neutralem Blick ableiten"
+    ]
+  },
+  {
+    "concept_id": "gemeinschaftlichkeit",
+    "begriff": "Gemeinschaftlichkeit",
+    "definition": "Wirkung kollektiver Verbundenheit und geteilter Zugehoerigkeit.",
+    "nicht_verwenden_wenn": [
+      "nicht aus blosser Personenzahl ableiten"
+    ]
+  },
+  {
+    "concept_id": "gemuetlichkeit",
+    "begriff": "Gemuetlichkeit",
+    "definition": "Kulturell gepraegte Atmosphaere informeller Behaglichkeit, Naehe und geringer sozialer Anspannung.",
+    "nicht_verwenden_wenn": [
+      "stark kulturell (dt.) gepraegt, nicht verlustfrei uebersetzbar",
+      "nicht mit existenzieller Geborgenheit gleichsetzen"
+    ]
+  },
+  {
+    "concept_id": "geschaeftigkeit",
+    "begriff": "Geschaeftigkeit",
+    "definition": "Wirkung dichter, betriebsamer Aktivitaet und sozialer Bewegung."
+  },
+  {
+    "concept_id": "harmonie",
+    "begriff": "Harmonie",
+    "definition": "Wirkung von Ausgleich, Stimmigkeit und spannungsfreier Ordnung der Teile."
+  },
+  {
+    "concept_id": "heiligkeit",
+    "begriff": "Heiligkeit",
+    "definition": "Wirkung des Geheiligten, Transzendenten und dem Profanen radikal Entzogenen.",
+    "nicht_verwenden_wenn": [
+      "Glaubensbehauptung vermeiden"
+    ]
+  },
+  {
+    "concept_id": "heimatlichkeit",
+    "begriff": "Heimatlichkeit",
+    "definition": "Wirkung von Zugehoerigkeit zu einem vertrauten Ort oder Lebensraum.",
+    "nicht_verwenden_wenn": [
+      "politisch und biografisch sensibel"
+    ]
+  },
+  {
+    "concept_id": "heiterkeit",
+    "begriff": "Heiterkeit",
+    "definition": "Wirkung leichter, geloester, freundlicher Gestimmtheit, die aus dem Objektaufbau strahlt.",
+    "nicht_verwenden_wenn": [
+      "muss atmosphaerisch strahlen, nicht bloss lachende Menschen zeigen"
+    ]
+  },
+  {
+    "concept_id": "hoffnung",
+    "begriff": "Hoffnung",
+    "definition": "Moegliche Betrachterreaktion positiver Zukunftserwartung.",
+    "nicht_verwenden_wenn": [
+      "setzt offene, gewuenschte Zukunft voraus"
+    ]
+  },
+  {
+    "concept_id": "humor",
+    "begriff": "Humor",
+    "definition": "Wirkung von Komik, Witz oder heiterer Distanz in der Gestaltung."
+  },
+  {
+    "concept_id": "idylle",
+    "begriff": "Idylle",
+    "definition": "Wirkung eines konfliktfreien, harmonischen, oft laendlich-friedlichen Zustands.",
+    "nicht_verwenden_wenn": [
+      "haeufig verklaerend/wertend - Bias pruefen",
+      "Konfliktfreiheit muss sichtbar oder plausibel sein"
+    ]
+  },
+  {
+    "concept_id": "intimitaet",
+    "begriff": "Intimitaet",
+    "definition": "Wahrgenommene Naehe, Privatheit und Zurueckgezogenheit eines Raumes oder einer Szene.",
+    "nicht_verwenden_wenn": [
+      "nicht mit Sexualitaet gleichsetzen"
+    ]
+  },
+  {
+    "concept_id": "irritation",
+    "begriff": "Irritation",
+    "definition": "Moegliche Betrachterreaktion produktiver Verstoerung durch Normbruch oder Unklarheit."
+  },
+  {
+    "concept_id": "isolation",
+    "begriff": "Isolation",
+    "definition": "Wirkung raeumlicher oder sozialer Vereinzelung; deskriptiver und aeusserlicher als Einsamkeit.",
+    "nicht_verwenden_wenn": [
+      "nicht automatisch negativ"
+    ]
+  },
+  {
+    "concept_id": "kargheit",
+    "begriff": "Kargheit",
+    "definition": "Wirkung von Mangel, Reduktion und Schmucklosigkeit; kann sachlich oder trostlos wirken.",
+    "nicht_verwenden_wenn": [
+      "kann negativ konnotiert sein - von gewaehlter Schlichtheit trennen"
+    ]
+  },
+  {
+    "concept_id": "klarheit",
+    "begriff": "Klarheit",
+    "definition": "Wirkung von Lesbarkeit, ungestoerter Struktur und ungetruebter Ordnung.",
+    "nicht_verwenden_wenn": [
+      "kann visuell oder begrifflich gemeint sein"
+    ]
+  },
+  {
+    "concept_id": "kontinuitaet",
+    "begriff": "Kontinuitaet",
+    "definition": "Wirkung von Dauer, Bestaendigkeit und ungebrochener Ueberlieferung.",
+    "nicht_verwenden_wenn": [
+      "kann normativ sein"
+    ]
+  },
+  {
+    "concept_id": "kontrolle",
+    "begriff": "Kontrolle",
+    "definition": "Wirkung von Beherrschung, Ordnungszwang und ueberwachender Steuerung.",
+    "nicht_verwenden_wenn": [
+      "Akteur oder System klaeren (selbst- vs. fremdbezogen)"
+    ]
+  },
+  {
+    "concept_id": "konzentration",
+    "begriff": "Konzentration",
+    "definition": "Wirkung gesammelter, auf einen Punkt gebuendelter Aufmerksamkeit in einer Szene.",
+    "nicht_verwenden_wenn": [
+      "eher dargestellte Haltung als atmosphaerische Wirkung - vorsichtig"
+    ]
+  },
+  {
+    "concept_id": "kuehle",
+    "begriff": "Kuehle",
+    "definition": "Atmosphaere von Distanz, Zurueckhaltung oder emotionaler Abkuehlung.",
+    "nicht_verwenden_wenn": [
+      "nicht aus Blau oder Metall allein ableiten"
+    ]
+  },
+  {
+    "concept_id": "lebendigkeit",
+    "begriff": "Lebendigkeit",
+    "definition": "Wirkung von Vitalitaet, Frische und pulsierender Praesenz.",
+    "nicht_verwenden_wenn": [
+      "nicht immer positiv - Kontext beachten"
+    ]
+  },
+  {
+    "concept_id": "leichtigkeit",
+    "begriff": "Leichtigkeit",
+    "definition": "Wirkung von Schwerelosigkeit, Offenheit und muehelosem Gleichgewicht."
+  },
+  {
+    "concept_id": "luxus",
+    "begriff": "Luxus",
+    "definition": "Wirkung von Reichtum, Exklusivitaet und kostbarer Ausstattung.",
+    "nicht_verwenden_wenn": [
+      "sozial und historisch kontextabhaengig"
+    ]
+  },
+  {
+    "concept_id": "macht",
+    "begriff": "Macht",
+    "definition": "Wirkung von Ueberordnung, Verfuegungsgewalt und struktureller Kontrolle.",
+    "nicht_verwenden_wenn": [
+      "Struktur, keine Emotion"
+    ]
+  },
+  {
+    "concept_id": "melancholie",
+    "begriff": "Melancholie",
+    "definition": "Wirkung gedaempfter, nachdenklicher, unbestimmt trauriger Tiefe angesichts der Vergaenglichkeit; ohne zwingend konkreten Verlustgegenstand.",
+    "nicht_verwenden_wenn": [
+      "nicht auf bloss negative Valenz reduzieren",
+      "melancholische Portraets nicht als traurige Personen diagnostizieren"
+    ]
+  },
+  {
+    "concept_id": "mitgefuehl",
+    "begriff": "Mitgefuehl",
+    "definition": "Moegliche Betrachterreaktion des Mitfuehlens mit dargestelltem Leid oder Glueck.",
+    "nicht_verwenden_wenn": [
+      "nicht aus Armut/Leid des Motivs pauschal ableiten"
+    ]
+  },
+  {
+    "concept_id": "monumentalitaet",
+    "begriff": "Monumentalitaet",
+    "definition": "Wirkung ueberwaeltigender Groesse und Massstabsdominanz, auch bei kleinem Format kompositorisch moeglich."
+  },
+  {
+    "concept_id": "nachdenklichkeit",
+    "begriff": "Nachdenklichkeit",
+    "definition": "Wirkung stiller, in sich gekehrter Reflexion und innehaltender Betrachtung."
+  },
+  {
+    "concept_id": "naehe",
+    "begriff": "Naehe",
+    "definition": "Wahrgenommene Verbundenheit oder geringe Distanz zwischen Personen, Dingen und Betrachtenden.",
+    "nicht_verwenden_wenn": [
+      "physische von sozialer Naehe unterscheiden"
+    ]
+  },
+  {
+    "concept_id": "neugier",
+    "begriff": "Neugier",
+    "definition": "Moegliche Betrachterreaktion explorativen Interesses."
+  },
+  {
+    "concept_id": "niedergeschlagenheit",
+    "begriff": "Niedergeschlagenheit",
+    "definition": "Wirkung gedrueckter, kraftloser, freudloser Gestimmtheit.",
+    "nicht_verwenden_wenn": [
+      "stark subjektbezogen - vorsichtig auf Objekte anwenden"
+    ]
+  },
+  {
+    "concept_id": "nostalgie",
+    "begriff": "Nostalgie",
+    "definition": "Idealisierende, bittersuesse Rueckwendung auf eine als bedeutsam empfundene, unwiederbringliche Vergangenheit.",
+    "nicht_verwenden_wenn": [
+      "ALTER ALLEIN ist KEIN Beleg",
+      "nicht aus Schwarz-Weiss/Sepia/Patina ableiten",
+      "nicht aus historischem Motiv ableiten"
+    ]
+  },
+  {
+    "concept_id": "nuechternheit",
+    "begriff": "Nuechternheit",
+    "definition": "Wirkung emotionaler Zurueckhaltung, Reduktion und distanzierter Klarheit.",
+    "nicht_verwenden_wenn": [
+      "kann wertend sein"
+    ]
+  },
+  {
+    "concept_id": "offizialitaet",
+    "begriff": "Offizialitaet",
+    "definition": "Wirkung institutioneller Foermlichkeit, amtlicher Geltung und behoerdlichen Ernstes."
+  },
+  {
+    "concept_id": "ohnmacht",
+    "begriff": "Ohnmacht",
+    "definition": "Wirkung von Machtlosigkeit, Ausgeliefertsein und fehlender Handlungsmacht."
+  },
+  {
+    "concept_id": "opulenz",
+    "begriff": "Opulenz",
+    "definition": "Wirkung materieller oder formaler Ueppigkeit, Dichte und Ueberfluss."
+  },
+  {
+    "concept_id": "ordnung",
+    "begriff": "Ordnung",
+    "definition": "Wirkung wahrnehmbarer Strukturierung, Regelmaessigkeit und organisierter Relation.",
+    "nicht_verwenden_wenn": [
+      "nicht automatisch positiv",
+      "formale Eigenschaft, keine Emotion"
+    ]
+  },
+  {
+    "concept_id": "pracht",
+    "begriff": "Pracht",
+    "definition": "Wirkung beeindruckender Fuelle, Reichtum und repraesentativer Ausstrahlung."
+  },
+  {
+    "concept_id": "prestige",
+    "begriff": "Prestige",
+    "definition": "Wirkung von Ansehen, Rang und sozialer Distinktion."
+  },
+  {
+    "concept_id": "prunk",
+    "begriff": "Prunk",
+    "definition": "Wirkung demonstrativer, ostentativer, oft machtfoermiger Repraesentation.",
+    "nicht_verwenden_wenn": [
+      "oft kritischer konnotiert als Pracht - Wertung offenlegen"
+    ]
+  },
+  {
+    "concept_id": "raetselhaftigkeit",
+    "begriff": "Raetselhaftigkeit",
+    "definition": "Wirkung des Unaufgeloesten, Geheimnisvollen, das Deutung herausfordert."
+  },
+  {
+    "concept_id": "rastlosigkeit",
+    "begriff": "Rastlosigkeit",
+    "definition": "Wirkung getriebener, ruheloser Bewegung ohne Ankommen."
+  },
+  {
+    "concept_id": "ruehrung",
+    "begriff": "Ruehrung",
+    "definition": "Wirkung von Ergriffenheit und emotionaler Bewegtheit, oft mit Waerme und leiser Wehmut."
+  },
+  {
+    "concept_id": "ruhe",
+    "begriff": "Ruhe",
+    "definition": "Wirkung kompositorischer Ausgeglichenheit und geringer wahrgenommener Aktivitaet; eine in sich ruhende Balance der Bildmittel."
+  },
+  {
+    "concept_id": "sachlichkeit",
+    "begriff": "Sachlichkeit",
+    "definition": "Wirkung bewusster Nuechternheit, Funktionalitaet und Distanzierung vom Pathos.",
+    "nicht_verwenden_wenn": [
+      "eng mit Neuer Sachlichkeit (Weimar) verknuepft - historische Aufladung beachten"
+    ]
+  },
+  {
+    "concept_id": "sakralitaet",
+    "begriff": "Sakralitaet",
+    "definition": "Atmosphaerische Markierung eines Bereichs als dem Alltaeglichen entzogen, ohne Behauptung einer Glaubenswahrheit.",
+    "nicht_verwenden_wenn": [
+      "RELIGIOESES MOTIV ALLEIN GENUEGT NICHT (Kreuz/Altar loesen es nicht automatisch aus)",
+      "nicht bei dokumentarischer, profanisierter oder zerstoerter Darstellung",
+      "keine Glaubensbehauptung ueber die Konfession"
+    ]
+  },
+  {
+    "concept_id": "schlichtheit",
+    "begriff": "Schlichtheit",
+    "definition": "Wirkung gewaehlter Reduktion, Klarheit und schmuckloser Angemessenheit."
+  },
+  {
+    "concept_id": "schoenheit",
+    "begriff": "Schoenheit",
+    "definition": "Wirkung gelungener, als angenehm und stimmig empfundener Gestaltung.",
+    "nicht_verwenden_wenn": [
+      "wertend - Geschmacksurteil offenlegen"
+    ]
+  },
+  {
+    "concept_id": "schutz",
+    "begriff": "Schutz",
+    "definition": "Wirkung von Sicherung, Abschirmung und Bewahrung vor Gefahr."
+  },
+  {
+    "concept_id": "sehnsucht",
+    "begriff": "Sehnsucht",
+    "definition": "Wirkung eines gerichteten Verlangens nach einem Abwesenden, Fernen oder Unerreichbaren."
+  },
+  {
+    "concept_id": "selbstbewusstsein",
+    "begriff": "Selbstbewusstsein",
+    "definition": "Wirkung sicherer Selbstbehauptung und gefestigter Praesenz.",
+    "nicht_verwenden_wenn": [
+      "nicht aus Haltung/Pose allein diagnostizieren"
+    ]
+  },
+  {
+    "concept_id": "sicherheit",
+    "begriff": "Sicherheit",
+    "definition": "Wirkung von Gefahrlosigkeit oder Beherrschbarkeit; ruhige Verlaesslichkeit.",
+    "nicht_verwenden_wenn": [
+      "nicht mit existenzieller Geborgenheit gleichsetzen"
+    ]
+  },
+  {
+    "concept_id": "souveraenitaet",
+    "begriff": "Souveraenitaet",
+    "definition": "Wirkung ueberlegener Gelassenheit und muehelos wirkender Beherrschung einer Situation.",
+    "nicht_verwenden_wenn": [
+      "metaphorisch und normativ"
+    ]
+  },
+  {
+    "concept_id": "staunen",
+    "begriff": "Staunen",
+    "definition": "Moegliche Betrachterreaktion gebannter Verwunderung angesichts von Neuheit oder Groesse."
+  },
+  {
+    "concept_id": "stille",
+    "begriff": "Stille",
+    "definition": "Wahrgenommene oder imaginierte akustische Abwesenheit; bei unbewegten Bildern stets metaphorisch erschlossen. Valenzoffen: kontemplativ ODER spannungsvoll.",
+    "nicht_verwenden_wenn": [
+      "nicht automatisch positiv werten (Stille kann bedrohlich sein)",
+      "nicht fuer bloss ereignislose Motive vergeben"
+    ]
+  },
+  {
+    "concept_id": "stolz",
+    "begriff": "Stolz",
+    "definition": "Moegliche oder dargestellte Reaktion von Selbstwert und Status.",
+    "nicht_verwenden_wenn": [
+      "subjektbezogen - nicht aus Haltung allein ableiten"
+    ]
+  },
+  {
+    "concept_id": "strenge",
+    "begriff": "Strenge",
+    "definition": "Wirkung enger Regelbindung, Kontrolle und geringer Abweichungsmoeglichkeit."
+  },
+  {
+    "concept_id": "tradition",
+    "begriff": "Tradition",
+    "definition": "Wirkung von Kontinuitaet, Ueberlieferung und kultureller Verankerung.",
+    "nicht_verwenden_wenn": [
+      "Beschreibung und Wertung trennen",
+      "nicht aus blossem Alter ableiten"
+    ]
+  },
+  {
+    "concept_id": "trauer",
+    "begriff": "Trauer",
+    "definition": "Moegliche Betrachterreaktion oder explizit dargestellte Reaktion auf konkreten Verlust.",
+    "nicht_verwenden_wenn": [
+      "nur als moegliche Reaktion oder explizite Szene",
+      "dargestellte Personen nicht diagnostizieren"
+    ]
+  },
+  {
+    "concept_id": "triumph",
+    "begriff": "Triumph",
+    "definition": "Wirkung sieghafter Erhebung und zur Schau gestellten Erfolgs.",
+    "nicht_verwenden_wenn": [
+      "oft ideologisch aufgeladen - kontextualisieren"
+    ]
+  },
+  {
+    "concept_id": "trostlosigkeit",
+    "begriff": "Trostlosigkeit",
+    "definition": "Wirkung von Verlust, Kargheit und Aussichtslosigkeit, oft an Raeume und Szenen gebunden."
+  },
+  {
+    "concept_id": "ueberlegenheit",
+    "begriff": "Ueberlegenheit",
+    "definition": "Wirkung hierarchischer Hoeherstellung und selbstverstaendlicher Vormacht.",
+    "nicht_verwenden_wenn": [
+      "normative Wirkung"
+    ]
+  },
+  {
+    "concept_id": "ueberraschung",
+    "begriff": "Ueberraschung",
+    "definition": "Moegliche Betrachterreaktion auf Neuheit oder Erwartungsbruch."
+  },
+  {
+    "concept_id": "umbruch",
+    "begriff": "Umbruch",
+    "definition": "Wirkung von Veraenderung, Bruch und historischem Uebergang.",
+    "nicht_verwenden_wenn": [
+      "haeufig Kontext, nicht Atmosphaere"
+    ]
+  },
+  {
+    "concept_id": "unbeschwertheit",
+    "begriff": "Unbeschwertheit",
+    "definition": "Wirkung von Sorglosigkeit, Freiheit von Druck und leichter Offenheit."
+  },
+  {
+    "concept_id": "unheimlichkeit",
+    "begriff": "Unheimlichkeit",
+    "definition": "Irritierende Verbindung von Vertrautheit und Fremdheit oder eine schwer lokalisierbare Stoerung."
+  },
+  {
+    "concept_id": "unordnung",
+    "begriff": "Unordnung",
+    "definition": "Wirkung fehlender oder gestoerter Struktur, Chaos oder Aufloesung."
+  },
+  {
+    "concept_id": "unruhe",
+    "begriff": "Unruhe",
+    "definition": "Wirkung von Rastlosigkeit, Unsicherheit und innerer Bewegtheit."
+  },
+  {
+    "concept_id": "unterordnung",
+    "begriff": "Unterordnung",
+    "definition": "Wirkung von Untergebensein, Nachordnung oder hierarchischer Zurueckstellung."
+  },
+  {
+    "concept_id": "verbundenheit",
+    "begriff": "Verbundenheit",
+    "definition": "Wirkung wechselseitiger Bindung und emotionaler Zusammengehoerigkeit.",
+    "nicht_verwenden_wenn": [
+      "braucht Beziehungsindizien"
+    ]
+  },
+  {
+    "concept_id": "vergaenglichkeit",
+    "begriff": "Vergaenglichkeit",
+    "definition": "Wirkung des Verrinnens, der Endlichkeit und des unaufhaltsamen Wandels (Vanitas).",
+    "nicht_verwenden_wenn": [
+      "Alter allein genuegt nicht",
+      "Vanitas-Motiv != Wirkung"
+    ]
+  },
+  {
+    "concept_id": "verlassenheit",
+    "begriff": "Verlassenheit",
+    "definition": "Wirkung der Abwesenheit ehemals oder erwartbar anwesender Menschen; raeumliche Leere mit temporalem und relationalem Weltverlust.",
+    "nicht_verwenden_wenn": [
+      "nicht bei bloss vorhandener Menschenleere ohne Weltverlust",
+      "nicht mit Stille gleichsetzen"
+    ]
+  },
+  {
+    "concept_id": "verletzlichkeit",
+    "begriff": "Verletzlichkeit",
+    "definition": "Wirkung von Schutzlosigkeit, Zerbrechlichkeit und Ausgesetztsein.",
+    "nicht_verwenden_wenn": [
+      "nicht mit Schwaeche oder Opferstatus gleichsetzen"
+    ]
+  },
+  {
+    "concept_id": "verlust",
+    "begriff": "Verlust",
+    "definition": "Wirkung des Fehlens, der Abwesenheit eines zuvor Vorhandenen."
+  },
+  {
+    "concept_id": "verspieltheit",
+    "begriff": "Verspieltheit",
+    "definition": "Wirkung von Leichtigkeit, Humor und spielerischer Gestaltung."
+  },
+  {
+    "concept_id": "vertrautheit",
+    "begriff": "Vertrautheit",
+    "definition": "Wirkung des Wiedererkennens und geringer Fremdheit.",
+    "nicht_verwenden_wenn": [
+      "subjekt- und biografieabhaengig"
+    ]
+  },
+  {
+    "concept_id": "verwunderung",
+    "begriff": "Verwunderung",
+    "definition": "Moegliche Betrachterreaktion fragenden Nicht-Verstehens, milder und laenger als Ueberraschung."
+  },
+  {
+    "concept_id": "waerme",
+    "begriff": "Waerme",
+    "definition": "Metaphorische Atmosphaere von Zugewandtheit, Naehe und Angenehmheit.",
+    "nicht_verwenden_wenn": [
+      "von Farbtemperatur unterscheiden (warme Farben != Waerme)"
+    ]
+  },
+  {
+    "concept_id": "wehmut",
+    "begriff": "Wehmut",
+    "definition": "Wirkung eines an einen Verlust gebundenen, mit Zuneigung gemischten leisen Schmerzes."
+  },
+  {
+    "concept_id": "weite",
+    "begriff": "Weite",
+    "definition": "Wirkung raeumlicher Ausdehnung und Offenheit, die befreiend oder ehrfuerchtig wirken kann."
+  },
+  {
+    "concept_id": "widerstand",
+    "begriff": "Widerstand",
+    "definition": "Wirkung von Auflehnung, Behauptung und Gegenkraft.",
+    "nicht_verwenden_wenn": [
+      "Kontext erforderlich; Gefahr normativer Heroisierung"
+    ]
+  },
+  {
+    "concept_id": "wuerde",
+    "begriff": "Wuerde",
+    "definition": "Wirkung eines unerschuetterlichen, in sich ruhenden Anspruchs auf Achtung, unabhaengig von aeusserer Macht.",
+    "nicht_verwenden_wenn": [
+      "normativ - nicht aus Rang, Alter, Kleidung, Armut oder Leiden automatisch ableiten",
+      "keine ethnografisierende Zuschreibung"
+    ]
+  },
+  {
+    "concept_id": "zaertlichkeit",
+    "begriff": "Zaertlichkeit",
+    "definition": "Wirkung behutsamer, liebevoller Zuwendung.",
+    "nicht_verwenden_wenn": [
+      "nur bei entsprechenden Gesten oder Kontext"
+    ]
+  },
+  {
+    "concept_id": "zartheit",
+    "begriff": "Zartheit",
+    "definition": "Wirkung von Feinheit, Zerbrechlichkeit und behutsamer Gestaltung."
+  },
+  {
+    "concept_id": "zeitferne",
+    "begriff": "Zeitferne",
+    "definition": "Wirkung grosser zeitlicher Distanz, neutraler als Nostalgie."
+  },
+  {
+    "concept_id": "zorn",
+    "begriff": "Zorn",
+    "definition": "Moegliche oder dargestellte Reaktion moralischer Erregung und Auflehnung.",
+    "nicht_verwenden_wenn": [
+      "Gesichtsausdruck reicht selten - Kontext noetig"
+    ]
+  },
+  {
+    "concept_id": "zugehoerigkeit",
+    "begriff": "Zugehoerigkeit",
+    "definition": "Wirkung des Eingebundenseins in eine Gemeinschaft oder einen Ort.",
+    "nicht_verwenden_wenn": [
+      "normativ und politisch sensibel",
+      "nicht aus bloss vielen Personen ableiten"
+    ]
+  }
+]

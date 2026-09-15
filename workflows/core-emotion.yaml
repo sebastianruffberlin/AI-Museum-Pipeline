@@ -1,0 +1,9 @@
+name: core-emotion
+modules:
+  image_embeddings: true
+  image_features: true
+  captions: true
+  tagging: true
+  emotion: true
+  topics: false
+  text_embeddings: true

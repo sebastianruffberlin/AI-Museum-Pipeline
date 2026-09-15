@@ -1,0 +1,16 @@
+annotation_prefix: topics_
+taxonomy_version: "1.0"
+source_label: llm
+
+resources:
+  source: file
+  framework_file: framework.md
+  taxonomy_file: taxonomy.json
+
+prompts:
+  generator_system: sp_004_gen_system
+  generator_user: sp_gen_user
+  generator_user_cache: sp_gen_user_cache
+  judge_system: sp_004_judge_system
+  judge_user: sp_judge_user
+  judge_user_cache: sp_judge_user_cache
