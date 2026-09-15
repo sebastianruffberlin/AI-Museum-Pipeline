@@ -1,0 +1,30 @@
+# Copy this file to hardware/<your-hardware>.yaml and fill measured values.
+# Do not publish guessed np values as verified.
+name: replace-me
+status: unverified
+reference_platform: replace-me
+notes: Calibrate with the exact model quantizations and llama.cpp build you deploy.
+
+default_workers: 4
+cpu_workers: 4
+service_workers: 4
+
+models:
+  # Every concrete model used by your model profile needs a runtime entry.
+  example-model:
+    parallel_slots: 1       # llama.cpp -np / server slots
+    context_pool: 8192      # llama.cpp total context/KV pool
+    min_context_per_slot: 8192
+
+phase_overrides:
+  tagging.authority:
+    outer_workers: 1
+    inner_workers_from_model: authority.gnd
+  image_embeddings: {kind: service}
+  image_features: {kind: cpu}
+  captions.write: {kind: cpu}
+  tagging.debias: {kind: cpu}
+  tagging.write: {kind: cpu}
+  emotion.write: {kind: cpu}
+  topics.write: {kind: cpu}
+  text_embeddings: {kind: service}

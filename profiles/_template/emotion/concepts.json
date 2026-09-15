@@ -1,0 +1,5025 @@
+[
+  {
+    "concept_id": "autoritaet",
+    "preferred_label": "Autoritaet",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung anerkannter oder institutionalisierter Geltung, die Unterordnung oder Respekt einfordert.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Ein Herrschaftsbau strahlt Autoritaet aus, nicht zwangslaeufig Wuerde.",
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit innerer Wuerde gleichsetzen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Weber [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "bedrohung",
+    "preferred_label": "Bedrohung",
+    "alternative_labels": [
+      "bedrohlich"
+    ],
+    "hidden_labels": [],
+    "definition": "Atmosphaerische Praesenz einer moeglichen Gefahr, die aus den materialen Ekstasen des Objekts entsteht (scharfe Kanten, schwere Massen, dunkle Kontraste).",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Bedrohung = Wirkung der Konstellation. Angst/Furcht = moegliche Reaktion im Betrachter.",
+    "usage_guidance": "Bei wahrnehmbarer Gefahrkonstellation.",
+    "do_not_use_when": [
+      "das Objekt hat KEINE Emotion (nie: das Objekt hat Angst)",
+      "dargestellte Personen nicht als aengstlich diagnostizieren",
+      "reale Gewalt nicht durch aesthetische Begriffe ersetzen"
+    ],
+    "formal_cues": [
+      "scharfe Kanten",
+      "ueberhaengende schwere Massen",
+      "harte dunkle Kontraste"
+    ],
+    "context_cues": [
+      "Gewalt-/Katastrophenkontext -> zusaetzlich als scene markieren"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Heidegger, Sein und Zeit §40 [P]",
+      "Boehme 1995 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Aesthetisierung von Gewalt; Psychologisierung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "befremden",
+    "preferred_label": "Befremden",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion irritierter Distanzierung gegenueber dem Unvertrauten.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "aversion_moral_response",
+      "distance"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "kulturell sensibel - nicht als Werturteil ueber das Dargestellte"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "beklemmung",
+    "preferred_label": "Beklemmung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Koerpernah empfundene Enge, Bedrueckung oder einschraenkende Schwere.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 0,
+    "dominanz": -2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "besinnlichkeit",
+    "preferred_label": "Besinnlichkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung ruhiger, sammelnder, oft feierlich getoenter Innerlichkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "calm",
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": "Kulturell und saisonal gepraegt.",
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "demut",
+    "preferred_label": "Demut",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Zuruecknahme, Bescheidung und Unterordnung unter ein Groesseres.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "distanz",
+    "preferred_label": "Distanz",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wahrgenommene Trennung oder Zurueckhaltung zwischen Betrachter und Objekt oder innerhalb der Szene.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "distance"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "physisch, sozial oder historisch spezifizieren"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "disziplin",
+    "preferred_label": "Disziplin",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung eingeuebter Ordnung, Selbstbeherrschung oder auferlegter Regelbindung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "order",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "normative Zuschreibung - vorsichtig"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "dominanz",
+    "preferred_label": "Dominanz",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Ueberordnung und Kontrolle, ohne dass Legitimitaet vorausgesetzt ist.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Mehrabian PAD (Dominanz) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "duesternis",
+    "preferred_label": "Duesternis",
+    "alternative_labels": [
+      "duester"
+    ],
+    "hidden_labels": [],
+    "definition": "Verdunkelte, schwere Gesamtwirkung, die Bedrohliches oder Melancholisches nahelegen kann.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "threat",
+      "grief"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht allein aus niedriger Helligkeit ableiten (Form != Atmosphaere)"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "dunkel != duester",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "dynamik",
+    "preferred_label": "Dynamik",
+    "alternative_labels": [
+      "dynamisch",
+      "bewegung"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Bewegung, Richtung und Aktivierung aus Komposition oder Motiv.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "movement"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": "Als formbezogene Wirkung, keine Emotion.",
+    "do_not_use_when": [
+      "formale Wirkung, keine Emotion"
+    ],
+    "formal_cues": [
+      "diagonale Fuehrung",
+      "Bewegungsunschaerfe",
+      "gerichtete Komposition"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Russell 1980 (Arousal) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 2,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ehrfurcht",
+    "preferred_label": "Ehrfurcht",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Rezeptive Wirkung aus Achtung angesichts von Groesse, Macht oder Transzendenz.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual",
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Ehrfurcht = Wirkung beim Betrachter; Sakralitaet/Erhabenheit = deren Ursache.",
+    "usage_guidance": "Als rezeptive Wirkung auf Groesse/Transzendenz; Ursache ist Sakralitaet/Erhabenheit.",
+    "do_not_use_when": [],
+    "formal_cues": [
+      "monumentale Massstaeblichkeit",
+      "entrueckende Groesse"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Keltner & Haidt 2003 [P]",
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": -2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "einsamkeit",
+    "preferred_label": "Einsamkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung fehlender Verbundenheit, auch inmitten einer belebten Szene moeglich.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "absence",
+      "distance",
+      "grief"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": "Bei wahrgenommener fehlender Verbundenheit; auch in belebter Szene moeglich.",
+    "do_not_use_when": [
+      "nicht mit blosser Menschenleere gleichsetzen (das ist Verlassenheit)"
+    ],
+    "formal_cues": [
+      "isolierte Einzelfigur",
+      "grosser leerer Umraum"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Cowen & Keltner 2017 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ekel",
+    "preferred_label": "Ekel",
+    "alternative_labels": [
+      "abscheu"
+    ],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion der Abstossung oder Ablehnung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "aversion_moral_response"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "starke Zuschreibung - nur mit klarer Evidenz"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Ekman 1992 [P]"
+    ],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "eleganz",
+    "preferred_label": "Eleganz",
+    "alternative_labels": [
+      "elegant"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung kontrollierter, scheinbar muehelos reduzierter, ausgewogener Gestaltung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "beauty_harmony",
+      "reduction"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Eleganz besticht durch Reduktion und Leichtigkeit; Pracht draengt sich durch Fuelle auf.",
+    "usage_guidance": "Bei kontrollierter Reduktion; Gegenteil von Pracht.",
+    "do_not_use_when": [],
+    "formal_cues": [
+      "reduzierte, ausgewogene Linienfuehrung",
+      "muehelos wirkende Form"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Winckelmann [S]",
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "enge",
+    "preferred_label": "Enge",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung raeumlicher oder atmosphaerischer Einschnuerung und fehlenden Auswegs.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 0,
+    "dominanz": -2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "entfremdung",
+    "preferred_label": "Entfremdung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung der Entzweiung von einer zuvor vertrauten Welt oder Gemeinschaft.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "distance",
+      "grief"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "benoetigt soziale oder historische Interpretation"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "erhabenheit",
+    "preferred_label": "Erhabenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Groesse, Ueberwaeltigung oder Ueberschreitung alltaeglicher Massstaebe.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "philosophisch/normativ belastet - Wertung offenlegen",
+      "nicht automatisch religioes"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Keltner & Haidt 2003 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Normative Ueberhoehung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "erinnerung",
+    "preferred_label": "Erinnerung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung des Vergegenwaertigens von Vergangenem, ohne festgelegte Valenz.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "sehr breit - moeglichst durch spezifischere Begriffe ersetzen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ernst",
+    "preferred_label": "Ernst",
+    "alternative_labels": [
+      "ernsthaftigkeit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Gewichtigkeit, Gesammeltheit und feierlicher Schwere.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual",
+      "calm"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit Trauer gleichsetzen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "erwartung",
+    "preferred_label": "Erwartung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion gespannten Bevorstehens mit offenem Ausgang.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "movement",
+      "curiosity_novelty"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "braucht offenen Ausgang"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "GRID [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "faszination",
+    "preferred_label": "Faszination",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung gebannter Aufmerksamkeit und anziehender Neugier gegenueber einem Objekt.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "curiosity_novelty",
+      "beauty_harmony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "bei realer Gewalt nicht ohne ethische Dimension vergeben (Aesthetisierung)"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS (Faszination) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Aesthetisierung von Gewalt",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "feierlichkeit",
+    "preferred_label": "Feierlichkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Atmosphaere erhoehter Formalitaet, Ernsthaftigkeit und zeremonieller Markierung; Erhebung aus dem Profanen.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Feierlichkeit = zeremonielle Huelle (auch saekular). Festlichkeit = geselliges Feiern. Wuerde = innere Substanz. Sakralitaet = das Entzogene.",
+    "usage_guidance": "Als zeremonielle Huelle, auch saekular; nicht = Sakralitaet.",
+    "do_not_use_when": [],
+    "formal_cues": [
+      "symmetrische, erhoehte Anordnung",
+      "zeremonielle Codes"
+    ],
+    "context_cues": [
+      "Zeremonie-/Anlasskontext"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "festlichkeit",
+    "preferred_label": "Festlichkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Atmosphaere gemeinschaftlichen Feierns, Ausgelassenheit und geselliger Erhebung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "belonging",
+      "joy"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit Feierlichkeit gleichsetzen (gesellig vs. zeremoniell)",
+      "nur bei konkretem Anlass plausibel"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "fremdheit",
+    "preferred_label": "Fremdheit",
+    "alternative_labels": [
+      "unvertrautheit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung des Unvertrauten, Andersartigen oder nicht Einzuordnenden.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "distance",
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Gefahr des Othering / Exotismus - kritisch pruefen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Othering, Exotismus",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "freude",
+    "preferred_label": "Freude",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion positiver, aktivierender Gestimmtheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "joy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht automatisch aus einem Laecheln ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Ekman 1992 [P]"
+    ],
+    "fundierung": "redaktionell",
+    "bias_risk": "Ausdruck != Zustand",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "fuersorge",
+    "preferred_label": "Fuersorge",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Zuwendung, Schutz und pflegender Aufmerksamkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nur bei dargestellter Handlung oder Kontext"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "furcht",
+    "preferred_label": "Furcht",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche, auf ein konkretes innerweltliches Objekt gerichtete Betrachterreaktion.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Heidegger, Sein und Zeit §40 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "geborgenheit",
+    "preferred_label": "Geborgenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Existenzielle Wirkung des Geschuetzt- und Aufgehobenseins gegenueber der Bedrohung der Aussenwelt.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Ein karger Bunker kann Geborgenheit bieten, ist aber nicht gemuetlich.",
+    "usage_guidance": "Als existenzielle relationale Wirkung; nicht = Gemuetlichkeit.",
+    "do_not_use_when": [],
+    "formal_cues": [
+      "umschliessende, schuetzende Raumbildung",
+      "warme Naehe"
+    ],
+    "context_cues": [
+      "haeuslicher/schuetzender Kontext"
+    ],
+    "cultural_scope_note": "Existenzielle Kategorie (Bollnow); im Deutschen dichter als engl. Aequivalente.",
+    "source_basis": [
+      "Bollnow [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Banalisierung; kulturelle Uebersetzbarkeit",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "gedenken",
+    "preferred_label": "Gedenken",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung erinnernden Innehaltens und wuerdigen Bewahrens.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "time_memory",
+      "sacred_ritual"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Handlung oder Funktion, keine Emotion"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "gelassenheit",
+    "preferred_label": "Gelassenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung einer souveraenen, in sich ruhenden Haltung gegenueber der Welt, die auch Widrigem standhaelt.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "calm"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": "Gelassenheit = Haltung. Ruhe = Zustand/Kompositionswirkung.",
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "setzt ein erlebendes/dargestelltes Subjekt voraus - nicht aus neutralem Blick ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Heidegger, Gelassenheit [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -2,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "gemeinschaftlichkeit",
+    "preferred_label": "Gemeinschaftlichkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung kollektiver Verbundenheit und geteilter Zugehoerigkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "belonging"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht aus blosser Personenzahl ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": "Kulturell gepraegtes Wir-Gefuehl.",
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "gemuetlichkeit",
+    "preferred_label": "Gemuetlichkeit",
+    "alternative_labels": [
+      "gemuetlich"
+    ],
+    "hidden_labels": [
+      "heimeligkeit"
+    ],
+    "definition": "Kulturell gepraegte Atmosphaere informeller Behaglichkeit, Naehe und geringer sozialer Anspannung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Gemuetlichkeit = profane Behaglichkeit. Geborgenheit = existenzieller Schutz.",
+    "usage_guidance": "Kulturgebunden; profane Behaglichkeit, nicht existenzieller Schutz.",
+    "do_not_use_when": [
+      "stark kulturell (dt.) gepraegt, nicht verlustfrei uebersetzbar",
+      "nicht mit existenzieller Geborgenheit gleichsetzen"
+    ],
+    "formal_cues": [
+      "behagliche Ausstattung",
+      "warmes Licht",
+      "dichte Naehe"
+    ],
+    "context_cues": [
+      "haeuslicher Alltagskontext"
+    ],
+    "cultural_scope_note": "Stark im deutschen Sprachraum verankert, nicht verlustfrei uebersetzbar.",
+    "source_basis": [
+      "Boehme 1995 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Kulturelle Singularitaet",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "geschaeftigkeit",
+    "preferred_label": "Geschaeftigkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung dichter, betriebsamer Aktivitaet und sozialer Bewegung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "movement",
+      "belonging"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 2,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "gewalt",
+    "preferred_label": "Gewalt",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung dargestellter oder drohender koerperlicher Zwangsausuebung und Verletzung.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "violence_conflict"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": "Als dargestellte Situation; NIE aesthetisieren, Opferbezug wahren.",
+    "do_not_use_when": [
+      "NICHT aesthetisieren (nie durch Pracht/Faszination/Erhabenheit ersetzen)",
+      "ethische Dimension und Opferbezug wahren",
+      "parallel zu formaler Wirkung getrennt annotieren"
+    ],
+    "formal_cues": [
+      "Verletzungshandlung",
+      "Waffe im Einsatz",
+      "Zerstoerungsspuren"
+    ],
+    "context_cues": [
+      "Kriegs-/Verfolgungskontext"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Aesthetisierung von Gewalt",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 2,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "harmonie",
+    "preferred_label": "Harmonie",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Ausgleich, Stimmigkeit und spannungsfreier Ordnung der Teile.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "beauty_harmony",
+      "calm"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "heiligkeit",
+    "preferred_label": "Heiligkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung des Geheiligten, Transzendenten und dem Profanen radikal Entzogenen.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Glaubensbehauptung vermeiden"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Otto 1917 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "heimatlichkeit",
+    "preferred_label": "Heimatlichkeit",
+    "alternative_labels": [
+      "heimat"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Zugehoerigkeit zu einem vertrauten Ort oder Lebensraum.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "belonging",
+      "time_memory"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "politisch und biografisch sensibel"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": "Politisch/biografisch aufgeladen, kulturell gebunden.",
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Politische/ideologische Aufladung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "heiterkeit",
+    "preferred_label": "Heiterkeit",
+    "alternative_labels": [
+      "frohsinn",
+      "froehlichkeit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung leichter, geloester, freundlicher Gestimmtheit, die aus dem Objektaufbau strahlt.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "joy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": "Muss atmosphaerisch strahlen, nicht bloss lachende Menschen zeigen.",
+    "do_not_use_when": [
+      "muss atmosphaerisch strahlen, nicht bloss lachende Menschen zeigen"
+    ],
+    "formal_cues": [
+      "helle, lockere Farbigkeit",
+      "leichte Komposition"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Ausdruck != atmosphaerische Wirkung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "heroisierung",
+    "preferred_label": "Heroisierung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung ueberhoehender, heldenhafter Inszenierung.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "awe_sublime"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "stark wertend - kritisch kontextualisieren"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Ideologische Ueberhoehung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "historizitaet",
+    "preferred_label": "Historizitaet",
+    "alternative_labels": [
+      "historisch",
+      "historie",
+      "geschichte"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung, als historisch situiert und zeitlich entrueckt wahrgenommen zu werden.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "time_memory"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": "Historizitaet kann Nostalgie stuetzen, ist aber nicht gleich Nostalgie.",
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "ein Befund, keine Emotion - stuetzt Nostalgie, ist aber nicht damit identisch"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Deskriptives Alter als Affekt ausgeben",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "hoffnung",
+    "preferred_label": "Hoffnung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion positiver Zukunftserwartung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "joy",
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "setzt offene, gewuenschte Zukunft voraus"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "OCC 1988 [P]",
+      "GEW [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "humor",
+    "preferred_label": "Humor",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Komik, Witz oder heiterer Distanz in der Gestaltung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "humor_irony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "idylle",
+    "preferred_label": "Idylle",
+    "alternative_labels": [
+      "idyllisch"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung eines konfliktfreien, harmonischen, oft laendlich-friedlichen Zustands.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "beauty_harmony",
+      "calm"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "haeufig verklaerend/wertend - Bias pruefen",
+      "Konfliktfreiheit muss sichtbar oder plausibel sein"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Verklaerung, normative Wertung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "intimitaet",
+    "preferred_label": "Intimitaet",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wahrgenommene Naehe, Privatheit und Zurueckgezogenheit eines Raumes oder einer Szene.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit Sexualitaet gleichsetzen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ironie",
+    "preferred_label": "Ironie",
+    "alternative_labels": [
+      "ironisch"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung einer Brechung, bei der die Darstellung ihre eigene naheliegende Lesart unterlaeuft oder distanziert kommentiert.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "humor_irony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Ein grell ueberzeichnetes religioeses Motiv wirkt ironisch/distanziert, nicht sakral.",
+    "usage_guidance": "Nur bei erkennbarer Brechung der eigenen Lesart.",
+    "do_not_use_when": [
+      "braucht Stil- oder Kontexthinweise (z.B. Ueberzeichnung) - nicht aus dem Motiv allein"
+    ],
+    "formal_cues": [
+      "grelle Ueberzeichnung",
+      "Stilbruch",
+      "unpassende Kombination"
+    ],
+    "context_cues": [
+      "satirischer/kommentierender Kontext laut Metadaten"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "irritation",
+    "preferred_label": "Irritation",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion produktiver Verstoerung durch Normbruch oder Unklarheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "aversion_moral_response",
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS (Verwirrung) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "isolation",
+    "preferred_label": "Isolation",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung raeumlicher oder sozialer Vereinzelung; deskriptiver und aeusserlicher als Einsamkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "absence",
+      "distance"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht automatisch negativ"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "kargheit",
+    "preferred_label": "Kargheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Mangel, Reduktion und Schmucklosigkeit; kann sachlich oder trostlos wirken.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "reduction",
+      "absence"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "kann negativ konnotiert sein - von gewaehlter Schlichtheit trennen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "klarheit",
+    "preferred_label": "Klarheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Lesbarkeit, ungestoerter Struktur und ungetruebter Ordnung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "order",
+      "reduction"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "kann visuell oder begrifflich gemeint sein"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "konflikt",
+    "preferred_label": "Konflikt",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung eines Gegen- oder Widerstreits von Kraeften, Personen oder Ordnungen; neutraler als Gewalt.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "violence_conflict"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "konfrontation",
+    "preferred_label": "Konfrontation",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung eines direkten, spannungsgeladenen Gegenueberstehens.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "violence_conflict"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "kontinuitaet",
+    "preferred_label": "Kontinuitaet",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Dauer, Bestaendigkeit und ungebrochener Ueberlieferung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "kann normativ sein"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "kontrolle",
+    "preferred_label": "Kontrolle",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Beherrschung, Ordnungszwang und ueberwachender Steuerung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "order"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Akteur oder System klaeren (selbst- vs. fremdbezogen)"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "konzentration",
+    "preferred_label": "Konzentration",
+    "alternative_labels": [
+      "fokus"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung gesammelter, auf einen Punkt gebuendelter Aufmerksamkeit in einer Szene.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "calm",
+      "order"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "eher dargestellte Haltung als atmosphaerische Wirkung - vorsichtig"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "kritik",
+    "preferred_label": "Kritik",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung sichtbarer Infragestellung, Anklage oder satirischer Zuspitzung.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "humor_irony",
+      "aversion_moral_response"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Kontext und Normbewertung erforderlich"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "kuehle",
+    "preferred_label": "Kuehle",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Atmosphaere von Distanz, Zurueckhaltung oder emotionaler Abkuehlung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "distance",
+      "reduction"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht aus Blau oder Metall allein ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Farbe/Material mit Wirkung verwechseln",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "lebendigkeit",
+    "preferred_label": "Lebendigkeit",
+    "alternative_labels": [
+      "vitalitaet"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Vitalitaet, Frische und pulsierender Praesenz.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "joy",
+      "movement"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht immer positiv - Kontext beachten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS (Vitalitaet) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 2,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "leere",
+    "preferred_label": "Leere",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung des Ungefuellten, der Abwesenheit von Gegenstand oder Handlung; nicht automatisch negativ.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "absence",
+      "reduction"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht automatisch als Einsamkeit lesen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "leichtigkeit",
+    "preferred_label": "Leichtigkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Schwerelosigkeit, Offenheit und muehelosem Gleichgewicht.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "joy",
+      "beauty_harmony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "luxus",
+    "preferred_label": "Luxus",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Reichtum, Exklusivitaet und kostbarer Ausstattung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "abundance_representation"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "sozial und historisch kontextabhaengig"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "macht",
+    "preferred_label": "Macht",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Ueberordnung, Verfuegungsgewalt und struktureller Kontrolle.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Struktur, keine Emotion"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Weber [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "melancholie",
+    "preferred_label": "Melancholie",
+    "alternative_labels": [
+      "schwermut",
+      "truebsinn"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung gedaempfter, nachdenklicher, unbestimmt trauriger Tiefe angesichts der Vergaenglichkeit; ohne zwingend konkreten Verlustgegenstand.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "grief",
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Melancholie = ungerichtete Vergaenglichkeit. Trauer = Reaktion auf konkreten Verlust.",
+    "usage_guidance": "Bei ungerichteter Vergaenglichkeitswirkung, nicht bei konkretem Verlust.",
+    "do_not_use_when": [
+      "nicht auf bloss negative Valenz reduzieren",
+      "melancholische Portraets nicht als traurige Personen diagnostizieren"
+    ],
+    "formal_cues": [
+      "gedaempfte Tonwerte",
+      "reflektierende Tiefenwirkung"
+    ],
+    "context_cues": [
+      "Vanitas-/Vergaenglichkeitskontext"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Freud 1917 [P]",
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Psychologisierung dargestellter Personen",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "mitgefuehl",
+    "preferred_label": "Mitgefuehl",
+    "alternative_labels": [
+      "mitleid"
+    ],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion des Mitfuehlens mit dargestelltem Leid oder Glueck.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "intimacy",
+      "grief"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht aus Armut/Leid des Motivs pauschal ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Cowen & Keltner 2017 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Herablassung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "monumentalitaet",
+    "preferred_label": "Monumentalitaet",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung ueberwaeltigender Groesse und Massstabsdominanz, auch bei kleinem Format kompositorisch moeglich.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "abundance_representation",
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": "Auch bei kleinem Format kompositorisch moeglich.",
+    "do_not_use_when": [],
+    "formal_cues": [
+      "dominante Massstaeblichkeit",
+      "Untersicht",
+      "zentrale Setzung"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "nachdenklichkeit",
+    "preferred_label": "Nachdenklichkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung stiller, in sich gekehrter Reflexion und innehaltender Betrachtung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "calm",
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "naehe",
+    "preferred_label": "Naehe",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wahrgenommene Verbundenheit oder geringe Distanz zwischen Personen, Dingen und Betrachtenden.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "intimacy",
+      "belonging"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "physische von sozialer Naehe unterscheiden"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "neugier",
+    "preferred_label": "Neugier",
+    "alternative_labels": [
+      "interesse"
+    ],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion explorativen Interesses.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Cowen & Keltner 2017 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "niedergeschlagenheit",
+    "preferred_label": "Niedergeschlagenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung gedrueckter, kraftloser, freudloser Gestimmtheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "grief"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "stark subjektbezogen - vorsichtig auf Objekte anwenden"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -2,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "nostalgie",
+    "preferred_label": "Nostalgie",
+    "alternative_labels": [
+      "nostalgisch"
+    ],
+    "hidden_labels": [],
+    "definition": "Idealisierende, bittersuesse Rueckwendung auf eine als bedeutsam empfundene, unwiederbringliche Vergangenheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Nostalgie ist gerichtet (bestimmte Epoche); Melancholie ungerichtet.",
+    "usage_guidance": "Nur bei plausiblem Bezug zu verlorener/idealisierter Vergangenheit.",
+    "do_not_use_when": [
+      "ALTER ALLEIN ist KEIN Beleg",
+      "nicht aus Schwarz-Weiss/Sepia/Patina ableiten",
+      "nicht aus historischem Motiv ableiten"
+    ],
+    "formal_cues": [
+      "Gebrauchsspuren mit lebensweltlichem Bezug"
+    ],
+    "context_cues": [
+      "Objekt aus erinnerbarer Alltagswelt laut Sammlungskontext"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Cowen & Keltner 2017 [P]",
+      "Southampton Nostalgia Scale [P]",
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Alter mit Nostalgie verwechseln",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "nuechternheit",
+    "preferred_label": "Nuechternheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung emotionaler Zurueckhaltung, Reduktion und distanzierter Klarheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "reduction",
+      "distance"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "kann wertend sein"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "offizialitaet",
+    "preferred_label": "Offizialitaet",
+    "alternative_labels": [
+      "offiziell",
+      "amtlich",
+      "behoerdlich",
+      "foermlichkeit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung institutioneller Foermlichkeit, amtlicher Geltung und behoerdlichen Ernstes.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ohnmacht",
+    "preferred_label": "Ohnmacht",
+    "alternative_labels": [
+      "machtlosigkeit",
+      "ausgeliefertsein"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Machtlosigkeit, Ausgeliefertsein und fehlender Handlungsmacht.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "violence_conflict",
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 0,
+    "dominanz": -2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "opulenz",
+    "preferred_label": "Opulenz",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung materieller oder formaler Ueppigkeit, Dichte und Ueberfluss.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "abundance_representation"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ordnung",
+    "preferred_label": "Ordnung",
+    "alternative_labels": [
+      "geordnet"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung wahrnehmbarer Strukturierung, Regelmaessigkeit und organisierter Relation.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "order"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": "Als formbezogene Wirkung; nicht automatisch positiv.",
+    "do_not_use_when": [
+      "nicht automatisch positiv",
+      "formale Eigenschaft, keine Emotion"
+    ],
+    "formal_cues": [
+      "Symmetrie",
+      "Rasterung",
+      "regelmaessige Wiederholung"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Gestaltpsychologie [S]"
+    ],
+    "fundierung": "redaktionell",
+    "bias_risk": "Form-Emotion-Verwechslung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "pathos",
+    "preferred_label": "Pathos",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung gesteigerter emotionaler Ausdruckskraft und feierlichen Ernstes.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "awe_sublime"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "wertend - kann ueberhoehen oder ironisch brechen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "pracht",
+    "preferred_label": "Pracht",
+    "alternative_labels": [
+      "praechtig"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung beeindruckender Fuelle, Reichtum und repraesentativer Ausstrahlung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "abundance_representation"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Pracht imponiert (Fuelle). Opulenz betont Menge. Prunk ist demonstrativ. Eleganz das Gegenteil.",
+    "usage_guidance": "Bei imponierender Fuelle; nicht = Eleganz.",
+    "do_not_use_when": [],
+    "formal_cues": [
+      "Materialfuelle",
+      "Ornamentdichte",
+      "repraesentative Ausstattung"
+    ],
+    "context_cues": [
+      "Repraesentations-/Herrschaftskontext"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Winckelmann [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "prestige",
+    "preferred_label": "Prestige",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Ansehen, Rang und sozialer Distinktion.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "abundance_representation",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "prunk",
+    "preferred_label": "Prunk",
+    "alternative_labels": [
+      "pompoes"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung demonstrativer, ostentativer, oft machtfoermiger Repraesentation.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "abundance_representation",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "oft kritischer konnotiert als Pracht - Wertung offenlegen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "raetselhaftigkeit",
+    "preferred_label": "Raetselhaftigkeit",
+    "alternative_labels": [
+      "geheimnis"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung des Unaufgeloesten, Geheimnisvollen, das Deutung herausfordert.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "reduktion",
+    "preferred_label": "Reduktion",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung bewusster Beschraenkung auf das Wesentliche.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "reduction"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "repraesentation",
+    "preferred_label": "Repraesentation",
+    "alternative_labels": [
+      "repraesentativitaet"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung des Vertretens, des Zurschaustellens von Status oder Institution.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "abundance_representation",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "mehrdeutig: typisch-fuer vs. herrschaftlich"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ritualitaet",
+    "preferred_label": "Ritualitaet",
+    "alternative_labels": [
+      "zeremoniell",
+      "zeremonialitaet"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung wiederholter, formalisierter, zeremonieller Ordnung.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual",
+      "order"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ruehrung",
+    "preferred_label": "Ruehrung",
+    "alternative_labels": [
+      "ergriffenheit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Ergriffenheit und emotionaler Bewegtheit, oft mit Waerme und leiser Wehmut.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "beauty_harmony",
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS (Ruehrung) [P]",
+      "kama muta [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ruhe",
+    "preferred_label": "Ruhe",
+    "alternative_labels": [
+      "ruhig",
+      "ruhigkeit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung kompositorischer Ausgeglichenheit und geringer wahrgenommener Aktivitaet; eine in sich ruhende Balance der Bildmittel.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "calm"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Ruhe = strukturelles Gleichgewicht. Stille = akustische Abwesenheit. Gelassenheit = Haltung eines Subjekts.",
+    "usage_guidance": "Bei kompositorischem Gleichgewicht; auch bei anwesenden Menschen moeglich.",
+    "do_not_use_when": [],
+    "formal_cues": [
+      "ausgeglichene, stabile Komposition",
+      "offene Flaechen",
+      "geringe Bewegungsindizien"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Russell 1980 (dimensional) [P]",
+      "Heidegger, Gelassenheit [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -2,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "sachlichkeit",
+    "preferred_label": "Sachlichkeit",
+    "alternative_labels": [
+      "sachlich"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung bewusster Nuechternheit, Funktionalitaet und Distanzierung vom Pathos.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "reduction"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Ein praechtiges Mandala hat hoechste Ordnung, aber keine Sachlichkeit.",
+    "usage_guidance": "Bei bewusster Distanzierung vom Pathos.",
+    "do_not_use_when": [
+      "eng mit Neuer Sachlichkeit (Weimar) verknuepft - historische Aufladung beachten"
+    ],
+    "formal_cues": [
+      "schmucklose, funktionale Gestaltung",
+      "nuechterne Tonigkeit"
+    ],
+    "context_cues": [
+      "technisch/dokumentarischer Kontext; Neue Sachlichkeit"
+    ],
+    "cultural_scope_note": "An die Neue Sachlichkeit (Weimar) gebunden - historische Aufladung.",
+    "source_basis": [
+      "Lethen [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "sakralitaet",
+    "preferred_label": "Sakralitaet",
+    "alternative_labels": [
+      "sakral"
+    ],
+    "hidden_labels": [],
+    "definition": "Atmosphaerische Markierung eines Bereichs als dem Alltaeglichen entzogen, ohne Behauptung einer Glaubenswahrheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Sakralitaet = atmosphaerische Ursache; Ehrfurcht = rezeptive Wirkung.",
+    "usage_guidance": "Nur bei wahrnehmbar dem Alltag entzogener Praesenz.",
+    "do_not_use_when": [
+      "RELIGIOESES MOTIV ALLEIN GENUEGT NICHT (Kreuz/Altar loesen es nicht automatisch aus)",
+      "nicht bei dokumentarischer, profanisierter oder zerstoerter Darstellung",
+      "keine Glaubensbehauptung ueber die Konfession"
+    ],
+    "formal_cues": [
+      "ueberhoehende Lichtfuehrung",
+      "zentrierte, entrueckende Komposition"
+    ],
+    "context_cues": [
+      "ritueller Gebrauchskontext laut Provenienz"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Otto 1917 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Motiv != wahrnehmbare Wirkung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "satire",
+    "preferred_label": "Satire",
+    "alternative_labels": [
+      "spott"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung spottender, entlarvender Ueberzeichnung mit kritischer Absicht.",
+    "concept_role": "interpretive_frame",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "humor_irony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Kontext erforderlich; von blossem Humor unterscheiden"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "schlichtheit",
+    "preferred_label": "Schlichtheit",
+    "alternative_labels": [
+      "schlicht",
+      "einfachheit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung gewaehlter Reduktion, Klarheit und schmuckloser Angemessenheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "reduction",
+      "beauty_harmony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Schlichtheit = positiv gewaehlte Reduktion. Kargheit = Mangel. Sachlichkeit = nuechtern-funktionale Haltung.",
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "schoenheit",
+    "preferred_label": "Schoenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung gelungener, als angenehm und stimmig empfundener Gestaltung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "beauty_harmony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "wertend - Geschmacksurteil offenlegen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS (Schoenheit) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": 0,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "schutz",
+    "preferred_label": "Schutz",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Sicherung, Abschirmung und Bewahrung vor Gefahr.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "schwere",
+    "preferred_label": "Schwere",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Gewicht, Dichte und gravitaetischer Wucht.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "awe_sublime",
+      "sacred_ritual",
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "sehnsucht",
+    "preferred_label": "Sehnsucht",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung eines gerichteten Verlangens nach einem Abwesenden, Fernen oder Unerreichbaren.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "grief",
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": "Romantisch aufgeladener dt. Begriff, schwer uebersetzbar.",
+    "source_basis": [
+      "GRID (longing-Cluster) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "selbstbewusstsein",
+    "preferred_label": "Selbstbewusstsein",
+    "alternative_labels": [
+      "selbstbehauptung"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung sicherer Selbstbehauptung und gefestigter Praesenz.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "power_hierarchy"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht aus Haltung/Pose allein diagnostizieren"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "sicherheit",
+    "preferred_label": "Sicherheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Gefahrlosigkeit oder Beherrschbarkeit; ruhige Verlaesslichkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "belonging"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit existenzieller Geborgenheit gleichsetzen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "souveraenitaet",
+    "preferred_label": "Souveraenitaet",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung ueberlegener Gelassenheit und muehelos wirkender Beherrschung einer Situation.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "calm"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "metaphorisch und normativ"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "spannung",
+    "preferred_label": "Spannung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Erwartung, Ungeloestheit oder gerichtetem Kraeftegleichgewicht.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "movement",
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "narrativ, formal oder koerperlich unterscheiden"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "starre",
+    "preferred_label": "Starre",
+    "alternative_labels": [
+      "reglosigkeit",
+      "starr"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Erstarrung, Stillstand und blockierter Bewegung; kann Ruhe, Schock oder Repression implizieren.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "calm",
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "keine Emotion - als formale Wirkung kennzeichnen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "staunen",
+    "preferred_label": "Staunen",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion gebannter Verwunderung angesichts von Neuheit oder Groesse.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "curiosity_novelty",
+      "awe_sublime"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "AESTHEMOS [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "stille",
+    "preferred_label": "Stille",
+    "alternative_labels": [
+      "still",
+      "Lautlosigkeit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wahrgenommene oder imaginierte akustische Abwesenheit; bei unbewegten Bildern stets metaphorisch erschlossen. Valenzoffen: kontemplativ ODER spannungsvoll.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "calm",
+      "absence"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": "Bei szenisch erschliessbarer akustischer Abwesenheit.",
+    "do_not_use_when": [
+      "nicht automatisch positiv werten (Stille kann bedrohlich sein)",
+      "nicht fuer bloss ereignislose Motive vergeben"
+    ],
+    "formal_cues": [
+      "leerer Bildraum",
+      "pausierende Geste",
+      "Abwesenheit von Bewegung"
+    ],
+    "context_cues": [
+      "menschenleere/naechtliche Szene laut Titel"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Boehme 1995 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Verwechslung mit Ruhe und Verlassenheit",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -2,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "stolz",
+    "preferred_label": "Stolz",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche oder dargestellte Reaktion von Selbstwert und Status.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "power_hierarchy"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "subjektbezogen - nicht aus Haltung allein ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "strenge",
+    "preferred_label": "Strenge",
+    "alternative_labels": [
+      "streng"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung enger Regelbindung, Kontrolle und geringer Abweichungsmoeglichkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "order",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "symmetrie",
+    "preferred_label": "Symmetrie",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung spiegelnder Ausgewogenheit; kann Ordnung und Ruhe, aber auch Erstarrung nahelegen.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "order"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "objektiv beschreibbar, aber nicht automatisch harmonisch"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Form-Emotion-Verwechslung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "tradition",
+    "preferred_label": "Tradition",
+    "alternative_labels": [
+      "traditionell"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Kontinuitaet, Ueberlieferung und kultureller Verankerung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "time_memory",
+      "belonging"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Beschreibung und Wertung trennen",
+      "nicht aus blossem Alter ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Alter mit Wirkung verwechseln; normative Aufladung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "trauer",
+    "preferred_label": "Trauer",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion oder explizit dargestellte Reaktion auf konkreten Verlust.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "grief"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Trauer = Reaktion auf identifizierbaren Verlust. Melancholie = struktureller, ungerichteter Zustand.",
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nur als moegliche Reaktion oder explizite Szene",
+      "dargestellte Personen nicht diagnostizieren"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Ekman 1992 [P]",
+      "Freud 1917 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Psychologisierung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "triumph",
+    "preferred_label": "Triumph",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung sieghafter Erhebung und zur Schau gestellten Erfolgs.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "oft ideologisch aufgeladen - kontextualisieren"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Heroisierung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 2,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "trostlosigkeit",
+    "preferred_label": "Trostlosigkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Verlust, Kargheit und Aussichtslosigkeit, oft an Raeume und Szenen gebunden.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "absence",
+      "grief"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ueberlegenheit",
+    "preferred_label": "Ueberlegenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung hierarchischer Hoeherstellung und selbstverstaendlicher Vormacht.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "normative Wirkung"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 0,
+    "dominanz": 2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ueberraschung",
+    "preferred_label": "Ueberraschung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion auf Neuheit oder Erwartungsbruch.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Ekman 1992 [P]",
+      "GRID [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 2,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ueberwachung",
+    "preferred_label": "Ueberwachung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung des Beobachtet- und Kontrolliertwerdens.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "threat"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "oft Motiv oder historischer Kontext, keine reine Formwirkung"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki_kuratiert"
+  },
+  {
+    "concept_id": "umbruch",
+    "preferred_label": "Umbruch",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Veraenderung, Bruch und historischem Uebergang.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "time_memory",
+      "movement"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "haeufig Kontext, nicht Atmosphaere"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "unbeschwertheit",
+    "preferred_label": "Unbeschwertheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Sorglosigkeit, Freiheit von Druck und leichter Offenheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "joy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": 0,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "unheimlichkeit",
+    "preferred_label": "Unheimlichkeit",
+    "alternative_labels": [
+      "unheimlich"
+    ],
+    "hidden_labels": [],
+    "definition": "Irritierende Verbindung von Vertrautheit und Fremdheit oder eine schwer lokalisierbare Stoerung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "threat",
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Freud, das Unheimliche [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "unordnung",
+    "preferred_label": "Unordnung",
+    "alternative_labels": [
+      "chaos"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung fehlender oder gestoerter Struktur, Chaos oder Aufloesung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "order",
+      "movement"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "unruhe",
+    "preferred_label": "Unruhe",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Rastlosigkeit, Unsicherheit und innerer Bewegtheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "movement",
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "unterdrueckung",
+    "preferred_label": "Unterdrueckung",
+    "alternative_labels": [
+      "repression"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung struktureller Gewalt, Zwang und verweigerter Freiheit.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "violence_conflict"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "historischer oder struktureller Kontext erforderlich"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "unterordnung",
+    "preferred_label": "Unterordnung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Untergebensein, Nachordnung oder hierarchischer Zurueckstellung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": -2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "verbundenheit",
+    "preferred_label": "Verbundenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung wechselseitiger Bindung und emotionaler Zusammengehoerigkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "belonging",
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "braucht Beziehungsindizien"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "verfall",
+    "preferred_label": "Verfall",
+    "alternative_labels": [
+      "patina"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung sichtbaren Alterns, Zerfalls und materieller Aufloesung.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "time_memory",
+      "absence"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit Melancholie gleichsetzen (sichtbarer Zustand vs. Wirkung)"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "vergaenglichkeit",
+    "preferred_label": "Vergaenglichkeit",
+    "alternative_labels": [
+      "endlichkeit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung des Verrinnens, der Endlichkeit und des unaufhaltsamen Wandels (Vanitas).",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "time_memory",
+      "grief"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Alter allein genuegt nicht",
+      "Vanitas-Motiv != Wirkung"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "ikonografische Tradition [S]"
+    ],
+    "fundierung": "redaktionell",
+    "bias_risk": "Motiv mit Wirkung verwechseln",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "verlassenheit",
+    "preferred_label": "Verlassenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung der Abwesenheit ehemals oder erwartbar anwesender Menschen; raeumliche Leere mit temporalem und relationalem Weltverlust.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "absence",
+      "grief"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Eine Ruine strahlt Verlassenheit aus; eine unberuehrte Eislandschaft nur Stille.",
+    "usage_guidance": "Bei Weltverlust, nicht bei blosser Stille.",
+    "do_not_use_when": [
+      "nicht bei bloss vorhandener Menschenleere ohne Weltverlust",
+      "nicht mit Stille gleichsetzen"
+    ],
+    "formal_cues": [
+      "leere ehemals belebte Raeume",
+      "Ruinen",
+      "zurueckgelassene Objekte"
+    ],
+    "context_cues": [
+      "aufgegebener/entvoelkerter Ort laut Metadaten"
+    ],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Arendt (Weltverlust) [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "verletzlichkeit",
+    "preferred_label": "Verletzlichkeit",
+    "alternative_labels": [
+      "verwundbarkeit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Schutzlosigkeit, Zerbrechlichkeit und Ausgesetztsein.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "violence_conflict",
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit Schwaeche oder Opferstatus gleichsetzen"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 0,
+    "dominanz": -2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "verlust",
+    "preferred_label": "Verlust",
+    "alternative_labels": [
+      "abwesenheit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung des Fehlens, der Abwesenheit eines zuvor Vorhandenen.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "grief",
+      "absence"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Verlust = Lesart des Fehlens; Trauer = moegliche Reaktion darauf.",
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "OCC 1988 [P]"
+    ],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "verspieltheit",
+    "preferred_label": "Verspieltheit",
+    "alternative_labels": [
+      "verspielt"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Leichtigkeit, Humor und spielerischer Gestaltung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "humor_irony",
+      "joy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "vertrautheit",
+    "preferred_label": "Vertrautheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung des Wiedererkennens und geringer Fremdheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "intimacy",
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "subjekt- und biografieabhaengig"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Appraisal familiarity [P]"
+    ],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "verwunderung",
+    "preferred_label": "Verwunderung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Moegliche Betrachterreaktion fragenden Nicht-Verstehens, milder und laenger als Ueberraschung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "curiosity_novelty"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "waerme",
+    "preferred_label": "Waerme",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Metaphorische Atmosphaere von Zugewandtheit, Naehe und Angenehmheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "von Farbtemperatur unterscheiden (warme Farben != Waerme)"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Farbtemperatur mit Wirkung verwechseln",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "wehmut",
+    "preferred_label": "Wehmut",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung eines an einen Verlust gebundenen, mit Zuneigung gemischten leisen Schmerzes.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "grief",
+      "time_memory"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Wehmut ist staerker an einen konkreten Verlust gebunden als Melancholie, positiver getoent als Trauer.",
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "weite",
+    "preferred_label": "Weite",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung raeumlicher Ausdehnung und Offenheit, die befreiend oder ehrfuerchtig wirken kann.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "awe_sublime"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Keltner & Haidt 2003 (vastness) [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "widerstand",
+    "preferred_label": "Widerstand",
+    "alternative_labels": [
+      "trotz"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Auflehnung, Behauptung und Gegenkraft.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "violence_conflict",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Kontext erforderlich; Gefahr normativer Heroisierung"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Heroisierung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "andacht",
+    "preferred_label": "Andacht",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung kontemplativer, sammelnder, oft religioes gepraegter Innerlichkeit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "atmosphere",
+    "semantic_domains": [
+      "calm",
+      "awe_sublime",
+      "sacred_ritual"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "setzt eine Person oder Praxis voraus"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "angst",
+    "preferred_label": "Angst",
+    "alternative_labels": [
+      "aengstlich"
+    ],
+    "hidden_labels": [],
+    "definition": "Moegliche, unbestimmte Betrachterreaktion, die das Ganze der Situation betrifft (nicht gegenstandsgebunden).",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Angst = unbestimmt, gegenstandslos. Furcht = auf konkretes Objekt gerichtet.",
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht als Zustand dargestellter Personen diagnostizieren",
+      "das Objekt hat keine Angst"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Heidegger, Sein und Zeit §40 [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Psychologisierung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 1,
+    "dominanz": -2,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "anmut",
+    "preferred_label": "Anmut",
+    "alternative_labels": [
+      "grazie"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Leichtigkeit, Grazie und harmonischer Bewegung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "beauty_harmony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Schiller, Anmut und Wuerde [S]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "anspannung",
+    "preferred_label": "Anspannung",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung innerer Gespanntheit, Konzentration oder latenter Erwartung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "movement",
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "aufbruch",
+    "preferred_label": "Aufbruch",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Neubeginn, Zukunftsoffenheit und gerichteter Bewegung nach vorn.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "time_memory",
+      "movement"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "kann positiv normativ aufgeladen sein"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ausgelassenheit",
+    "preferred_label": "Ausgelassenheit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung ungebremster, gemeinschaftlicher Frohgestimmtheit.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "joy",
+      "belonging"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "benoetigt Handlung oder Menschengruppe"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 2,
+    "arousal": 2,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "ausschluss",
+    "preferred_label": "Ausschluss",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung von Ausgrenzung, Trennung oder verweigerter Teilhabe.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "distance",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "konkrete Struktur oder Kontext noetig"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 0,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "rastlosigkeit",
+    "preferred_label": "Rastlosigkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung getriebener, ruheloser Bewegung ohne Ankommen.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "movement",
+      "threat"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 2,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "wucht",
+    "preferred_label": "Wucht",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung massiver, druckvoller Praesenz und formaler Durchschlagskraft.",
+    "concept_role": "formal_evidence",
+    "reading_mode": "formal_dynamic_effect",
+    "semantic_domains": [
+      "abundance_representation",
+      "power_hierarchy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": 2,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "wuerde",
+    "preferred_label": "Wuerde",
+    "alternative_labels": [
+      "wuerdevoll",
+      "wuerdig"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung eines unerschuetterlichen, in sich ruhenden Anspruchs auf Achtung, unabhaengig von aeusserer Macht.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "power_hierarchy",
+      "sacred_ritual"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": "Wuerde = innere Substanz. Autoritaet = eingeforderte soziale Geltung.",
+    "usage_guidance": "Als normative relationale Lesart; nicht aus Rang/Kleidung/Armut ableiten.",
+    "do_not_use_when": [
+      "normativ - nicht aus Rang, Alter, Kleidung, Armut oder Leiden automatisch ableiten",
+      "keine ethnografisierende Zuschreibung"
+    ],
+    "formal_cues": [
+      "aufrechte, ruhende Haltung",
+      "zurueckhaltende Gestik"
+    ],
+    "context_cues": [],
+    "cultural_scope_note": "Normative, relationale Lesart - nicht aus sichtbaren Personeneigenschaften erschliessbar.",
+    "source_basis": [
+      "Kant [P]",
+      "Schiller, Anmut und Wuerde [P]"
+    ],
+    "fundierung": "theorie",
+    "bias_risk": "Normative Ueberhoehung; ethnografischer Blick",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "zaertlichkeit",
+    "preferred_label": "Zaertlichkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung behutsamer, liebevoller Zuwendung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "intimacy"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nur bei entsprechenden Gesten oder Kontext"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "zartheit",
+    "preferred_label": "Zartheit",
+    "alternative_labels": [
+      "zart",
+      "feinheit"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Feinheit, Zerbrechlichkeit und behutsamer Gestaltung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "aesthetic_appraisal",
+    "semantic_domains": [
+      "beauty_harmony"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "zeitferne",
+    "preferred_label": "Zeitferne",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung grosser zeitlicher Distanz, neutraler als Nostalgie.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "mood_tone",
+    "semantic_domains": [
+      "time_memory",
+      "distance"
+    ],
+    "context_requirement": "historical_context_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": null,
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 0,
+    "arousal": -1,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "zerstoerung",
+    "preferred_label": "Zerstoerung",
+    "alternative_labels": [
+      "verwuestung"
+    ],
+    "hidden_labels": [],
+    "definition": "Wirkung von Vernichtung, Beschaedigung und gewaltsamer Aufloesung.",
+    "concept_role": "scene_or_relation",
+    "reading_mode": "symbolic_effect",
+    "semantic_domains": [
+      "violence_conflict",
+      "time_memory"
+    ],
+    "context_requirement": "scene_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "nicht mit Melancholie/Nostalgie der Ruine verwechseln"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Ruinen-Nostalgie",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -2,
+    "arousal": 1,
+    "dominanz": -1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "zorn",
+    "preferred_label": "Zorn",
+    "alternative_labels": [
+      "wut",
+      "empoerung"
+    ],
+    "hidden_labels": [],
+    "definition": "Moegliche oder dargestellte Reaktion moralischer Erregung und Auflehnung.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "viewer_reaction",
+    "semantic_domains": [
+      "aversion_moral_response",
+      "violence_conflict"
+    ],
+    "context_requirement": "subject_required",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "Gesichtsausdruck reicht selten - Kontext noetig"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [
+      "Ekman 1992 [P]"
+    ],
+    "fundierung": "redaktionell",
+    "bias_risk": "Ausdruck != Zustand",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": -1,
+    "arousal": 2,
+    "dominanz": 1,
+    "pad_quelle": "konsens_2ki"
+  },
+  {
+    "concept_id": "zugehoerigkeit",
+    "preferred_label": "Zugehoerigkeit",
+    "alternative_labels": [],
+    "hidden_labels": [],
+    "definition": "Wirkung des Eingebundenseins in eine Gemeinschaft oder einen Ort.",
+    "concept_role": "resonance_reading",
+    "reading_mode": "relational_effect",
+    "semantic_domains": [
+      "belonging"
+    ],
+    "context_requirement": "visual_possible",
+    "distinctions": null,
+    "usage_guidance": null,
+    "do_not_use_when": [
+      "normativ und politisch sensibel",
+      "nicht aus bloss vielen Personen ableiten"
+    ],
+    "formal_cues": [],
+    "context_cues": [],
+    "cultural_scope_note": null,
+    "source_basis": [],
+    "fundierung": "redaktionell",
+    "bias_risk": "Politische Zuschreibung",
+    "editorial_status": "kandidat",
+    "replaced_by": null,
+    "created_at": "2026-08-04 13:27:11.911933+00",
+    "updated_at": "2026-08-04 17:11:42.136378+00",
+    "valenz": 1,
+    "arousal": 0,
+    "dominanz": 0,
+    "pad_quelle": "konsens_2ki"
+  }
+]

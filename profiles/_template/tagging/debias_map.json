@@ -1,0 +1,276 @@
+{
+ "Abendland": {
+  "replacement": [
+   "Westasien",
+   "Europa"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Eurozentrismus"
+ },
+ "Abnormitätenschau": {
+  "replacement": [],
+  "action": "CONTEXTUALIZE",
+  "category": "Ableismus"
+ },
+ "Afrikaner": {
+  "replacement": [
+   "Menschen des afrikanischen Kontinents"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Kolonialismus"
+ },
+ "Arisierung": {
+  "replacement": [
+   "Raub",
+   "Enteignung"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "NS-Unrecht"
+ },
+ "Australneger": {
+  "replacement": [
+   "Aborigine"
+  ],
+  "action": "REPLACE",
+  "category": "Rassismus"
+ },
+ "Bastard": {
+  "replacement": [
+   "Außereheliches Kind"
+  ],
+  "action": "REPLACE",
+  "category": "Abwertung"
+ },
+ "Behinderter": {
+  "replacement": [
+   "Mensch mit Behinderung"
+  ],
+  "action": "REPLACE",
+  "category": "Ableismus"
+ },
+ "Berber": {
+  "replacement": [
+   "Imazighen"
+  ],
+  "action": "REPLACE",
+  "category": "Kolonialismus"
+ },
+ "Buschleute": {
+  "replacement": [
+   "San",
+   "Khoisan"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Kolonialismus"
+ },
+ "Buschneger": {
+  "replacement": [
+   "Maroons"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Rassismus"
+ },
+ "Drittes Reich": {
+  "replacement": [
+   "NS-Regime"
+  ],
+  "action": "REPLACE",
+  "category": "Nationalsozialismus"
+ },
+ "Dunkelhäutig": {
+  "replacement": [
+   "Schwarze Menschen",
+   "PoC"
+  ],
+  "action": "REPLACE",
+  "category": "Rassismus"
+ },
+ "Eingeboren": {
+  "replacement": [
+   "Indigen"
+  ],
+  "action": "REPLACE",
+  "category": "Kolonialismus"
+ },
+ "Endlösung": {
+  "replacement": [
+   "Shoah",
+   "Holocaust"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "NS-Euphemismus"
+ },
+ "Eskimo": {
+  "replacement": [
+   "Inuit"
+  ],
+  "action": "REPLACE",
+  "category": "Kolonialismus"
+ },
+ "Exotisch": {
+  "replacement": [],
+  "action": "CONTEXTUALIZE",
+  "category": "Exotismus"
+ },
+ "Farbig": {
+  "replacement": [],
+  "action": "DROP",
+  "category": "Rassismus"
+ },
+ "Gastarbeiter": {
+  "replacement": [
+   "Arbeitsmigranten"
+  ],
+  "action": "REPLACE",
+  "category": "Migration"
+ },
+ "Gypsy": {
+  "replacement": [
+   "Roma",
+   "Sinti"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Antiziganismus"
+ },
+ "Häuptling": {
+  "replacement": [
+   "Oberhaupt"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Kolonialismus"
+ },
+ "Hottentotte": {
+  "replacement": [
+   "Khoikhoi"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Rassismus"
+ },
+ "Indianer": {
+  "replacement": [
+   "Indigene Bevölkerung",
+   "Native Americans"
+  ],
+  "action": "REPLACE",
+  "category": "Kolonialismus"
+ },
+ "Irrenanstalt": {
+  "replacement": [
+   "Psychiatrische Klinik"
+  ],
+  "action": "REPLACE",
+  "category": "Ableismus"
+ },
+ "Kristallnacht": {
+  "replacement": [
+   "Novemberpogrome"
+  ],
+  "action": "REPLACE",
+  "category": "NS-Euphemismus"
+ },
+ "Krüppel": {
+  "replacement": [
+   "Mensch mit Behinderung"
+  ],
+  "action": "REPLACE",
+  "category": "Ableismus"
+ },
+ "Mohr": {
+  "replacement": [
+   "Schwarzer Mensch"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Rassismus"
+ },
+ "Mongoloid": {
+  "replacement": [
+   "Person mit Trisomie 21"
+  ],
+  "action": "REPLACE",
+  "category": "Ableismus"
+ },
+ "Morgenland": {
+  "replacement": [
+   "Naher Osten"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Eurozentrismus"
+ },
+ "Mulatte": {
+  "replacement": [
+   "Person mit binationalem Hintergrund"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Rassismus"
+ },
+ "Muselmann": {
+  "replacement": [
+   "Muslim"
+  ],
+  "action": "REPLACE",
+  "category": "Islamfeindlichkeit"
+ },
+ "Naturvolk": {
+  "replacement": [
+   "Indigene Gemeinschaft"
+  ],
+  "action": "REPLACE",
+  "category": "Kolonialismus"
+ },
+ "Neger": {
+  "replacement": [
+   "Schwarzer Mensch",
+   "PoC"
+  ],
+  "action": "REPLACE",
+  "category": "Rassismus"
+ },
+ "Orientalisch": {
+  "replacement": [
+   "Westasiatisch",
+   "Arabisch"
+  ],
+  "action": "REPLACE",
+  "category": "Eurozentrismus"
+ },
+ "Rasse": {
+  "replacement": [],
+  "action": "DROP",
+  "category": "Rassismus"
+ },
+ "Schwarzafrika": {
+  "replacement": [
+   "Subsahara-Afrika"
+  ],
+  "action": "CONTEXTUALIZE",
+  "category": "Rassismus"
+ },
+ "Taubstumm": {
+  "replacement": [
+   "Gehörlos"
+  ],
+  "action": "REPLACE",
+  "category": "Ableismus"
+ },
+ "Transsexuell": {
+  "replacement": [
+   "Transgeschlechtlich"
+  ],
+  "action": "REPLACE",
+  "category": "Gender"
+ },
+ "Zigeuner": {
+  "replacement": [
+   "Roma und Sinti"
+  ],
+  "action": "REPLACE",
+  "category": "Antiziganismus"
+ },
+ "Zwerg": {
+  "replacement": [
+   "Kleinwüchsiger Mensch"
+  ],
+  "action": "REPLACE",
+  "category": "Ableismus"
+ }
+}

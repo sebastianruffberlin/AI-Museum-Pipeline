@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["repairs"],
+  "properties": {
+    "repairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["original", "cluster", "repairable", "repaired_terms"],
+        "properties": {
+          "original": {"type": "string"},
+          "cluster": {"type": "string"},
+          "repairable": {"type": "boolean"},
+          "repaired_terms": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

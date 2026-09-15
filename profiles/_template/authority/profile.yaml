@@ -1,0 +1,30 @@
+enabled: false
+provider: gnd
+role: authority.gnd
+
+retrieval:
+  index_env: OS_INDEX
+  msearch_env: OS_MSEARCH
+  size: 5
+  fields:
+    - preferred_name^5
+    - alternate_names^3
+    - broader_term^2
+    - related_term^1
+    - def^1
+  source_fields:
+    - preferred_name
+    - alternate_names
+    - def
+    - gnd_id
+
+prompts:
+  system: gnd_sub2_rawSystempromptText
+  user: gnd_sub2_rawPromptText
+
+flags:
+  - DESCRIPTIVE_NO_GND
+  - DEFINITION_MISMATCH
+  - MULTIPLE_CANDIDATES
+  - SYNONYM_USED
+  - LOW_FUZZY_OVERLAP

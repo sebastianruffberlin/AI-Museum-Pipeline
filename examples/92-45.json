@@ -1,0 +1,174 @@
+{
+  "_note": "Reales Referenzobjekt aus dem produktiven Stadtmuseum-Berlin-Deployment. Objekt ist gemeinfrei (technisches Alltagsgerät, keine Personenabbildung, kein Urheberrechtsschutz). Zusammengeführte Ansicht der pipeline-eigenen Ergebnistabellen, keine wörtliche API-Antwort. Zwei Dinge wurden bewusst entfernt, nicht nur gekürzt: (1) die institutionelle Themenschwerpunkte-Zuordnung (museum.schwerpunkt_lauf / museum.schwerpunkt_bezug) — das öffentliche Repository liefert keine institutionelle Topics-Wissensbasis, das gilt auch für Beispieldaten; (2) Machine-Heart-Zeilen eines anderen, per annotation_set_id fälschlich mitgejointen Objekts (37-WK I) wurden herausgefiltert, da falsch zugeordnet.",
+
+  "input": {
+    "object_id": "92/45",
+    "sammlung": "Alltagskultur",
+    "sammlungsbereich": "Wohn-/Hauswirtschaftsgeräte",
+    "objektbezeichnung": "Bügeleisen",
+    "titel": "Spirituseisen",
+    "kurztitel": "Spiritusbügeleisen",
+    "datierung_von": 1847,
+    "datierung_bis": 1940,
+    "ort_zeit_bemerkung": "Deutschland / um 1910",
+    "masse": "15.50 cm x 8.50 cm x 27.00 cm",
+    "materialien": ["Eisen", "Holz", "Metall"],
+    "techniken": ["industrielle Fertigung"],
+    "personen": "Omega, Schmölln (Thür.)",
+    "funktionen_der_personen": "Hersteller",
+    "so_url": "https://sammlung-online.stadtmuseum.de/Details/Index/1647228",
+    "image_url": "https://sammlung-online.stadtmuseum.de/imagescreate/image?id=1647228&type=gross",
+    "bildlink": "https://museumopen.de/2600/2600/1647228.jpg",
+    "_hinweis_asset": "Der interne Object-Storage-Endpoint (s3_url) wurde durch einen Platzhalter ersetzt; so_url/bildlink sind bereits öffentlich erreichbare Portale.",
+    "raw_objects_beschreibung": "Eisengußspiritusbügeleisen Sehr spitz zulaufendes Spirituseisen mit querliegenden faßähnlichen Tank. Im Bügelkörper befindet sich ein schmales Brennrohr. Durch einen Hebel ist der Innenraum des Bügelkörpers zu öffnen. Zum Händeln ist ein naturbelassener gerader Griff aus Holz an den Bügelkörper mittels zweier Schrauben angeschraubt. Bügelgeräte In der Geschichte finden sich viele verschiedene Arten Kleidung zu glätten. Es gab beispielsweise Glättknochen (Phalangen; 500-19. Jh.), Glätt-, Gniewwel- oder Gniddelsteine (10. Jh.) oder auch keramische Plättgeräte (aus dem 7./10 Jh.). Im 16. Jh. gab es für das Bügeln von Halskrausen Plissierstäbe, Rüschen- oder Tolleisen. Im 17. Jh. gab es dann verschiedene Platten, die den heutigen Bügeleisen schon ähnlicher waren. Die Platte war aus Meßing oder Stahl und wurde mit glühender Kohle oder mit einem Stück glühenden Eisens ausgefüllt. Die Form der Platte war dem heutigen Bügeleisen schon sehr ähnlich – ein spitz zulaufender Kasten. Spirituseisen: Sie gab es nur eine kurze Zeit lang, nämlich von 1847-1940. Mit ihnen konnte immerhin 1 Stunde ohne Unterlaß gebügelt werden. Die Funktion dieser Bügeleisen war es, dass Spiritus in den Tank gefüllt wurde und ein Baumwolldocht in den Bügeleisenkörper ragte. Es entstand Dampf und kleine Flämmchen, die durch Brennlöcher im Bügeleisenkörper Sauerstoff bekamen. Bei längerem Gebrauch des Eisens konnte solch ein Loch auch einmal verstopfen, sodass die Flamme kleiner wurde. Natürlich musste es dann gereinigt werden. Der Docht war ein Verschleißelement und musste ab und an ausgetauscht werden. Spiritus war zu dieser Zeit einfach zu beschaffen, sodass es oft auch als Reisebügeleisen verwendet wurde.",
+    "raw_objects_kontext": "Spirituseisen: Sie gab es nur eine kurze Zeit lang, nämlich von 1847-1940. Mit ihnen konnte immerhin 1 Stunde ohne Unterlaß gebügelt werden. Die Funktion dieser Bügeleisen war es, dass Spiritus in den Tank gefüllt wurde und ein Baumwolldocht in den Bügeleisenkörper ragte. Es entstand Dampf und kleine Flämmchen, die durch Brennlöcher im Bügeleisenkörper Sauerstoff bekamen. Bei längerem Gebrauch des Eisens konnte solch ein Loch auch einmal verstopfen, sodass die Flamme kleiner wurde. Natürlich musste es dann gereinigt werden. Der Docht war ein Verschleißelement und musste ab und an ausgetauscht werden. Spiritus war zu dieser Zeit einfach zu beschaffen, sodass es oft auch als Reisebügeleisen verwendet wurde.",
+    "_hinweis_quelle": "raw_objects_beschreibung/raw_objects_kontext sind die vorbestehende kuratorische Institutionsdokumentation (museum.raw_objects), von Menschen verfasst, lange bevor die Pipeline das Objekt verarbeitet hat. Die Pipeline liest diese Felder nur als Kontext-Evidenz, überschreibt sie nie. Auf der öffentlichen Sammlungsseite sind sie mit 'Museum' gelabelt, im Unterschied zu den mit 'KI' gelabelten pipeline-generierten Feldern (Schlagworte, Bildbeschreibung)."
+  },
+
+  "museum.enrichment_derived": {
+    "obj_id": "92/45",
+    "format": "quer",
+    "farbigkeit": "farbig",
+    "farben": [
+      { "L": 69.5, "a": 3.6, "b": 25.3, "hex": "#c0a67c", "anteil": 0.118, "salienz": 15.23 },
+      { "L": 94.0, "a": -0.5, "b": -1.2, "hex": "#ebeef0", "anteil": 0.180, "salienz": 8.24 },
+      { "L": 4.0, "a": -1.4, "b": 1.0, "hex": "#0c0f0c", "anteil": 0.392, "salienz": 7.24 },
+      { "L": 54.1, "a": -1.6, "b": 7.3, "hex": "#848275", "anteil": 0.114, "salienz": 6.00 },
+      { "L": 14.4, "a": -4.1, "b": 2.1, "hex": "#202621", "anteil": 0.120, "salienz": 4.54 }
+    ],
+    "chroma_mittel": 6.6,
+    "hue_streuung": 0.183,
+    "helligkeit_mittel": 37.1
+  },
+
+  "museum.embeddings": [
+    { "obj_id": "92/45", "kind": "image",              "modell": "siglip2-giant",  "dim": 1536 },
+    { "obj_id": "92/45", "kind": "image",              "modell": "dinov3-vitl16",  "dim": 1024 },
+    { "obj_id": "92/45", "kind": "text_basis",         "modell": "bge-m3",         "dim": 1024, "hat_sparse": true },
+    { "obj_id": "92/45", "kind": "text_erschliessung", "modell": "bge-m3",         "dim": 1024, "hat_sparse": true },
+    { "obj_id": "92/45", "kind": "text_fliesstext",    "modell": "bge-m3",         "dim": 1024, "hat_sparse": true },
+    { "obj_id": "92/45", "kind": "text_kontext",       "modell": "bge-m3",         "dim": 1024, "hat_sparse": true },
+    { "obj_id": "92/45", "kind": "text_visuell",       "modell": "bge-m3",         "dim": 1024, "hat_sparse": true }
+  ],
+
+  "museum.enrichment_captions": {
+    "obj_id": "92/45",
+    "parse_ok": true,
+    "sensitiv_flag": false,
+    "hat_transkription": false,
+    "caption_len": 1205,
+    "master_caption": "### 1. OBJEKTTYP\nEin altes Dampfbügeleisen mit seitlichem Wasserbehälter.\n\n### 2. OPTISCHE ERSCHEINUNG\nDas Objekt besteht aus metallischen und hölzernen Bestandteilen. Das Metall ist silbergrau mit deutlichen bräunlichen Oxidationsstellen und einer unregelmäßigen, matten Textur. Der Griff ist aus hellbraunem bis ockerfarbenem Holz gefertigt.\n\n### 3. DARGESTELLT / SICHTBAR\n*   Bügeleisenkörper (gewölbt, metallisch)\n*   Holzgriff (waagerecht angebracht)\n*   Seitlicher zylindrischer Wasserbehälter (Tank) mit rundem Deckel\n*   Dampflöcher (zwei parallele Reihen kreisförmiger Öffnungen an der Unterseite)\n*   Kleiner rötlich-brauner Knopf/Regler\n*   Vertikaler Metallstift/Schraube\n*   Befestigungsschrauben\n\n### 4. SZENERIE / ANORDNUNG\nDas Bügeleisen ist in der Seitenansicht auf einer hellgrauen, flachen Unterlage vor einem schwarzen Hintergrund platziert.\n\n### 5. SCHRIFT, ZEICHEN, NUMMERN\nkeine sichtbar\n\n### 6. AUFFÄLLIGE VISUELLE MERKMALE\nDeutliche Patina, Rostflecken und dunkle Oxidationsstellen auf der Metalloberfläche; der Holzgriff weist Gebrauchsspuren auf.\n\n### 7. SENSITIVITÄTS-HINWEIS\nKeine.\n\n### 8. KONFIDENZ / UNSICHERHEIT\nVerworfen: Keine.\n[unsicher]: Keine.\nBias-Bereinigung: Keine.",
+    "text_visuell": "Bügeleisenkörper (gewölbt, metallisch); Holzgriff (waagerecht angebracht); seitlicher zylindrischer Wasserbehälter (Tank) mit rundem Deckel; Dampflöcher (zwei parallele Reihen kreisförmiger Öffnungen an der Unterseite); kleiner rötlich-brauner Knopf/Regler; vertikaler Metallstift/Schraube; Befestigungsschrauben. Das Bügeleisen ist in der Seitenansicht auf einer hellgrauen, flachen Unterlage vor einem schwarzen Hintergrund platziert.",
+    "text_kontext": "Das Objekt besteht aus metallischen und hölzernen Bestandteilen. Das Metall ist silbergrau mit deutlichen bräunlichen Oxidationsstellen und einer unregelmäßigen, matten Textur. Der Griff ist aus hellbraunem bis ockerfarbenem Holz gefertigt. Deutliche Patina, Rostflecken und dunkle Oxidationsstellen auf der Metalloberfläche; der Holzgriff weist Gebrauchsspuren auf."
+  },
+
+  "museum.enrichment_keywords": [
+    { "obj_id": "92/45", "cluster": "Objekttyp", "keyword": "Bügeleisen", "status": "green", "gnd_name": "Bügeleisen", "gnd_id": "4146855-7", "confidence": "high",
+      "llm2": "Primäre Bezeichnung des Objekts laut Befund und Metadaten." },
+    { "obj_id": "92/45", "cluster": "Objekttyp", "keyword": "Haushaltsgerät", "status": "green", "gnd_name": "Hausgerät", "gnd_id": "4023740-0", "confidence": "high",
+      "llm2": "Oberbegriff für die Kategorie des Objekts, da es zur Hauswirtschaft gehört." },
+    { "obj_id": "92/45", "cluster": "Objekttyp", "keyword": "Plätteisen", "status": "green", "gnd_name": null, "gnd_id": null, "confidence": "no_match",
+      "llm2": "Historischer und umgangssprachlicher Begriff für Bügeleisen, der von Laien gesucht wird (Folksonomie).",
+      "_hinweis": "Beispiel für die Brückenregel: kein GND-Kandidat verfügbar, Begriff bleibt als laiensprachlicher Suchbegriff dennoch grün." },
+    { "obj_id": "92/45", "cluster": "Thema_Phänomen", "keyword": "Hausarbeit", "status": "green", "gnd_name": "Hausarbeit", "gnd_id": "4023699-7", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Thema_Phänomen", "keyword": "Haushalt", "status": "green", "gnd_name": "Haushalt", "gnd_id": "4023744-8", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Thema_Phänomen", "keyword": "Kleidungspflege", "status": "green", "gnd_name": "Kleidungspflege", "gnd_id": "4438215-7", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Inhalt_Motiv", "keyword": "Griff", "status": "green", "gnd_name": "Griff", "gnd_id": "4402027-2", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Inhalt_Motiv", "keyword": "Hebel", "status": "green", "gnd_name": "Hebel", "gnd_id": "4159328-5", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Inhalt_Motiv", "keyword": "Perforation", "status": "green", "gnd_name": "Perforation <Technik>", "gnd_id": "4745388-6", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Inhalt_Motiv", "keyword": "Tank", "status": "green", "gnd_name": "Tank", "gnd_id": "4125647-5", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Inhalt_Motiv", "keyword": "Bügeleisenschuh", "status": "green", "gnd_name": null, "gnd_id": null, "confidence": "no_match",
+      "llm2": "Der metallische, spitz zulaufende Teil des Eisens, der auf der Wäsche liegt.",
+      "_hinweis": "Teilbegriff, fällt unter den GND-Oberbegriff 'Bügeleisen'; kein eigener Sachbegriff." },
+    { "obj_id": "92/45", "cluster": "Funktion_Zweck", "keyword": "Bügeln", "status": "green", "gnd_name": "Bügeln", "gnd_id": "4476741-9", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Funktion_Zweck", "keyword": "Glätten", "status": "green", "gnd_name": null, "gnd_id": null, "confidence": "no_match" },
+    { "obj_id": "92/45", "cluster": "Funktion_Zweck", "keyword": "Heizen", "status": "green", "gnd_name": null, "gnd_id": null, "confidence": "no_match",
+      "llm4": "'Heizer' ist ein Substantiv (Person/Gerät), 'Heizen' ein Verb – kein passender Sachbegriff-Kandidat, keine ID erfunden." },
+    { "obj_id": "92/45", "cluster": "Visuelle_Merkmale", "keyword": "Gebrauchsspuren", "status": "green", "gnd_name": "Gebrauchsspur", "gnd_id": "4297398-3", "confidence": "high",
+      "_hinweis": "Pluralform des GND-Sachbegriffs 'Gebrauchsspur' – Plural wird hier zugelassen, da eigenständiger belegter Sachbegriff." },
+    { "obj_id": "92/45", "cluster": "Visuelle_Merkmale", "keyword": "Patina", "status": "green", "gnd_name": "Patina", "gnd_id": "4115514-2", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Visuelle_Merkmale", "keyword": "Rost", "status": "green", "gnd_name": "Rost", "gnd_id": "4178475-3", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Form_Gestalt", "keyword": "Zylinder", "status": "green", "gnd_name": null, "gnd_id": null, "confidence": "no_match",
+      "llm2": "Der seitliche Tank hat eine zylindrische Form.",
+      "llm4": "GND-Kandidaten betreffen nur Mathematik oder Kopfbedeckungen – keine ID erfunden." },
+    {
+      "_beispiel_repair": "Status 'yellow': Audit erkennt eine reparierbare Adjektivform. Wird von der deterministischen Policy zur Reparatur weitergereicht, nicht verworfen.",
+      "obj_id": "92/45", "cluster": "Form_Gestalt", "keyword": "Spitz", "status": "yellow", "gnd_name": null, "gnd_id": null, "confidence": null,
+      "llm2": "Der Bügeleisenschuh ist laut Metadaten und Bild sehr spitz zulaufend.",
+      "llm3": "Adjektiv nominalisieren: 'Spitzheit' oder 'spitze Form'." },
+    { "obj_id": "92/45", "cluster": "Bestandteile", "keyword": "Deckel", "status": "green", "gnd_name": "Deckel", "gnd_id": "4344172-5", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Bestandteile", "keyword": "Knopf", "status": "green", "gnd_name": "Knopf", "gnd_id": "4246280-0", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Bestandteile", "keyword": "Niet", "status": "green", "gnd_name": "Niet", "gnd_id": "4171891-4", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Gebrauchskontext", "keyword": "Hauswirtschaft", "status": "green", "gnd_name": "Hauswirtschaft", "gnd_id": "4023828-3", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Gebrauchskontext", "keyword": "Reise", "status": "green", "gnd_name": "Reise", "gnd_id": "4049275-8", "confidence": "high",
+      "llm2": "Laut Metadaten wurden Spirituseisen oft als Reisebügeleisen genutzt." },
+    { "obj_id": "92/45", "cluster": "Kultureller_Kontext", "keyword": "Alltagskultur", "status": "green", "gnd_name": "Alltagskultur", "gnd_id": "4122782-7", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Kultureller_Kontext", "keyword": "Industrialisierung", "status": "green", "gnd_name": "Industrialisierung", "gnd_id": "4026776-3", "confidence": "high",
+      "llm2": "Das Objekt ist ein Produkt der industriellen Fertigung (Metallguss)." },
+    { "obj_id": "92/45", "cluster": "Farbe_Nuancen", "keyword": "Braun", "status": "green", "gnd_name": "Braun", "gnd_id": "4707780-3", "confidence": "high" },
+    { "obj_id": "92/45", "cluster": "Farbe_Nuancen", "keyword": "Grau", "status": "green", "gnd_name": "Grau", "gnd_id": "4502751-1", "confidence": "high" }
+  ],
+
+  "museum.emotion_runs": {
+    "obj_id": "92/45", "annotation_set_id": "emotion_2026-08-11",
+    "reading_count": 4,
+    "vocabulary_version": "v4",
+    "generator_model": "qwen3.6-27b-mtp", "judge_model": "gemma-4-31b-it",
+    "_hinweis": "Nur die tatsächlich zu 92/45 gehörenden Zeilen; ein SQL-Join über annotation_set_id statt obj_id hätte hier fälschlich Zeilen eines anderen, an diesem Tag mitverarbeiteten Objekts mitgezogen."
+  },
+  "museum.emotion_assignments": [
+    {
+      "obj_id": "92/45", "concept_id": "fremdheit",
+      "reading_statement": "Das Objekt kann wirken als fremd und nicht mehr vertraut.",
+      "reading_scope": "object_overall",
+      "why": "Die spezifische Mechanik (Tank, Hebel, offene Brennlöcher) ist für das moderne Auge nicht mehr intuitiv als 'Bügeleisen' lesbar, sondern erscheint als seltsames, technisches Gebilde, das nicht mehr in den aktuellen Alltag passt.",
+      "evidence": [
+        { "role": "support", "text": "Spezifische Konstruktion mit seitlichem Tank und Hebel", "source_field": "image" },
+        { "role": "support", "text": "Spirituseisen ... gab es nur eine kurze Zeit lang", "source_field": "description" }
+      ],
+      "judge_status": "gruen", "judge_action": "confirmed",
+      "judge_comment": "Gedeckt. Die technische Konstruktion (Tank/Brennrohr) weicht so stark vom modernen Verständnis eines Bügeleisens ab, dass die Wirkung des Unvertrauten/Nicht-Einzuordnenden evident ist."
+    },
+    {
+      "obj_id": "92/45", "concept_id": "stille",
+      "reading_statement": "Das Objekt kann wirken als still und in sich ruhend.",
+      "reading_scope": "spatial_atmosphere",
+      "why": "Die Inszenierung vor dem schwarzen Hintergrund isoliert das Objekt und unterstreicht seine momentane Inaktivität.",
+      "evidence": [
+        { "role": "support", "text": "Schwarzer Hintergrund, statische Seitenansicht", "source_field": "image" },
+        { "role": "support", "text": "vor einem schwarzen Hintergrund platziert", "source_field": "master_caption" }
+      ],
+      "judge_status": "gruen", "judge_action": "confirmed",
+      "judge_comment": "Gedeckt. Die Isolation vor schwarzem Hintergrund und die explizite Gegenüberstellung von ehemaliger Aktivität (Dampf/Flamme) und gegenwärtiger musealer Inaktivität begründet die metaphorische Stille."
+    },
+    {
+      "_beispiel_judge_ablehnung": "Zeigt die Leitplanke 'Formeigenschaft ist keine Emotion' in Aktion: Lesart wurde vom Generator vorgeschlagen, vom Judge aber wegen reiner Materialableitung abgelehnt.",
+      "obj_id": "92/45", "concept_id": "kuehle",
+      "reading_statement": "Das Objekt kann wirken als kühl und technisch distanziert.",
+      "reading_scope": "object_overall",
+      "why": "Die Kombination aus metallischem Guss, der funktionalen, fast industriellen Form und dem fehlenden Bezug zu warmer Handhabung erzeugt eine Atmosphäre der Zurückhaltung.",
+      "evidence": [
+        { "role": "support", "text": "Metallischer Gusskörper, fehlende organische Formen", "source_field": "image" },
+        { "role": "support", "text": "Eisengußspiritusbügeleisen", "source_field": "master_caption" }
+      ],
+      "judge_status": "rot", "judge_action": "rejected",
+      "judge_comment": "Leitplankenverstoß: Die Wirkung wird allein aus dem Material (Metall/Guss) und der funktionalen Form abgeleitet. Gemäß Vokabular darf 'Kühle' nicht aus Metall allein abgeleitet werden."
+    },
+    {
+      "_beispiel_judge_ablehnung": "Zweites Beispiel derselben Leitplanke: geometrische Regelmäßigkeit allein begründet keine Wirkung.",
+      "obj_id": "92/45", "concept_id": "strenge",
+      "reading_statement": "Das Objekt kann wirken als streng und regelgebunden.",
+      "reading_scope": "visual_composition",
+      "why": "Die geometrische Regelmäßigkeit der Bohrungen und die klare Trennung der Bauteile suggerieren eine funktionale Disziplin.",
+      "evidence": [
+        { "role": "support", "text": "Zwei parallele Reihen kreisförmiger Öffnungen, klare Kanten", "source_field": "image" }
+      ],
+      "judge_status": "rot", "judge_action": "rejected",
+      "judge_comment": "Leitplankenverstoß: 'Strenge' wird rein aus geometrischer Regelmäßigkeit und funktionaler Struktur abgeleitet (Form = Atmosphäre), was nicht zulässig ist."
+    }
+  ],
+
+  "museum.topic_assignments": {
+    "_hinweis": "Für dieses reale Objekt liegt im Produktivsystem ein institutioneller Themen-Lauf vor (museum.schwerpunkt_lauf / museum.schwerpunkt_bezug). Dessen Inhalt ist die private institutionelle Wissensbasis, die im öffentlichen Repository grundsätzlich nicht veröffentlicht wird — auch nicht als Beispiel. Mit eigenem framework.md + taxonomy.json (siehe docs/TOPIC_KNOWLEDGE_BASE.md) entstünden hier reale Einträge mit denselben Feldern: topic, slug, status, relation_types, rationale, judge_status, judge_decision, review_class, taxonomy_version."
+  }
+}

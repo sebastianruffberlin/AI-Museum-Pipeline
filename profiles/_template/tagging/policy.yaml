@@ -1,0 +1,32 @@
+error_classes:
+  discard: [KEINE_EVIDENZ, HALLUZINATION, MATERIAL_PUR, DATIERUNG, GEOGRAFIE_EIGENNAME, SPEKULATION_ZIRKEL, ASYMMETRIE, REDUNDANZ]
+  repair: [PLURAL, ADJEKTIV, KOMPOSITUM, FEHLENDE_BRUECKE, MATERIAL_KOMPOSITUM]
+  move: FALSCHER_CLUSTER
+  all: [PLURAL, ADJEKTIV, KOMPOSITUM, FEHLENDE_BRUECKE, FALSCHER_CLUSTER, KEINE_EVIDENZ, HALLUZINATION, MATERIAL_KOMPOSITUM, MATERIAL_PUR, DATIERUNG, GEOGRAFIE_EIGENNAME, SPEKULATION_ZIRKEL, ASYMMETRIE, REDUNDANZ]
+
+date_pattern: "\\b\\d{4}\\b|jahrhundert|\\bjh\\.?\\b|\\b\\d{2,4}er\\b"
+repair_drop: [farbig, rasse, exotisch, abnormitätenschau]
+repair_replace:
+  neger: Schwarzer Mensch
+  mohr: Schwarzer Mensch
+  eskimo: Inuit
+  indianer: Indigene Bevölkerung
+  zigeuner: Roma und Sinti
+  gypsy: Roma
+  eingeboren: Indigen
+  behinderter: Mensch mit Behinderung
+  krüppel: Mensch mit Behinderung
+  zwerg: Kleinwüchsiger Mensch
+  taubstumm: Gehörlos
+  dunkelhäutig: Schwarze Menschen
+  gastarbeiter: Arbeitsmigranten
+  muselmann: Muslim
+  naturvolk: Indigene Gemeinschaft
+  mongoloid: Person mit Trisomie 21
+  bastard: Außereheliches Kind
+  transsexuell: Transgeschlechtlich
+  berber: Imazighen
+  australneger: Aborigine
+  drittes reich: NS-Regime
+  kristallnacht: Novemberpogrome
+  irrenanstalt: Psychiatrische Klinik

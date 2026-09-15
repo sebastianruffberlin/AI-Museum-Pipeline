@@ -1,0 +1,56 @@
+source:
+  # Schema-qualified PostgreSQL source table.
+  table: source.objects
+
+  # Stable identifier of one museum object.
+  id_column: object_id
+
+  # Simplest asset mode: direct HTTP(S) image URL.
+  asset:
+    mode: url
+    column: image_url
+
+  # Optional:
+  # collection_column: collection
+
+# Map institution-specific database columns to canonical concepts.
+# Change `source` values to match the museum's own data model.
+fields:
+  - {id: inventory_number, source: object_id, label: "Inventarnummer"}
+  - {id: object_type, source: object_type, label: "Objektbezeichnung"}
+  - {id: title, source: title, label: "Titel"}
+  - {id: dating, source: dating, label: "Datierung"}
+  - {id: materials, source: materials, label: "Material"}
+  - {id: techniques, source: techniques, label: "Technik"}
+  - {id: description, source: description, label: "Beschreibung"}
+
+contexts:
+  tagging:
+    include:
+      - inventory_number
+      - object_type
+      - title
+      - dating
+      - materials
+      - techniques
+      - description
+
+text_embeddings:
+  basis:
+    include:
+      - object_type
+      - title
+      - dating
+      - materials
+      - techniques
+      - description
+    labels:
+      dating: "Datierung"
+      materials: "Material"
+      techniques: "Technik"
+
+  flowing_text:
+    include:
+      - description
+
+  keywords_label: "Schlagworte"

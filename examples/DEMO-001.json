@@ -1,0 +1,157 @@
+{
+  "_note": "Synthetisches Referenzobjekt. Illustriert die Form und Feldnamen der pipeline-eigenen Ergebnistabellen (database/core.sql, database/modules/emotion.sql, database/modules/topics.sql) end-to-end. Kein Benchmark, kein echtes Sammlungsobjekt, keine wörtliche API-Antwort. Embedding-Vektoren sind auf wenige Beispielwerte gekürzt.",
+
+  "input": {
+    "object_id": "DEMO-001",
+    "object_type": "Fotografie",
+    "title": "Straßenszene, Innenstadt",
+    "dating": "um 1975",
+    "description": "Farbfotografie einer belebten Straßenkreuzung mit Straßenbahn und Fußgänger:innen.",
+    "image_url": "https://example.org/demo-001.jpg"
+  },
+
+  "museum.enrichment_derived": {
+    "obj_id": "DEMO-001",
+    "format": "landscape",
+    "farbigkeit": "farbig",
+    "farben": [
+      { "lab": [46.8, 1.6, 19.7], "hex": "#7d6d4e", "anteil": 0.28, "salienz": 0.81 },
+      { "lab": [70.4, -0.4, 1.2], "hex": "#acacaa", "anteil": 0.19, "salienz": 0.44 },
+      { "lab": [22.6, -3.7, 5.2], "hex": "#34372e", "anteil": 0.15, "salienz": 0.39 }
+    ],
+    "chroma_mittel": 9.8,
+    "hue_streuung": 0.14,
+    "helligkeit_mittel": 51.2,
+    "farbnamen": [
+      { "grundfarbe": "braun", "deskriptor": "gedecktes Braun", "anzeige": "Ockerbraun", "synonyme": ["Lehmbraun", "Erdbraun"], "fach": ["Werner: Broccoli Brown"] },
+      { "grundfarbe": "grau", "deskriptor": "neutrales Grau", "anzeige": "Steingrau", "synonyme": ["Betongrau"], "fach": ["Ridgway: Neutral Gray"] }
+    ]
+  },
+
+  "museum.embeddings": [
+    { "obj_id": "DEMO-001", "kind": "siglip2", "modell": "siglip2-giant-opt-patch16-384", "dim": 1536, "vec": [0.0142, -0.0871, 0.0339, "... 1533 weitere Werte"] },
+    { "obj_id": "DEMO-001", "kind": "dinov3", "modell": "dinov3-vitl16-pretrain-lvd1689m", "dim": 1024, "vec": [-0.0056, 0.1203, -0.0447, "... 1021 weitere Werte"] },
+    { "obj_id": "DEMO-001", "kind": "bge_m3", "modell": "bge-m3", "dim": 1024, "vec": [0.0298, -0.0114, 0.0562, "... 1021 weitere Werte"], "sparse": { "straßenbahn": 0.41, "innenstadt": 0.33, "1970er": 0.22 } }
+  ],
+
+  "museum.enrichment_captions": {
+    "obj_id": "DEMO-001",
+    "modell": "cap-synthesis",
+    "status": "vorschlag",
+    "sprache": "de",
+    "res_qwen": "Farbfoto einer Straßenkreuzung mit Straßenbahn, mehreren Fußgänger:innen und Ladenzeile im Hintergrund. Leicht erhöhter Kamerastandpunkt.",
+    "res_gemma": "Straßenszene mit gelber Straßenbahn im Vordergrund, Passant:innen queren die Fahrbahn, Werbeschilder an den Fassaden.",
+    "master_caption": "Farbfotografie einer belebten Innenstadtkreuzung: eine Straßenbahn quert das Bild, mehrere Fußgänger:innen sind auf und neben der Fahrbahn zu sehen, im Hintergrund Ladenfassaden mit Reklame. Leicht erhöhter Aufnahmestandpunkt, Tageslicht.",
+    "hat_transkription": false,
+    "sensitiv_flag": false,
+    "parse_ok": true
+  },
+
+  "museum.enrichment_keywords": [
+    {
+      "obj_id": "DEMO-001", "cluster": "Objekttyp", "keyword": "Fotografie",
+      "status": "green", "status2": "Open Access",
+      "audit1": null, "audit2": null, "audit3": null, "audit4": null, "audit5": null,
+      "llm2": "Objekttyp direkt aus dem Bildmedium ersichtlich.",
+      "llm3": "Keine Einwände.", "llm4": "Status grün – Normdaten-Abgleich durchgeführt.",
+      "gnd_name": "Fotografie", "gnd_id": "GND-DEMO-000101", "confidence": "hoch"
+    },
+    {
+      "obj_id": "DEMO-001", "cluster": "Inhalt_Motiv", "keyword": "Straßenbahn",
+      "status": "green", "status2": "Open Access",
+      "audit1": null, "audit2": null, "audit3": null, "audit4": null, "audit5": null,
+      "llm2": "Straßenbahn ist zentrales, eindeutig sichtbares Bildmotiv.",
+      "llm3": "Keine Einwände.", "llm4": "Status grün – Normdaten-Abgleich durchgeführt.",
+      "gnd_name": "Straßenbahn", "gnd_id": "GND-DEMO-000205", "confidence": "hoch"
+    },
+    {
+      "obj_id": "DEMO-001", "cluster": "Thema_Phänomen", "keyword": "Öffentlicher Nahverkehr",
+      "status": "green", "status2": "Open Access",
+      "audit1": null, "audit2": null, "audit3": null, "audit4": null, "audit5": null,
+      "llm2": "Brückenbegriff zu 'Straßenbahn' für laienhafte Suche (Brückenregel).",
+      "llm3": "Sinnvolle Brücke, keine Redundanz zum spezifischeren Begriff.",
+      "llm4": "Status grün – Normdaten-Abgleich durchgeführt.",
+      "gnd_name": "Öffentlicher Personennahverkehr", "gnd_id": "GND-DEMO-000318", "confidence": "mittel"
+    },
+    {
+      "obj_id": "DEMO-001", "cluster": "Gebrauchskontext", "keyword": "Straßenleben",
+      "status": "green", "status2": "Open Access",
+      "audit1": null, "audit2": null, "audit3": null, "audit4": null, "audit5": null,
+      "llm2": "Mehrere Fußgänger:innen im Straßenraum belegen den Nutzungskontext.",
+      "llm3": "Keine Einwände.", "llm4": "Status nicht grün – zurückgehalten, kein Normdaten-Abgleich durchgeführt.",
+      "gnd_name": null, "gnd_id": null, "confidence": null
+    },
+    {
+      "obj_id": "DEMO-001", "cluster": "Farbe_Nuancen", "keyword": "ockerbraun",
+      "status": "green", "status2": "Open Access",
+      "audit1": null, "audit2": null, "audit3": null, "audit4": null, "audit5": null,
+      "llm2": "Dominanter Farbton der Fassaden, deckt sich mit deterministischer Farbanalyse.",
+      "llm3": "Keine Einwände.", "llm4": "Status nicht grün – zurückgehalten, kein Normdaten-Abgleich durchgeführt.",
+      "gnd_name": null, "gnd_id": null, "confidence": null
+    },
+    {
+      "_beispiel_reparatur": "Generator schlug Pluralform vor; Audit erkennt PLURAL, deterministische Policy repariert automatisch zu Singular. Repair-Schritt ändert nur die Form, nicht das Konzept.",
+      "obj_id": "DEMO-001", "cluster": "Inhalt_Motiv", "keyword": "Fußgänger",
+      "status": "green", "status2": "Open Access",
+      "audit1": "PLURAL", "audit2": null, "audit3": null, "audit4": null, "audit5": null,
+      "llm2": "Ursprünglich 'Fußgänger:innen' vorgeschlagen.",
+      "llm3": "PLURAL – Repair zu kontrollierter Singularform.",
+      "llm4": "Status grün – Normdaten-Abgleich durchgeführt.",
+      "gnd_name": "Fußgänger", "gnd_id": "GND-DEMO-000447", "confidence": "mittel"
+    },
+    {
+      "_beispiel_verwerfung": "Generator schlug einen spekulativen Begriff ohne Bild-/Metadatenbeleg vor; Audit erkennt KEINE_EVIDENZ, deterministische Policy verwirft den Begriff vollständig (discard). Kein Normdaten-Abgleich, kein Repair-Versuch.",
+      "obj_id": "DEMO-001", "cluster": "Kultureller_Kontext", "keyword": "Wirtschaftswunder",
+      "status": "red", "status2": "Open Access",
+      "audit1": "KEINE_EVIDENZ", "audit2": "SPEKULATION_ZIRKEL", "audit3": null, "audit4": null, "audit5": null,
+      "llm2": "Datierung 'um 1975' allein wurde als Beleg für Wirtschaftswunder-Ära interpretiert.",
+      "llm3": "KEINE_EVIDENZ – Datierung ist kein Beleg für diesen spezifischen historischen Diskurs. SPEKULATION_ZIRKEL – Begriff stützt sich nur auf sich selbst.",
+      "llm4": "Status nicht grün – zurückgehalten, kein Normdaten-Abgleich durchgeführt.",
+      "gnd_name": null, "gnd_id": null, "confidence": null
+    }
+  ],
+
+  "museum.emotion_runs": {
+    "obj_id": "DEMO-001", "annotation_set_id": "machine-heart-v1",
+    "reading_count": 2,
+    "visible_findings": ["Bewegungsunschärfe an der Straßenbahn", "mehrere Personen in Schrittbewegung"],
+    "depicted_situations": ["Alltägliche Straßenüberquerung im dichten Innenstadtverkehr"],
+    "free_effects": [
+      { "beschreibung": "wirkt geschäftig und in Bewegung", "staerke": "stark" },
+      { "beschreibung": "leichte Unordnung im Bildaufbau", "staerke": "schwach" }
+    ],
+    "unmappable_effects": [],
+    "vocabulary_version": "machine-heart-121-v1",
+    "generator_model": "emotion-generator-reference",
+    "judge_model": "emotion-judge-reference"
+  },
+  "museum.emotion_assignments": [
+    {
+      "obj_id": "DEMO-001", "annotation_set_id": "machine-heart-v1",
+      "concept_id": "lebendigkeit", "preferred_label": "Lebendigkeit",
+      "reading_statement": "Die Szene kann als lebendig und pulsierend wirken, getragen von der Bewegung von Straßenbahn und Passant:innen.",
+      "reading_scope": "depicted_scene",
+      "why": "Bewegungsunschärfe und mehrere gleichzeitig aktive Personen im Bild.",
+      "evidence": [{ "source_field": "image", "beleg": "Bewegungsunschärfe an Straßenbahn und Gehenden", "rolle": "support" }],
+      "judge_status": "bestaetigt", "judge_action": "keep", "judge_comment": "Belegt, Formeigenschaft (Unschärfe) korrekt von Wirkung unterschieden.",
+      "concept_role_hinweis": "resonance_reading"
+    },
+    {
+      "obj_id": "DEMO-001", "annotation_set_id": "machine-heart-v1",
+      "concept_id": "aufbruch", "preferred_label": "Aufbruch",
+      "reading_statement": "Kann zusätzlich als Aufbruchsstimmung gelesen werden, getragen von der gerichteten Bewegung der Passant:innen über die Kreuzung.",
+      "reading_scope": "depicted_scene",
+      "why": "Gerichtete Bewegung mehrerer Personen in dieselbe Richtung.",
+      "evidence": [{ "source_field": "image", "beleg": "einheitliche Gehrichtung der Fußgänger:innen", "rolle": "support" }],
+      "judge_status": "bestaetigt", "judge_action": "keep",
+      "judge_comment": "Spannung zu 'Lebendigkeit' bewusst als zweite eigenständige Lesart stehen gelassen, nicht aufgelöst.",
+      "concept_role_hinweis": "resonance_reading"
+    }
+  ],
+
+  "museum.topic_assignments": {
+    "_hinweis": "Platzhalter. Das öffentliche Repository liefert keine institutionelle Themen-Wissensbasis; core-topics/full liefen für dieses Demo-Objekt nicht. Mit eigenem framework.md + taxonomy.json (siehe docs/TOPIC_KNOWLEDGE_BASE.md) entstünden hier reale Einträge mit denselben Feldern: topic, slug, status, relation_types, rationale, judge_status, judge_decision, review_class, taxonomy_version."
+  },
+
+  "museum.text_embeddings_note": "BGE-M3-Text-Embedding aus master_caption + Keywords wird wie museum.embeddings (kind=bge_m3_text) gespeichert; hier nicht separat aufgeführt, um Redundanz zum obigen bge_m3-Bildembedding-Beispiel zu vermeiden."
+}

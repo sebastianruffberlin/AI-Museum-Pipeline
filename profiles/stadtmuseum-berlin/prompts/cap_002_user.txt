@@ -1,0 +1,1 @@
+Erstelle den visuellen Befund für dieses Objekt basierend auf dem Bild.

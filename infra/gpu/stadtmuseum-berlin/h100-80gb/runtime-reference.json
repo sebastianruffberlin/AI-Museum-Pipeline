@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-09-13",
+  "platform": "NVIDIA H100 PCIe 80 GB",
+  "driver": "580.173.02",
+  "gpu_memory_mib": 81559,
+  "os": "Ubuntu 24.04.4 LTS",
+  "docker": "29.7.2",
+  "docker_compose": "5.4.0",
+  "caddy": {
+    "version": "2.11.4",
+    "image": "caddy@sha256:df7f1c2fb114453b951de51a98efc010db1655a92c2e86be6706714e2417a78d"
+  },
+  "litellm": {
+    "version": "1.98.0",
+    "image": "ghcr.io/berriai/litellm@sha256:3a1980074ff2ac13883e0ffee1bebec345d8addd004be251079cee173b0e8305"
+  },
+  "llama_swap": {
+    "version": "v250",
+    "commit": "60226b6",
+    "image": "ghcr.io/mostlygeek/llama-swap@sha256:686afd4625e3728ed451c56fa09dd4ca544425fd12254aa6102d3eee56495706"
+  },
+  "llama_cpp": {
+    "version": "0.1.0-dev",
+    "build": 10438,
+    "commit": "9d57ce456"
+  },
+  "model_files": "model-manifest.tsv",
+  "model_sources": "model-sources.json",
+  "concurrency_contract": "../../../../verify_h100_contract.py"
+}

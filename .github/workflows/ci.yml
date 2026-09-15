@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install package (dev extras)
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -e '.[dev]'
+
+      - name: Byte-compile
+        run: python -m compileall -q src services tools tests
+
+      - name: Lint (ruff)
+        run: ruff check src tests services tools
+
+      - name: Test suite
+        run: python -m pytest -q
+
+  dependency-audit:
+    name: Dependency audit (pip-audit)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package + pip-audit
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -e . pip-audit
+
+      - name: Audit root dependencies
+        run: pip-audit --local
+
+      - name: Audit embedding service dependencies
+        run: pip-audit -r services/embedding/requirements.txt
+
+      - name: Audit presign service dependencies
+        run: pip-audit -r services/presign/requirements.txt
+
+  compose-config:
+    name: Compose config validity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate CPU compose
+        run: docker compose --env-file .env.example -f infra/cpu/compose.yml config >/dev/null
+
+      - name: Validate generic GPU compose
+        run: docker compose --env-file infra/gpu/generic/.env.example -f infra/gpu/generic/compose.yml config >/dev/null
+
+  gitleaks:
+    name: Secret scan (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

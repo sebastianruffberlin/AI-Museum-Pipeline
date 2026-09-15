@@ -1,0 +1,9 @@
+name: full
+modules:
+  image_embeddings: true
+  image_features: true
+  captions: true
+  tagging: true
+  emotion: true
+  topics: true
+  text_embeddings: true

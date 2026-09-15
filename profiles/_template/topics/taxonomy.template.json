@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "TOPIC_SLUG",
+    "label": "TOPIC_LABEL",
+    "subtopics": [
+      {
+        "id": "TOPIC_01",
+        "label": "SUBTOPIC_LABEL",
+        "definition": "Institution-owned definition",
+        "positive_indicators": [],
+        "not_sufficient": [],
+        "active": true,
+        "version": "1.0"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "TOPIC_SW_01",
+        "label": "CONTROLLED_TERM",
+        "subtopics": [
+          "TOPIC_01"
+        ],
+        "use_when": "Object-specific evidence rule",
+        "do_not_use_when": "False-positive rule",
+        "origin": "institutional",
+        "active": true,
+        "version": "1.0"
+      }
+    ]
+  }
+]

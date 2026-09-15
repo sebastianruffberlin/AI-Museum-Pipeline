@@ -1,0 +1,21 @@
+Pruefe die folgenden Lesarten gegen Bild, Befund und Vokabular.
+
+[MASTER_CAPTION]
+"""
+${item.master_caption}
+"""
+
+[MUSEUMSMETADATEN]
+"""
+${item.context_data_string}
+"""
+
+[VOKABULAR]
+"""
+${typeof VOCAB==='string'?VOCAB:JSON.stringify(VOCAB)}
+"""
+
+[GENERATOR-LESARTEN]
+"""
+${JSON.stringify(item.generator_lesarten||[])}
+"""

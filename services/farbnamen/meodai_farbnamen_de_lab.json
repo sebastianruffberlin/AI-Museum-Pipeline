@@ -1,0 +1,4788 @@
+{
+ "meta": {
+  "quelle": "meodai/farbnamen (GitHub, MIT), deutsche Farbnamen",
+  "validierung": "semantischer Abgleich letztes Farbwort vs. Farbton (HSL)",
+  "ausgeschlossen": [
+   "Aliceblau",
+   "Altgold",
+   "Dunkelgrau",
+   "Entenbraun",
+   "Mittelrot",
+   "Zinnoberrot"
+  ],
+  "ausschlussgrund": "Name-Hex grob widerspruechlich; Muster: Uebersetzungsartefakte aus CSS-Namen (Entenbraun=teal #008080, Altgold=oldlace #fdf5e6); Dunkelgrau=#a9a9a9 ist CSS darkgray (heller als gray) - fuer deutsche Nutzer irrefuehrend",
+  "anzahl": 477
+ },
+ "farben": [
+  {
+   "name": "Achatgrau",
+   "hex": "#b5b8b1",
+   "L": 74.4,
+   "a": -2.3,
+   "b": 3.2,
+   "chroma": 3.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Altrosa",
+   "hex": "#d36e70",
+   "L": 58.2,
+   "a": 39.8,
+   "b": 17.1,
+   "chroma": 43.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Anthrazitgrau",
+   "hex": "#293133",
+   "L": 19.7,
+   "a": -2.9,
+   "b": -2.4,
+   "chroma": 3.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Antikes Weiß",
+   "hex": "#faebd7",
+   "L": 93.7,
+   "a": 1.8,
+   "b": 11.5,
+   "chroma": 11.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Aquamarinblau",
+   "hex": "#7fffd4",
+   "L": 92.0,
+   "a": -45.5,
+   "b": 9.7,
+   "chroma": 46.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Azurblau",
+   "hex": "#025669",
+   "L": 33.3,
+   "a": -14.6,
+   "b": -17.2,
+   "chroma": 22.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Babyrosa",
+   "hex": "#ebbce3",
+   "L": 81.4,
+   "a": 23.2,
+   "b": -13.0,
+   "chroma": 26.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Balance",
+   "hex": "#dae3c4",
+   "L": 88.8,
+   "a": -8.4,
+   "b": 14.1,
+   "chroma": 16.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Basaltblau",
+   "hex": "#7f8da8",
+   "L": 58.4,
+   "a": 1.1,
+   "b": -15.9,
+   "chroma": 15.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Basaltgrau",
+   "hex": "#4e5754",
+   "L": 36.1,
+   "a": -4.2,
+   "b": 0.5,
+   "chroma": 4.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Beerenrot",
+   "hex": "#a45054",
+   "L": 44.6,
+   "a": 35.0,
+   "b": 14.0,
+   "chroma": 37.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Beige",
+   "hex": "#c2b078",
+   "L": 72.1,
+   "a": -1.6,
+   "b": 31.0,
+   "chroma": 31.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Beigebraun",
+   "hex": "#79553d",
+   "L": 39.4,
+   "a": 11.8,
+   "b": 19.9,
+   "chroma": 23.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Beigegelb",
+   "hex": "#dfcba4",
+   "L": 82.4,
+   "a": 1.1,
+   "b": 22.0,
+   "chroma": 22.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Beigegrau",
+   "hex": "#6d6552",
+   "L": 43.0,
+   "a": -0.2,
+   "b": 11.9,
+   "chroma": 11.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Beigerot",
+   "hex": "#c1876b",
+   "L": 61.4,
+   "a": 18.8,
+   "b": 23.9,
+   "chroma": 30.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Betongrau",
+   "hex": "#686c5e",
+   "L": 44.9,
+   "a": -4.3,
+   "b": 7.3,
+   "chroma": 8.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Bienengelb",
+   "hex": "#fce876",
+   "L": 91.6,
+   "a": -7.2,
+   "b": 57.2,
+   "chroma": 57.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Biscotti",
+   "hex": "#f2af7a",
+   "L": 76.6,
+   "a": 18.5,
+   "b": 36.7,
+   "chroma": 41.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blassbraun",
+   "hex": "#755c48",
+   "L": 41.1,
+   "a": 7.2,
+   "b": 15.4,
+   "chroma": 17.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blasse Goldrutenfarbe",
+   "hex": "#eee8aa",
+   "L": 91.1,
+   "a": -7.3,
+   "b": 31.0,
+   "chroma": 31.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blasses Türkis",
+   "hex": "#afeeee",
+   "L": 90.1,
+   "a": -19.6,
+   "b": -6.4,
+   "chroma": 20.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blasses Violettrot",
+   "hex": "#db7093",
+   "L": 60.6,
+   "a": 45.5,
+   "b": 0.4,
+   "chroma": 45.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blassgrün",
+   "hex": "#89ac76",
+   "L": 66.6,
+   "a": -22.1,
+   "b": 24.0,
+   "chroma": 32.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blattgrün",
+   "hex": "#00524e",
+   "L": 30.8,
+   "a": -22.5,
+   "b": -3.9,
+   "chroma": 22.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blau",
+   "hex": "#0000ff",
+   "L": 32.3,
+   "a": 79.2,
+   "b": -107.9,
+   "chroma": 133.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blaue Stunde",
+   "hex": "#2f3b5d",
+   "L": 25.3,
+   "a": 5.5,
+   "b": -21.8,
+   "chroma": 22.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blaugrau",
+   "hex": "#474b4e",
+   "L": 31.6,
+   "a": -0.9,
+   "b": -2.3,
+   "chroma": 2.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blaugrün",
+   "hex": "#1f3a3d",
+   "L": 22.5,
+   "a": -9.3,
+   "b": -5.1,
+   "chroma": 10.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blaulila",
+   "hex": "#6c4675",
+   "L": 35.7,
+   "a": 25.1,
+   "b": -20.5,
+   "chroma": 32.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blauviolett",
+   "hex": "#8a2be2",
+   "L": 42.2,
+   "a": 69.9,
+   "b": -74.8,
+   "chroma": 102.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blutorange",
+   "hex": "#cb2821",
+   "L": 44.7,
+   "a": 61.6,
+   "b": 45.3,
+   "chroma": 76.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Blütenweiß",
+   "hex": "#fffaf0",
+   "L": 98.4,
+   "a": -0.0,
+   "b": 5.4,
+   "chroma": 5.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Bordeauxviolett",
+   "hex": "#641c34",
+   "L": 23.0,
+   "a": 34.3,
+   "b": 2.7,
+   "chroma": 34.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Braun",
+   "hex": "#a52a2a",
+   "L": 37.5,
+   "a": 49.7,
+   "b": 30.5,
+   "chroma": 58.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Braunbeige",
+   "hex": "#8a6642",
+   "L": 46.0,
+   "a": 9.9,
+   "b": 25.9,
+   "chroma": 27.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Braungrau",
+   "hex": "#464531",
+   "L": 28.9,
+   "a": -3.4,
+   "b": 12.3,
+   "chroma": 12.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Braungrün",
+   "hex": "#39352a",
+   "L": 22.2,
+   "a": -0.4,
+   "b": 7.6,
+   "chroma": 7.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Braunoliv",
+   "hex": "#25221b",
+   "L": 13.3,
+   "a": -0.1,
+   "b": 5.2,
+   "chroma": 5.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Braunrot",
+   "hex": "#781f19",
+   "L": 26.9,
+   "a": 38.1,
+   "b": 26.5,
+   "chroma": 46.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Bremerblau",
+   "hex": "#005a99",
+   "L": 37.1,
+   "a": 2.2,
+   "b": -40.7,
+   "chroma": 40.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Brillantblau",
+   "hex": "#3e5f8a",
+   "L": 39.7,
+   "a": 1.3,
+   "b": -27.5,
+   "chroma": 27.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Bronzebraun",
+   "hex": "#4f422c",
+   "L": 28.7,
+   "a": 2.0,
+   "b": 15.5,
+   "chroma": 15.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Cadmiumgelb",
+   "hex": "#fff600",
+   "L": 94.8,
+   "a": -17.3,
+   "b": 92.8,
+   "chroma": 94.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Capriblau",
+   "hex": "#1b5583",
+   "L": 34.7,
+   "a": -1.4,
+   "b": -31.1,
+   "chroma": 31.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Chiffongelb",
+   "hex": "#fffacd",
+   "L": 97.6,
+   "a": -5.4,
+   "b": 22.2,
+   "chroma": 22.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Chinaseidengelb",
+   "hex": "#afa468",
+   "L": 67.0,
+   "a": -4.8,
+   "b": 32.6,
+   "chroma": 33.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Chromoxidgrün",
+   "hex": "#2e3a23",
+   "L": 22.8,
+   "a": -10.0,
+   "b": 12.7,
+   "chroma": 16.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Coelinblau",
+   "hex": "#0091c6",
+   "L": 56.4,
+   "a": -13.2,
+   "b": -36.4,
+   "chroma": 38.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Cremebeige",
+   "hex": "#f4ece0",
+   "L": 93.7,
+   "a": 0.7,
+   "b": 6.8,
+   "chroma": 6.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Cremeweiß",
+   "hex": "#fdf4e3",
+   "L": 96.5,
+   "a": 0.2,
+   "b": 9.2,
+   "chroma": 9.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Cremig Pfefferminz",
+   "hex": "#f5fffa",
+   "L": 99.2,
+   "a": -4.2,
+   "b": 1.2,
+   "chroma": 4.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Cremiges Papaya",
+   "hex": "#ffefd5",
+   "L": 95.1,
+   "a": 1.3,
+   "b": 14.5,
+   "chroma": 14.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Cupcake",
+   "hex": "#8a6973",
+   "L": 47.9,
+   "a": 14.8,
+   "b": -0.5,
+   "chroma": 14.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Currygelb",
+   "hex": "#9d9101",
+   "L": 59.4,
+   "a": -8.7,
+   "b": 63.1,
+   "chroma": 63.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Cyanblau",
+   "hex": "#007eff",
+   "L": 54.2,
+   "a": 20.0,
+   "b": -71.8,
+   "chroma": 74.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dahliengelb",
+   "hex": "#f3a505",
+   "L": 73.5,
+   "a": 18.9,
+   "b": 76.8,
+   "chroma": 79.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Delphinblau",
+   "hex": "#aac8dd",
+   "L": 79.1,
+   "a": -5.5,
+   "b": -13.8,
+   "chroma": 14.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Distel",
+   "hex": "#d8bfd8",
+   "L": 80.1,
+   "a": 13.2,
+   "b": -9.2,
+   "chroma": 16.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dodger-Blau",
+   "hex": "#1e90ff",
+   "L": 59.4,
+   "a": 10.0,
+   "b": -63.4,
+   "chroma": 64.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Drachengrün",
+   "hex": "#51b7a6",
+   "L": 68.3,
+   "a": -33.8,
+   "b": -0.3,
+   "chroma": 33.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dragonerblau",
+   "hex": "#5f7aa4",
+   "L": 50.7,
+   "a": 1.5,
+   "b": -25.6,
+   "chroma": 25.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkelblau",
+   "hex": "#00008b",
+   "L": 14.8,
+   "a": 50.4,
+   "b": -68.7,
+   "chroma": 85.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkelgrün",
+   "hex": "#006400",
+   "L": 36.2,
+   "a": -43.4,
+   "b": 41.9,
+   "chroma": 60.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkelrot",
+   "hex": "#8b0000",
+   "L": 28.1,
+   "a": 51.0,
+   "b": 41.3,
+   "chroma": 65.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkle Eleganz",
+   "hex": "#3e4345",
+   "L": 28.0,
+   "a": -1.6,
+   "b": -1.9,
+   "chroma": 2.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkle Goldrutenfarbe",
+   "hex": "#b8860b",
+   "L": 59.2,
+   "a": 9.9,
+   "b": 62.7,
+   "chroma": 63.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkle Lachsfarbe",
+   "hex": "#e9967a",
+   "L": 69.9,
+   "a": 28.2,
+   "b": 27.7,
+   "chroma": 39.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkle Orchideenfarbe",
+   "hex": "#9932cc",
+   "L": 43.4,
+   "a": 65.2,
+   "b": -60.1,
+   "chroma": 88.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Khaki",
+   "hex": "#bdb76b",
+   "L": 73.4,
+   "a": -8.8,
+   "b": 39.3,
+   "chroma": 40.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Magentarot",
+   "hex": "#8b008b",
+   "L": 32.6,
+   "a": 62.6,
+   "b": -38.7,
+   "chroma": 73.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Olivgrün",
+   "hex": "#556b2f",
+   "L": 42.2,
+   "a": -18.8,
+   "b": 30.6,
+   "chroma": 35.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Orange",
+   "hex": "#ff8c00",
+   "L": 69.5,
+   "a": 36.8,
+   "b": 75.5,
+   "chroma": 84.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Schieferblau",
+   "hex": "#483d8b",
+   "L": 30.8,
+   "a": 26.1,
+   "b": -42.1,
+   "chroma": 49.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Schiefergrau",
+   "hex": "#8fbc8f",
+   "L": 72.1,
+   "a": -23.8,
+   "b": 18.0,
+   "chroma": 29.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Seegrün",
+   "hex": "#90bd90",
+   "L": 72.5,
+   "a": -23.8,
+   "b": 18.0,
+   "chroma": 29.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Türkis",
+   "hex": "#00ced1",
+   "L": 75.3,
+   "a": -40.0,
+   "b": -13.5,
+   "chroma": 42.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Violett",
+   "hex": "#9400d3",
+   "L": 39.6,
+   "a": 76.3,
+   "b": -70.4,
+   "chroma": 103.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Dunkles Zyanblau",
+   "hex": "#008b8b",
+   "L": 52.2,
+   "a": -30.6,
+   "b": -9.0,
+   "chroma": 31.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Edles Mauve",
+   "hex": "#b4a8ad",
+   "L": 70.0,
+   "a": 5.2,
+   "b": -1.0,
+   "chroma": 5.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ein Hauch von Gelb",
+   "hex": "#f5eed1",
+   "L": 94.0,
+   "a": -2.4,
+   "b": 14.9,
+   "chroma": 15.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Einhornrosa",
+   "hex": "#f8ebe6",
+   "L": 93.9,
+   "a": 3.5,
+   "b": 4.0,
+   "chroma": 5.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Eisblau",
+   "hex": "#c8d6d3",
+   "L": 84.5,
+   "a": -5.3,
+   "b": -0.2,
+   "chroma": 5.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Eisbonbon",
+   "hex": "#cce8e6",
+   "L": 90.0,
+   "a": -9.5,
+   "b": -2.1,
+   "chroma": 9.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Eisbärweiß",
+   "hex": "#fdfef6",
+   "L": 99.4,
+   "a": -1.7,
+   "b": 3.7,
+   "chroma": 4.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Eisengrau",
+   "hex": "#434b4d",
+   "L": 31.3,
+   "a": -2.7,
+   "b": -2.3,
+   "chroma": 3.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Elefantengrau",
+   "hex": "#d7d4d1",
+   "L": 85.1,
+   "a": 0.5,
+   "b": 1.8,
+   "chroma": 1.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Elfenbein",
+   "hex": "#e1cc4f",
+   "L": 81.7,
+   "a": -6.9,
+   "b": 62.7,
+   "chroma": 63.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Enzianblau",
+   "hex": "#0e294b",
+   "L": 16.4,
+   "a": 3.6,
+   "b": -24.0,
+   "chroma": 24.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Erdbeerrot",
+   "hex": "#d53032",
+   "L": 47.6,
+   "a": 62.7,
+   "b": 39.7,
+   "chroma": 74.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Erikaviolett",
+   "hex": "#de4c8a",
+   "L": 54.6,
+   "a": 61.8,
+   "b": -3.1,
+   "chroma": 61.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Eukalyptusgrün",
+   "hex": "#aaae99",
+   "L": 70.3,
+   "a": -5.2,
+   "b": 10.3,
+   "chroma": 11.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Farngrün",
+   "hex": "#3d642d",
+   "L": 38.4,
+   "a": -25.2,
+   "b": 26.7,
+   "chroma": 36.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Fehgrau",
+   "hex": "#78858b",
+   "L": 54.7,
+   "a": -3.4,
+   "b": -4.8,
+   "chroma": 5.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Feigenviolett",
+   "hex": "#645363",
+   "L": 37.5,
+   "a": 10.2,
+   "b": -6.6,
+   "chroma": 12.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Felsgrau",
+   "hex": "#8f8c86",
+   "L": 58.3,
+   "a": -0.0,
+   "b": 3.6,
+   "chroma": 3.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Fenstergrau",
+   "hex": "#9da1aa",
+   "L": 66.2,
+   "a": 0.4,
+   "b": -5.2,
+   "chroma": 5.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Fernblau",
+   "hex": "#49678d",
+   "L": 42.8,
+   "a": 0.1,
+   "b": -24.3,
+   "chroma": 24.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Feuerrot",
+   "hex": "#af2b1e",
+   "L": 39.5,
+   "a": 52.1,
+   "b": 40.0,
+   "chroma": 65.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Fischblau",
+   "hex": "#e3edf0",
+   "L": 93.1,
+   "a": -2.8,
+   "b": -2.6,
+   "chroma": 3.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Flamingorosa",
+   "hex": "#fbd3d6",
+   "L": 87.9,
+   "a": 14.4,
+   "b": 3.7,
+   "chroma": 14.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Flammendes Herz",
+   "hex": "#8a2a36",
+   "L": 32.5,
+   "a": 41.4,
+   "b": 15.7,
+   "chroma": 44.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Flaschengrün",
+   "hex": "#343b29",
+   "L": 23.7,
+   "a": -6.8,
+   "b": 10.2,
+   "chroma": 12.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Fliederfest",
+   "hex": "#cab1cb",
+   "L": 75.0,
+   "a": 13.6,
+   "b": -9.9,
+   "chroma": 16.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Friedhofsblond",
+   "hex": "#e0e0e0",
+   "L": 89.2,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Froschgrün",
+   "hex": "#6aba71",
+   "L": 69.0,
+   "a": -39.9,
+   "b": 29.5,
+   "chroma": 49.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Frühlingsgrün",
+   "hex": "#00ff7f",
+   "L": 88.5,
+   "a": -76.9,
+   "b": 47.0,
+   "chroma": 90.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Frühlingswiese",
+   "hex": "#c8cf5c",
+   "L": 80.6,
+   "a": -17.9,
+   "b": 55.3,
+   "chroma": 58.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Fuchsie",
+   "hex": "#ff00ff",
+   "L": 60.3,
+   "a": 98.3,
+   "b": -60.8,
+   "chroma": 115.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Fuchsorange",
+   "hex": "#ffb972",
+   "L": 80.3,
+   "a": 17.8,
+   "b": 45.7,
+   "chroma": 49.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gainsboro",
+   "hex": "#dcdcdc",
+   "L": 87.8,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Geckogrün",
+   "hex": "#9dd1c7",
+   "L": 80.1,
+   "a": -18.9,
+   "b": -0.5,
+   "chroma": 18.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Geisterweiß",
+   "hex": "#f8f8ff",
+   "L": 97.8,
+   "a": 1.3,
+   "b": -3.4,
+   "chroma": 3.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gelb",
+   "hex": "#ffff00",
+   "L": 97.1,
+   "a": -21.6,
+   "b": 94.5,
+   "chroma": 96.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gelbbraun",
+   "hex": "#d2b48c",
+   "L": 75.0,
+   "a": 5.0,
+   "b": 24.4,
+   "chroma": 24.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gelbgrau",
+   "hex": "#8f8b66",
+   "L": 57.3,
+   "a": -4.7,
+   "b": 20.4,
+   "chroma": 20.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gelbgrün",
+   "hex": "#57a639",
+   "L": 61.3,
+   "a": -44.5,
+   "b": 47.4,
+   "chroma": 65.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gelboliv",
+   "hex": "#47402e",
+   "L": 27.3,
+   "a": -0.3,
+   "b": 12.1,
+   "chroma": 12.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gelborange",
+   "hex": "#ed760e",
+   "L": 62.5,
+   "a": 40.9,
+   "b": 67.7,
+   "chroma": 79.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Giftgrün",
+   "hex": "#94fb4d",
+   "L": 89.8,
+   "a": -57.6,
+   "b": 70.4,
+   "chroma": 91.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ginstergelb",
+   "hex": "#d6ae01",
+   "L": 72.6,
+   "a": 1.5,
+   "b": 75.1,
+   "chroma": 75.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gletscherblau",
+   "hex": "#94b0b7",
+   "L": 70.0,
+   "a": -8.0,
+   "b": -6.8,
+   "chroma": 10.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Glutorange",
+   "hex": "#ec612b",
+   "L": 58.6,
+   "a": 51.1,
+   "b": 55.3,
+   "chroma": 75.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Gold",
+   "hex": "#ffd700",
+   "L": 86.9,
+   "a": -1.9,
+   "b": 87.1,
+   "chroma": 87.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Goldgelb",
+   "hex": "#cda434",
+   "L": 69.3,
+   "a": 4.1,
+   "b": 60.4,
+   "chroma": 60.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Goldrute",
+   "hex": "#daa520",
+   "L": 70.8,
+   "a": 8.5,
+   "b": 68.8,
+   "chroma": 69.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Granitgrau",
+   "hex": "#2f353b",
+   "L": 21.8,
+   "a": -1.0,
+   "b": -4.6,
+   "chroma": 4.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Graphitgrau",
+   "hex": "#474a51",
+   "L": 31.4,
+   "a": 0.4,
+   "b": -4.6,
+   "chroma": 4.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Graphitschwarz",
+   "hex": "#1c1c1c",
+   "L": 10.3,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grasgrün",
+   "hex": "#35682d",
+   "L": 39.3,
+   "a": -30.0,
+   "b": 27.7,
+   "chroma": 40.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grau",
+   "hex": "#808080",
+   "L": 53.6,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Graualuminium",
+   "hex": "#8f8f8f",
+   "L": 59.4,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Graubeige",
+   "hex": "#9e9764",
+   "L": 61.9,
+   "a": -5.3,
+   "b": 27.8,
+   "chroma": 28.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Graublau",
+   "hex": "#26252d",
+   "L": 15.1,
+   "a": 2.5,
+   "b": -5.1,
+   "chroma": 5.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Graubraun",
+   "hex": "#403a3a",
+   "L": 25.0,
+   "a": 2.6,
+   "b": 0.9,
+   "chroma": 2.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grauoliv",
+   "hex": "#3e3b32",
+   "L": 24.9,
+   "a": -0.6,
+   "b": 6.0,
+   "chroma": 6.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grauviolett",
+   "hex": "#dad4db",
+   "L": 85.6,
+   "a": 3.3,
+   "b": -2.7,
+   "chroma": 4.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grauweiß",
+   "hex": "#e7ebda",
+   "L": 92.3,
+   "a": -4.3,
+   "b": 7.8,
+   "chroma": 8.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grobes Braun",
+   "hex": "#deb887",
+   "L": 77.0,
+   "a": 7.1,
+   "b": 30.0,
+   "chroma": 30.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grün",
+   "hex": "#008000",
+   "L": 46.2,
+   "a": -51.7,
+   "b": 49.9,
+   "chroma": 71.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grünbeige",
+   "hex": "#bebd7f",
+   "L": 75.4,
+   "a": -9.2,
+   "b": 31.5,
+   "chroma": 32.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grünblau",
+   "hex": "#1f3438",
+   "L": 20.2,
+   "a": -7.1,
+   "b": -5.2,
+   "chroma": 8.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grünbraun",
+   "hex": "#826c34",
+   "L": 46.6,
+   "a": 1.5,
+   "b": 34.1,
+   "chroma": 34.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grüne Neune",
+   "hex": "#679f2e",
+   "L": 59.8,
+   "a": -36.9,
+   "b": 50.6,
+   "chroma": 62.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grüne Poesie",
+   "hex": "#d8ee9c",
+   "L": 90.8,
+   "a": -20.3,
+   "b": 37.4,
+   "chroma": 42.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grüngelb",
+   "hex": "#adff2f",
+   "L": 92.0,
+   "a": -52.5,
+   "b": 81.9,
+   "chroma": 97.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Grüngrau",
+   "hex": "#4d5645",
+   "L": 35.3,
+   "a": -7.1,
+   "b": 8.7,
+   "chroma": 11.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hafergelb",
+   "hex": "#e6c37e",
+   "L": 80.4,
+   "a": 3.5,
+   "b": 39.2,
+   "chroma": 39.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hamsterbeige",
+   "hex": "#e7dece",
+   "L": 88.8,
+   "a": 0.4,
+   "b": 8.9,
+   "chroma": 8.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Happy Weekend",
+   "hex": "#ffb856",
+   "L": 79.7,
+   "a": 16.4,
+   "b": 58.5,
+   "chroma": 60.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Held",
+   "hex": "#ffffff",
+   "L": 100.0,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hellblau",
+   "hex": "#add8e6",
+   "L": 83.8,
+   "a": -10.9,
+   "b": -11.5,
+   "chroma": 15.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helle Lachsfarbe",
+   "hex": "#ffa07a",
+   "L": 74.7,
+   "a": 31.5,
+   "b": 34.5,
+   "chroma": 46.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hellelfenbein",
+   "hex": "#e6d690",
+   "L": 85.5,
+   "a": -4.4,
+   "b": 36.6,
+   "chroma": 36.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helles Cyanblau",
+   "hex": "#e0ffff",
+   "L": 97.9,
+   "a": -9.9,
+   "b": -3.4,
+   "chroma": 10.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helles Goldrutengelb",
+   "hex": "#fafad2",
+   "L": 97.4,
+   "a": -6.5,
+   "b": 19.2,
+   "chroma": 20.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helles Himmelblau",
+   "hex": "#87cefa",
+   "L": 79.7,
+   "a": -10.8,
+   "b": -28.5,
+   "chroma": 30.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helles Korallenrot",
+   "hex": "#f08080",
+   "L": 66.2,
+   "a": 42.8,
+   "b": 19.5,
+   "chroma": 47.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helles Schiefergrau",
+   "hex": "#778899",
+   "L": 55.9,
+   "a": -2.2,
+   "b": -11.1,
+   "chroma": 11.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helles Seegrün",
+   "hex": "#20b2aa",
+   "L": 65.8,
+   "a": -37.5,
+   "b": -6.3,
+   "chroma": 38.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Helles Stahlblau",
+   "hex": "#b0c4de",
+   "L": 78.5,
+   "a": -1.3,
+   "b": -15.2,
+   "chroma": 15.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hellgelb",
+   "hex": "#ffffe0",
+   "L": 99.3,
+   "a": -5.1,
+   "b": 14.8,
+   "chroma": 15.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hellgrau",
+   "hex": "#d3d3d3",
+   "L": 84.6,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hellgrün",
+   "hex": "#90ee90",
+   "L": 86.5,
+   "a": -46.3,
+   "b": 36.9,
+   "chroma": 59.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hellrosa",
+   "hex": "#ea899a",
+   "L": 67.8,
+   "a": 38.9,
+   "b": 7.1,
+   "chroma": 39.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hellrotorange",
+   "hex": "#f75e25",
+   "L": 59.8,
+   "a": 56.2,
+   "b": 59.6,
+   "chroma": 81.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Himbeerrot",
+   "hex": "#c51d34",
+   "L": 42.8,
+   "a": 63.1,
+   "b": 32.2,
+   "chroma": 70.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Himmelblau",
+   "hex": "#2271b3",
+   "L": 46.2,
+   "a": 0.4,
+   "b": -41.6,
+   "chroma": 41.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Honiggelb",
+   "hex": "#a98307",
+   "L": 56.8,
+   "a": 4.6,
+   "b": 60.8,
+   "chroma": 61.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Honigmelone",
+   "hex": "#f0fff0",
+   "L": 98.6,
+   "a": -7.6,
+   "b": 5.5,
+   "chroma": 9.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Hula Hoop",
+   "hex": "#d37972",
+   "L": 60.6,
+   "a": 34.3,
+   "b": 19.2,
+   "chroma": 39.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Indigo",
+   "hex": "#4b0082",
+   "L": 20.5,
+   "a": 51.7,
+   "b": -53.3,
+   "chroma": 74.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Indischgelb",
+   "hex": "#deb943",
+   "L": 76.5,
+   "a": 1.0,
+   "b": 62.1,
+   "chroma": 62.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Indischrot",
+   "hex": "#cd5c5c",
+   "L": 53.4,
+   "a": 44.8,
+   "b": 22.1,
+   "chroma": 50.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kadettblau",
+   "hex": "#5f9ea0",
+   "L": 61.2,
+   "a": -19.7,
+   "b": -7.4,
+   "chroma": 21.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kaffeebraun",
+   "hex": "#3f2917",
+   "L": 18.8,
+   "a": 7.9,
+   "b": 15.8,
+   "chroma": 17.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Karmesinrot",
+   "hex": "#dc143c",
+   "L": 47.0,
+   "a": 70.9,
+   "b": 33.6,
+   "chroma": 78.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Karminrot",
+   "hex": "#a2231d",
+   "L": 35.9,
+   "a": 50.6,
+   "b": 36.2,
+   "chroma": 62.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kastanienbraun",
+   "hex": "#633a34",
+   "L": 29.2,
+   "a": 17.4,
+   "b": 11.4,
+   "chroma": 20.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Khaki",
+   "hex": "#f0e68c",
+   "L": 90.3,
+   "a": -9.0,
+   "b": 45.0,
+   "chroma": 45.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Khakigrau",
+   "hex": "#6a5f31",
+   "L": 40.4,
+   "a": -2.3,
+   "b": 27.7,
+   "chroma": 27.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kieferngrün",
+   "hex": "#2c5545",
+   "L": 32.8,
+   "a": -18.7,
+   "b": 4.9,
+   "chroma": 19.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kieselgrau",
+   "hex": "#b8b799",
+   "L": 73.8,
+   "a": -4.8,
+   "b": 15.4,
+   "chroma": 16.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kieselstrand",
+   "hex": "#c1c4c5",
+   "L": 79.0,
+   "a": -0.8,
+   "b": -0.9,
+   "chroma": 1.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Knallrot",
+   "hex": "#e43426",
+   "L": 50.8,
+   "a": 65.5,
+   "b": 50.1,
+   "chroma": 82.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Knatschgelb",
+   "hex": "#fbea4e",
+   "L": 91.6,
+   "a": -11.2,
+   "b": 74.0,
+   "chroma": 74.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kobaltblau",
+   "hex": "#1e213d",
+   "L": 13.8,
+   "a": 7.6,
+   "b": -18.4,
+   "chroma": 19.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kohlrabenschwarz",
+   "hex": "#1c1b1b",
+   "L": 9.9,
+   "a": 0.5,
+   "b": 0.2,
+   "chroma": 0.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kolibrigrün",
+   "hex": "#bbd9c6",
+   "L": 84.1,
+   "a": -13.6,
+   "b": 6.0,
+   "chroma": 14.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Koralle",
+   "hex": "#ff7f50",
+   "L": 67.3,
+   "a": 45.4,
+   "b": 47.5,
+   "chroma": 65.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Korallenpink",
+   "hex": "#e87c8d",
+   "L": 64.6,
+   "a": 43.3,
+   "b": 9.8,
+   "chroma": 44.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Korallenrot",
+   "hex": "#b32821",
+   "L": 39.9,
+   "a": 54.4,
+   "b": 39.1,
+   "chroma": 67.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kornblumenblau",
+   "hex": "#7069d8",
+   "L": 50.1,
+   "a": 31.7,
+   "b": -56.4,
+   "chroma": 64.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Krapplack",
+   "hex": "#6f011e",
+   "L": 21.9,
+   "a": 44.1,
+   "b": 17.0,
+   "chroma": 47.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kreideblau",
+   "hex": "#dbe3e4",
+   "L": 89.7,
+   "a": -2.5,
+   "b": -1.4,
+   "chroma": 2.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kreideweiß",
+   "hex": "#f1ebe4",
+   "L": 93.3,
+   "a": 0.8,
+   "b": 4.1,
+   "chroma": 4.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kupferbraun",
+   "hex": "#8e402a",
+   "L": 37.1,
+   "a": 31.5,
+   "b": 29.0,
+   "chroma": 42.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kupferorange",
+   "hex": "#bc7b59",
+   "L": 57.6,
+   "a": 21.6,
+   "b": 28.9,
+   "chroma": 36.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Käferrot",
+   "hex": "#f67066",
+   "L": 63.5,
+   "a": 50.6,
+   "b": 30.7,
+   "chroma": 59.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kängurubeige",
+   "hex": "#f8ecd3",
+   "L": 93.7,
+   "a": 0.0,
+   "b": 13.6,
+   "chroma": 13.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Königsblau",
+   "hex": "#4169e1",
+   "L": 47.8,
+   "a": 26.3,
+   "b": -65.3,
+   "chroma": 70.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Kükengelb",
+   "hex": "#f7eec1",
+   "L": 93.8,
+   "a": -4.0,
+   "b": 22.9,
+   "chroma": 23.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lachs",
+   "hex": "#fa8072",
+   "L": 67.3,
+   "a": 45.2,
+   "b": 29.1,
+   "chroma": 53.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lachsorange",
+   "hex": "#e55137",
+   "L": 54.9,
+   "a": 56.0,
+   "b": 45.6,
+   "chroma": 72.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lachsrot",
+   "hex": "#d95030",
+   "L": 52.6,
+   "a": 52.1,
+   "b": 46.2,
+   "chroma": 69.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Laubgrün",
+   "hex": "#2d572c",
+   "L": 33.0,
+   "a": -24.7,
+   "b": 20.5,
+   "chroma": 32.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lavendelfarbe",
+   "hex": "#e6e6fa",
+   "L": 91.8,
+   "a": 3.7,
+   "b": -9.7,
+   "chroma": 10.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lavendelviolett",
+   "hex": "#b9b3bd",
+   "L": 73.7,
+   "a": 4.0,
+   "b": -4.3,
+   "chroma": 5.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lehmblau",
+   "hex": "#c9cedb",
+   "L": 82.7,
+   "a": 0.8,
+   "b": -7.0,
+   "chroma": 7.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lehmbraun",
+   "hex": "#734222",
+   "L": 33.3,
+   "a": 18.1,
+   "b": 28.1,
+   "chroma": 33.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leinenfarbe",
+   "hex": "#faf0e6",
+   "L": 95.3,
+   "a": 1.7,
+   "b": 6.0,
+   "chroma": 6.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leinenweiß",
+   "hex": "#ebe8e0",
+   "L": 92.0,
+   "a": -0.4,
+   "b": 4.2,
+   "chroma": 4.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leuchtendes Rosa",
+   "hex": "#ff69b4",
+   "L": 65.5,
+   "a": 64.3,
+   "b": -10.7,
+   "chroma": 65.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leuchtgelb",
+   "hex": "#fefe01",
+   "L": 96.8,
+   "a": -21.5,
+   "b": 94.1,
+   "chroma": 96.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leuchtgrün",
+   "hex": "#00bb2d",
+   "L": 66.3,
+   "a": -66.4,
+   "b": 56.7,
+   "chroma": 87.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leuchthellorange",
+   "hex": "#ffa420",
+   "L": 74.8,
+   "a": 24.8,
+   "b": 73.7,
+   "chroma": 77.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leuchthellrot",
+   "hex": "#fe0000",
+   "L": 53.0,
+   "a": 79.9,
+   "b": 67.0,
+   "chroma": 104.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leuchtorange",
+   "hex": "#ff2301",
+   "L": 54.5,
+   "a": 76.4,
+   "b": 67.4,
+   "chroma": 101.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Leuchtrot",
+   "hex": "#f80000",
+   "L": 51.8,
+   "a": 78.4,
+   "b": 65.8,
+   "chroma": 102.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Libellenblau",
+   "hex": "#cfe7ef",
+   "L": 90.2,
+   "a": -6.3,
+   "b": -6.6,
+   "chroma": 9.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lichtblau",
+   "hex": "#3b83bd",
+   "L": 52.8,
+   "a": -3.5,
+   "b": -36.9,
+   "chroma": 37.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lichtes Gelb",
+   "hex": "#f7ebb3",
+   "L": 92.8,
+   "a": -4.3,
+   "b": 28.7,
+   "chroma": 29.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lichtgrau",
+   "hex": "#d7d7d7",
+   "L": 86.0,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lichtgrün",
+   "hex": "#84c3be",
+   "L": 74.6,
+   "a": -21.2,
+   "b": -3.9,
+   "chroma": 21.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Lilienweiß",
+   "hex": "#e8e9e7",
+   "L": 92.2,
+   "a": -0.7,
+   "b": 0.8,
+   "chroma": 1.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Luftschloss",
+   "hex": "#94c9e4",
+   "L": 78.3,
+   "a": -10.7,
+   "b": -18.9,
+   "chroma": 21.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Magentarot",
+   "hex": "#fe01fe",
+   "L": 60.1,
+   "a": 97.9,
+   "b": -60.6,
+   "chroma": 115.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mahagonibraun",
+   "hex": "#4c2f27",
+   "L": 22.7,
+   "a": 12.2,
+   "b": 10.6,
+   "chroma": 16.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Maigrün",
+   "hex": "#4c9141",
+   "L": 54.2,
+   "a": -38.2,
+   "b": 35.4,
+   "chroma": 52.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mais",
+   "hex": "#fff8dc",
+   "L": 97.5,
+   "a": -2.2,
+   "b": 14.3,
+   "chroma": 14.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Maisgelb",
+   "hex": "#e4a010",
+   "L": 70.6,
+   "a": 15.2,
+   "b": 72.5,
+   "chroma": 74.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mandelbeige",
+   "hex": "#eddfce",
+   "L": 89.5,
+   "a": 2.0,
+   "b": 10.0,
+   "chroma": 10.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mandelblüte",
+   "hex": "#f6d8e0",
+   "L": 89.0,
+   "a": 11.7,
+   "b": -0.1,
+   "chroma": 11.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mandelweiß",
+   "hex": "#ffebcd",
+   "L": 93.9,
+   "a": 2.1,
+   "b": 17.0,
+   "chroma": 17.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Marineblau",
+   "hex": "#000080",
+   "L": 13.0,
+   "a": 47.5,
+   "b": -64.7,
+   "chroma": 80.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Marrakesch",
+   "hex": "#ed9d59",
+   "L": 71.4,
+   "a": 23.4,
+   "b": 47.1,
+   "chroma": 52.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mattes Grau",
+   "hex": "#696969",
+   "L": 44.4,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mausgrau",
+   "hex": "#646b63",
+   "L": 44.4,
+   "a": -4.3,
+   "b": 3.6,
+   "chroma": 5.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Melonengelb",
+   "hex": "#f4a900",
+   "L": 74.6,
+   "a": 17.2,
+   "b": 78.1,
+   "chroma": 80.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Messerblau",
+   "hex": "#72b9d1",
+   "L": 71.5,
+   "a": -16.0,
+   "b": -19.1,
+   "chroma": 24.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Minttürkis",
+   "hex": "#497e76",
+   "L": 49.1,
+   "a": -19.7,
+   "b": -1.2,
+   "chroma": 19.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Minzgrün",
+   "hex": "#20603d",
+   "L": 36.0,
+   "a": -29.4,
+   "b": 14.2,
+   "chroma": 32.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittelblau",
+   "hex": "#0000cc",
+   "L": 24.8,
+   "a": 66.9,
+   "b": -91.2,
+   "chroma": 113.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittelgelb",
+   "hex": "#fdfd02",
+   "L": 96.5,
+   "a": -21.4,
+   "b": 93.8,
+   "chroma": 96.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittelgrün",
+   "hex": "#20a040",
+   "L": 57.9,
+   "a": -53.7,
+   "b": 39.9,
+   "chroma": 66.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mitternachtsblau",
+   "hex": "#191970",
+   "L": 15.9,
+   "a": 31.7,
+   "b": -49.6,
+   "chroma": 58.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittlere Orchideenfarbe",
+   "hex": "#ba55d3",
+   "L": 53.6,
+   "a": 59.1,
+   "b": -47.4,
+   "chroma": 75.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittleres Aquamarinblau",
+   "hex": "#66cdaa",
+   "L": 75.7,
+   "a": -38.3,
+   "b": 8.3,
+   "chroma": 39.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittleres Frühlingsgrün",
+   "hex": "#00fa9a",
+   "L": 87.3,
+   "a": -70.7,
+   "b": 32.5,
+   "chroma": 77.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittleres Schieferblau",
+   "hex": "#7b68ee",
+   "L": 52.2,
+   "a": 41.1,
+   "b": -65.4,
+   "chroma": 77.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittleres Seegrün",
+   "hex": "#3cb371",
+   "L": 65.3,
+   "a": -48.2,
+   "b": 24.3,
+   "chroma": 54.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittleres Türkis",
+   "hex": "#48d1cc",
+   "L": 76.9,
+   "a": -37.4,
+   "b": -8.4,
+   "chroma": 38.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittleres Violett",
+   "hex": "#9370db",
+   "L": 55.0,
+   "a": 36.8,
+   "b": -50.1,
+   "chroma": 62.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mittleres Violettrot",
+   "hex": "#c71585",
+   "L": 44.8,
+   "a": 71.0,
+   "b": -15.2,
+   "chroma": 72.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Mondgrau",
+   "hex": "#ebe5e0",
+   "L": 91.3,
+   "a": 1.2,
+   "b": 3.1,
+   "chroma": 3.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Moosgrau",
+   "hex": "#6c7059",
+   "L": 46.3,
+   "a": -5.9,
+   "b": 12.3,
+   "chroma": 13.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Moosgrün",
+   "hex": "#2f4538",
+   "L": 27.1,
+   "a": -11.9,
+   "b": 5.1,
+   "chroma": 12.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Morgendunst Blau",
+   "hex": "#5a697c",
+   "L": 43.8,
+   "a": -1.0,
+   "b": -12.4,
+   "chroma": 12.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Muschel",
+   "hex": "#fff5ee",
+   "L": 97.1,
+   "a": 2.2,
+   "b": 4.5,
+   "chroma": 5.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Muschelweiß",
+   "hex": "#f2eadc",
+   "L": 93.0,
+   "a": 0.3,
+   "b": 7.7,
+   "chroma": 7.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nachtblau",
+   "hex": "#252850",
+   "L": 17.9,
+   "a": 11.5,
+   "b": -25.1,
+   "chroma": 27.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nachtbraun",
+   "hex": "#53453f",
+   "L": 30.5,
+   "a": 4.9,
+   "b": 5.8,
+   "chroma": 7.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Narzissengelb",
+   "hex": "#dc9d00",
+   "L": 69.0,
+   "a": 13.2,
+   "b": 73.1,
+   "chroma": 74.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Navajoweiß",
+   "hex": "#ffdead",
+   "L": 90.1,
+   "a": 4.5,
+   "b": 28.3,
+   "chroma": 28.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nebel im November",
+   "hex": "#a5a2a1",
+   "L": 66.8,
+   "a": 0.9,
+   "b": 0.9,
+   "chroma": 1.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nebelzauber",
+   "hex": "#cac6c3",
+   "L": 80.1,
+   "a": 0.9,
+   "b": 2.0,
+   "chroma": 2.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nilblau",
+   "hex": "#1f2299",
+   "L": 22.8,
+   "a": 41.3,
+   "b": -64.0,
+   "chroma": 76.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nilpferdlila",
+   "hex": "#dcd8e3",
+   "L": 86.9,
+   "a": 3.4,
+   "b": -4.9,
+   "chroma": 6.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nordmeer",
+   "hex": "#627791",
+   "L": 49.3,
+   "a": -1.1,
+   "b": -16.6,
+   "chroma": 16.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Nussbraun",
+   "hex": "#5b3a29",
+   "L": 27.9,
+   "a": 12.5,
+   "b": 16.5,
+   "chroma": 20.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ocker",
+   "hex": "#dba621",
+   "L": 71.2,
+   "a": 8.5,
+   "b": 68.8,
+   "chroma": 69.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ockerbraun",
+   "hex": "#955f20",
+   "L": 45.2,
+   "a": 16.6,
+   "b": 43.0,
+   "chroma": 46.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ockergelb",
+   "hex": "#aea04b",
+   "L": 65.5,
+   "a": -5.9,
+   "b": 45.4,
+   "chroma": 45.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Oktopuslila",
+   "hex": "#beb9ca",
+   "L": 76.0,
+   "a": 5.0,
+   "b": -7.9,
+   "chroma": 9.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Olivbraun",
+   "hex": "#6f4f28",
+   "L": 36.2,
+   "a": 8.8,
+   "b": 28.0,
+   "chroma": 29.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Olivfarbiges Graubraun",
+   "hex": "#6b8e23",
+   "L": 54.7,
+   "a": -28.2,
+   "b": 49.7,
+   "chroma": 57.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Olivgelb",
+   "hex": "#999950",
+   "L": 61.8,
+   "a": -10.7,
+   "b": 38.1,
+   "chroma": 39.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Olivgrau",
+   "hex": "#7e7b52",
+   "L": 50.9,
+   "a": -5.6,
+   "b": 22.9,
+   "chroma": 23.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Olivgrün",
+   "hex": "#424632",
+   "L": 28.8,
+   "a": -5.7,
+   "b": 11.5,
+   "chroma": 12.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Opalgrün",
+   "hex": "#015d52",
+   "L": 34.9,
+   "a": -26.6,
+   "b": -0.4,
+   "chroma": 26.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Orange",
+   "hex": "#ffa500",
+   "L": 74.9,
+   "a": 23.9,
+   "b": 79.0,
+   "chroma": 82.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Orangebraun",
+   "hex": "#a65e2e",
+   "L": 47.4,
+   "a": 25.3,
+   "b": 39.3,
+   "chroma": 46.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Orangenrot",
+   "hex": "#ff4500",
+   "L": 57.6,
+   "a": 67.8,
+   "b": 69.0,
+   "chroma": 96.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Orchidee",
+   "hex": "#da70d6",
+   "L": 62.8,
+   "a": 55.3,
+   "b": -34.4,
+   "chroma": 65.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Orientrot",
+   "hex": "#b32428",
+   "L": 39.6,
+   "a": 55.9,
+   "b": 34.8,
+   "chroma": 65.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Oxidrot",
+   "hex": "#642424",
+   "L": 24.0,
+   "a": 28.9,
+   "b": 15.0,
+   "chroma": 32.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ozeanblau",
+   "hex": "#1d334a",
+   "L": 20.5,
+   "a": -0.7,
+   "b": -16.9,
+   "chroma": 16.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Papageiengrün",
+   "hex": "#ccdea1",
+   "L": 85.8,
+   "a": -16.2,
+   "b": 28.0,
+   "chroma": 32.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Papayaorange",
+   "hex": "#ffc9a9",
+   "L": 84.9,
+   "a": 14.9,
+   "b": 23.3,
+   "chroma": 27.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Papyrusweiß",
+   "hex": "#d8d8d8",
+   "L": 86.3,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pariserblau",
+   "hex": "#4040ff",
+   "L": 41.2,
+   "a": 60.5,
+   "b": -93.0,
+   "chroma": 110.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Party Pink",
+   "hex": "#e393b9",
+   "L": 70.0,
+   "a": 35.4,
+   "b": -7.2,
+   "chroma": 36.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pastellblau",
+   "hex": "#5d9b9b",
+   "L": 60.0,
+   "a": -19.9,
+   "b": -6.3,
+   "chroma": 20.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pastellgelb",
+   "hex": "#efa94a",
+   "L": 74.3,
+   "a": 17.0,
+   "b": 57.5,
+   "chroma": 60.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pastellorange",
+   "hex": "#ff7514",
+   "L": 65.0,
+   "a": 48.3,
+   "b": 69.4,
+   "chroma": 84.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pastelltürkis",
+   "hex": "#7fb5b5",
+   "L": 70.1,
+   "a": -17.5,
+   "b": -5.7,
+   "chroma": 18.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pastellviolett",
+   "hex": "#a18594",
+   "L": 58.5,
+   "a": 13.3,
+   "b": -4.0,
+   "chroma": 13.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Patinagrün",
+   "hex": "#316650",
+   "L": 39.1,
+   "a": -23.5,
+   "b": 7.1,
+   "chroma": 24.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Paynesgrau",
+   "hex": "#293c42",
+   "L": 24.0,
+   "a": -5.8,
+   "b": -6.1,
+   "chroma": 8.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pechschwarz",
+   "hex": "#202128",
+   "L": 12.9,
+   "a": 1.4,
+   "b": -4.8,
+   "chroma": 5.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlbeige",
+   "hex": "#6a5d4d",
+   "L": 40.3,
+   "a": 2.5,
+   "b": 11.1,
+   "chroma": 11.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlbrombeer",
+   "hex": "#6c6874",
+   "L": 44.7,
+   "a": 4.1,
+   "b": -6.1,
+   "chroma": 7.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perldunkelgrau",
+   "hex": "#828282",
+   "L": 54.4,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlenzian",
+   "hex": "#2a6478",
+   "L": 39.5,
+   "a": -12.2,
+   "b": -16.9,
+   "chroma": 20.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlgold",
+   "hex": "#705335",
+   "L": 37.6,
+   "a": 8.1,
+   "b": 22.2,
+   "chroma": 23.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlgrün",
+   "hex": "#1c542d",
+   "L": 31.3,
+   "a": -28.2,
+   "b": 17.5,
+   "chroma": 33.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlhellgrau",
+   "hex": "#9c9c9c",
+   "L": 64.4,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlkupfer",
+   "hex": "#763c28",
+   "L": 32.3,
+   "a": 23.4,
+   "b": 23.6,
+   "chroma": 33.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlmausgrau",
+   "hex": "#898176",
+   "L": 54.4,
+   "a": 1.0,
+   "b": 7.0,
+   "chroma": 7.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlnachtblau",
+   "hex": "#102c54",
+   "L": 18.2,
+   "a": 5.6,
+   "b": -27.4,
+   "chroma": 28.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlopalgrün",
+   "hex": "#193737",
+   "L": 20.9,
+   "a": -11.2,
+   "b": -3.5,
+   "chroma": 11.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlorange",
+   "hex": "#c35831",
+   "L": 50.5,
+   "a": 40.4,
+   "b": 42.3,
+   "chroma": 58.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlrosa",
+   "hex": "#b44c43",
+   "L": 46.0,
+   "a": 41.6,
+   "b": 26.5,
+   "chroma": 49.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlrubinrot",
+   "hex": "#721422",
+   "L": 24.3,
+   "a": 40.5,
+   "b": 17.3,
+   "chroma": 44.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlviolett",
+   "hex": "#8673a1",
+   "L": 51.7,
+   "a": 16.9,
+   "b": -22.0,
+   "chroma": 27.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Perlweiß",
+   "hex": "#eae6ca",
+   "L": 90.9,
+   "a": -3.3,
+   "b": 14.1,
+   "chroma": 14.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Peru",
+   "hex": "#cd853f",
+   "L": 61.8,
+   "a": 21.4,
+   "b": 47.9,
+   "chroma": 52.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Petrol de Luxe",
+   "hex": "#2e7b7f",
+   "L": 47.3,
+   "a": -21.9,
+   "b": -9.2,
+   "chroma": 23.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pfirsich",
+   "hex": "#ffdab9",
+   "L": 89.3,
+   "a": 8.1,
+   "b": 21.0,
+   "chroma": 22.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pflaume",
+   "hex": "#dda0dd",
+   "L": 73.4,
+   "a": 32.5,
+   "b": -22.0,
+   "chroma": 39.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Phthalogrün",
+   "hex": "#123524",
+   "L": 19.2,
+   "a": -17.6,
+   "b": 7.0,
+   "chroma": 18.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Pistaziengrün",
+   "hex": "#c2c7aa",
+   "L": 79.2,
+   "a": -6.8,
+   "b": 13.9,
+   "chroma": 15.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Platingrau",
+   "hex": "#7f7679",
+   "L": 50.5,
+   "a": 4.0,
+   "b": -0.4,
+   "chroma": 4.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Poesie der Stille",
+   "hex": "#c5c2bf",
+   "L": 78.6,
+   "a": 0.5,
+   "b": 1.9,
+   "chroma": 2.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Porzellanblau",
+   "hex": "#5d6c7d",
+   "L": 45.0,
+   "a": -1.5,
+   "b": -11.3,
+   "chroma": 11.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Preußischblau",
+   "hex": "#003153",
+   "L": 19.3,
+   "a": -0.4,
+   "b": -24.9,
+   "chroma": 24.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Purpurrot",
+   "hex": "#75151e",
+   "L": 25.0,
+   "a": 41.0,
+   "b": 21.0,
+   "chroma": 46.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Purpurviolett",
+   "hex": "#4a192c",
+   "L": 17.1,
+   "a": 25.5,
+   "b": -0.8,
+   "chroma": 25.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Quarzgrau",
+   "hex": "#6c6960",
+   "L": 44.4,
+   "a": -0.6,
+   "b": 5.5,
+   "chroma": 5.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Quietschgelb",
+   "hex": "#f2ea4f",
+   "L": 90.9,
+   "a": -14.8,
+   "b": 72.7,
+   "chroma": 74.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rabenblau",
+   "hex": "#0f2e53",
+   "L": 18.7,
+   "a": 3.6,
+   "b": -25.8,
+   "chroma": 26.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rabenschwarz",
+   "hex": "#141313",
+   "L": 6.0,
+   "a": 0.4,
+   "b": 0.1,
+   "chroma": 0.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rapsgelb",
+   "hex": "#f3da0b",
+   "L": 86.6,
+   "a": -8.4,
+   "b": 85.5,
+   "chroma": 85.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rauchblau",
+   "hex": "#686f84",
+   "L": 46.9,
+   "a": 2.2,
+   "b": -12.4,
+   "chroma": 12.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rauchiges Weiß",
+   "hex": "#f5f5f5",
+   "L": 96.5,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Raupengrün",
+   "hex": "#e9f6c7",
+   "L": 94.9,
+   "a": -12.1,
+   "b": 21.2,
+   "chroma": 24.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rehbraun",
+   "hex": "#59351f",
+   "L": 26.1,
+   "a": 13.7,
+   "b": 20.5,
+   "chroma": 24.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Reingrün",
+   "hex": "#008f39",
+   "L": 51.8,
+   "a": -51.7,
+   "b": 36.1,
+   "chroma": 63.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Reinorange",
+   "hex": "#f44611",
+   "L": 55.7,
+   "a": 64.2,
+   "b": 63.2,
+   "chroma": 90.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Reinrot",
+   "hex": "#cb3234",
+   "L": 45.9,
+   "a": 59.2,
+   "b": 36.2,
+   "chroma": 69.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Reinweiß",
+   "hex": "#fefefe",
+   "L": 99.7,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Resedagrün",
+   "hex": "#587246",
+   "L": 45.0,
+   "a": -18.2,
+   "b": 21.4,
+   "chroma": 28.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rhabarberrot",
+   "hex": "#ac7870",
+   "L": 55.5,
+   "a": 19.3,
+   "b": 12.6,
+   "chroma": 23.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rosa",
+   "hex": "#ffc0cb",
+   "L": 83.6,
+   "a": 24.1,
+   "b": 3.3,
+   "chroma": 24.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rosige Lavenderfarbe",
+   "hex": "#fff0f5",
+   "L": 96.1,
+   "a": 5.9,
+   "b": -0.6,
+   "chroma": 5.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rosiges Braun",
+   "hex": "#bc8f8f",
+   "L": 63.6,
+   "a": 17.0,
+   "b": 6.6,
+   "chroma": 18.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rosmaringrün",
+   "hex": "#6a8974",
+   "L": 54.3,
+   "a": -15.5,
+   "b": 7.7,
+   "chroma": 17.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rostbraun",
+   "hex": "#7f3523",
+   "L": 32.2,
+   "a": 30.8,
+   "b": 26.8,
+   "chroma": 40.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rosé",
+   "hex": "#e63244",
+   "L": 51.3,
+   "a": 67.7,
+   "b": 34.4,
+   "chroma": 75.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rosérot",
+   "hex": "#fbdad6",
+   "L": 89.6,
+   "a": 10.8,
+   "b": 6.2,
+   "chroma": 12.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rot",
+   "hex": "#ff0000",
+   "L": 53.2,
+   "a": 80.1,
+   "b": 67.2,
+   "chroma": 104.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rotbraun",
+   "hex": "#592321",
+   "L": 21.7,
+   "a": 24.7,
+   "b": 13.7,
+   "chroma": 28.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Roter Ahorn",
+   "hex": "#c55954",
+   "L": 51.4,
+   "a": 42.8,
+   "b": 24.0,
+   "chroma": 49.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rotlila",
+   "hex": "#6d3f5b",
+   "L": 33.1,
+   "a": 24.4,
+   "b": -8.1,
+   "chroma": 25.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rotorange",
+   "hex": "#c93c20",
+   "L": 46.6,
+   "a": 54.4,
+   "b": 47.4,
+   "chroma": 72.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rotviolett",
+   "hex": "#922b3e",
+   "L": 34.4,
+   "a": 44.3,
+   "b": 13.3,
+   "chroma": 46.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Rubinrot",
+   "hex": "#9b111e",
+   "L": 32.8,
+   "a": 53.2,
+   "b": 32.0,
+   "chroma": 62.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Safrangelb",
+   "hex": "#f5d033",
+   "L": 84.4,
+   "a": -1.8,
+   "b": 76.0,
+   "chroma": 76.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sandbeige",
+   "hex": "#e0ceb6",
+   "L": 83.6,
+   "a": 2.4,
+   "b": 14.2,
+   "chroma": 14.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sandbraun",
+   "hex": "#f4a460",
+   "L": 74.0,
+   "a": 23.0,
+   "b": 46.8,
+   "chroma": 52.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sandgelb",
+   "hex": "#c6a664",
+   "L": 69.6,
+   "a": 3.2,
+   "b": 38.4,
+   "chroma": 38.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sanfte Erde",
+   "hex": "#816e60",
+   "L": 47.8,
+   "a": 5.1,
+   "b": 10.6,
+   "chroma": 11.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sanftes Cashmere",
+   "hex": "#ebddcd",
+   "L": 88.8,
+   "a": 2.2,
+   "b": 9.6,
+   "chroma": 9.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Saphirblau",
+   "hex": "#1d1e33",
+   "L": 12.1,
+   "a": 6.0,
+   "b": -14.0,
+   "chroma": 15.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sattelbraun",
+   "hex": "#8b4513",
+   "L": 37.5,
+   "a": 26.4,
+   "b": 41.0,
+   "chroma": 48.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Scharlachrot",
+   "hex": "#ff2400",
+   "L": 54.6,
+   "a": 76.2,
+   "b": 67.7,
+   "chroma": 101.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schieferblau",
+   "hex": "#6a5acd",
+   "L": 45.3,
+   "a": 36.0,
+   "b": -57.8,
+   "chroma": 68.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schiefergrau",
+   "hex": "#434750",
+   "L": 30.1,
+   "a": 0.5,
+   "b": -5.9,
+   "chroma": 5.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schilfgrün",
+   "hex": "#6c7156",
+   "L": 46.5,
+   "a": -7.0,
+   "b": 14.4,
+   "chroma": 16.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schneeweiß",
+   "hex": "#f2f6f7",
+   "L": 96.6,
+   "a": -1.1,
+   "b": -1.0,
+   "chroma": 1.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schokobraun",
+   "hex": "#3d261b",
+   "L": 17.7,
+   "a": 9.3,
+   "b": 11.7,
+   "chroma": 14.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schokolade",
+   "hex": "#d2691e",
+   "L": 56.0,
+   "a": 37.1,
+   "b": 56.7,
+   "chroma": 67.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schokoladen-braun",
+   "hex": "#45322e",
+   "L": 22.8,
+   "a": 7.9,
+   "b": 5.9,
+   "chroma": 9.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwarz",
+   "hex": "#000000",
+   "L": 0.0,
+   "a": 0.0,
+   "b": 0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwarzblau",
+   "hex": "#18171c",
+   "L": 8.0,
+   "a": 1.8,
+   "b": -3.3,
+   "chroma": 3.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwarzbraun",
+   "hex": "#212121",
+   "L": 12.7,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwarzgrau",
+   "hex": "#23282b",
+   "L": 15.7,
+   "a": -1.4,
+   "b": -2.7,
+   "chroma": 3.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwarzgrün",
+   "hex": "#343e40",
+   "L": 25.4,
+   "a": -3.6,
+   "b": -2.6,
+   "chroma": 4.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwarzoliv",
+   "hex": "#3b3c36",
+   "L": 25.0,
+   "a": -1.7,
+   "b": 3.6,
+   "chroma": 4.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwarzrot",
+   "hex": "#412227",
+   "L": 17.5,
+   "a": 15.6,
+   "b": 3.2,
+   "chroma": 15.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schwefelgelb",
+   "hex": "#edff21",
+   "L": 95.8,
+   "a": -28.5,
+   "b": 89.5,
+   "chroma": 93.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Schweinchenrosa",
+   "hex": "#f8dce5",
+   "L": 90.2,
+   "a": 11.1,
+   "b": -0.9,
+   "chroma": 11.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Seebärblau",
+   "hex": "#6092b5",
+   "L": 58.4,
+   "a": -7.1,
+   "b": -23.5,
+   "chroma": 24.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Seegrün",
+   "hex": "#2e8b57",
+   "L": 51.5,
+   "a": -39.7,
+   "b": 20.0,
+   "chroma": 44.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Seesternorange",
+   "hex": "#ffe0b4",
+   "L": 90.7,
+   "a": 4.4,
+   "b": 25.5,
+   "chroma": 25.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Seidengrau",
+   "hex": "#cac4b0",
+   "L": 79.1,
+   "a": -1.3,
+   "b": 10.8,
+   "chroma": 10.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sepia",
+   "hex": "#704214",
+   "L": 32.7,
+   "a": 16.0,
+   "b": 34.7,
+   "chroma": 38.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sepiabraun",
+   "hex": "#382c1e",
+   "L": 19.0,
+   "a": 3.1,
+   "b": 11.2,
+   "chroma": 11.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalblau",
+   "hex": "#1e2460",
+   "L": 17.4,
+   "a": 18.9,
+   "b": -36.6,
+   "chroma": 41.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalbraun",
+   "hex": "#6c3b2a",
+   "L": 30.6,
+   "a": 19.8,
+   "b": 19.9,
+   "chroma": 28.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalgelb",
+   "hex": "#e5be01",
+   "L": 78.2,
+   "a": -0.3,
+   "b": 79.7,
+   "chroma": 79.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalgrau",
+   "hex": "#969992",
+   "L": 62.8,
+   "a": -2.4,
+   "b": 3.3,
+   "chroma": 4.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalgrün",
+   "hex": "#317f43",
+   "L": 47.3,
+   "a": -37.8,
+   "b": 25.6,
+   "chroma": 45.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalorange",
+   "hex": "#d84b20",
+   "L": 51.5,
+   "a": 53.4,
+   "b": 52.6,
+   "chroma": 75.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalrot",
+   "hex": "#a52019",
+   "L": 36.2,
+   "a": 52.4,
+   "b": 38.8,
+   "chroma": 65.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalschwarz",
+   "hex": "#282828",
+   "L": 16.1,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalviolett",
+   "hex": "#924e7d",
+   "L": 42.8,
+   "a": 35.1,
+   "b": -14.1,
+   "chroma": 37.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Signalweiß",
+   "hex": "#f4f4f4",
+   "L": 96.2,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Silber",
+   "hex": "#c0c0c0",
+   "L": 77.7,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Silbergrau",
+   "hex": "#8a9597",
+   "L": 60.9,
+   "a": -3.5,
+   "b": -2.4,
+   "chroma": 4.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sinfonie",
+   "hex": "#763f4f",
+   "L": 33.9,
+   "a": 25.9,
+   "b": 1.0,
+   "chroma": 25.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Smaragdgrün",
+   "hex": "#287233",
+   "L": 42.3,
+   "a": -37.1,
+   "b": 28.1,
+   "chroma": 46.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sommerzeit",
+   "hex": "#fcdd61",
+   "L": 88.6,
+   "a": -3.2,
+   "b": 63.2,
+   "chroma": 63.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sonnengelb",
+   "hex": "#f39f18",
+   "L": 72.2,
+   "a": 22.3,
+   "b": 72.9,
+   "chroma": 76.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sonnenstrahl",
+   "hex": "#fde389",
+   "L": 90.6,
+   "a": -2.7,
+   "b": 47.0,
+   "chroma": 47.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Stadtgeflüster",
+   "hex": "#9e9e9e",
+   "L": 65.1,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Stahlblau",
+   "hex": "#231a24",
+   "L": 10.7,
+   "a": 6.8,
+   "b": -5.2,
+   "chroma": 8.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Staubgrau",
+   "hex": "#7d7f7d",
+   "L": 53.0,
+   "a": -1.1,
+   "b": 0.8,
+   "chroma": 1.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Steingrau",
+   "hex": "#8b8c7a",
+   "L": 57.7,
+   "a": -3.7,
+   "b": 9.5,
+   "chroma": 10.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Stilles Wasser",
+   "hex": "#d0e3ed",
+   "L": 89.1,
+   "a": -4.3,
+   "b": -7.0,
+   "chroma": 8.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Straßenköterblond",
+   "hex": "#d4c5b2",
+   "L": 80.3,
+   "a": 2.1,
+   "b": 11.4,
+   "chroma": 11.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Strohblond",
+   "hex": "#f7e780",
+   "L": 91.0,
+   "a": -7.9,
+   "b": 51.7,
+   "chroma": 52.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Sweet Home",
+   "hex": "#fbe1c1",
+   "L": 90.9,
+   "a": 4.1,
+   "b": 18.9,
+   "chroma": 19.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tannengrün",
+   "hex": "#31372b",
+   "L": 22.2,
+   "a": -5.3,
+   "b": 6.7,
+   "chroma": 8.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Taubenblau",
+   "hex": "#606e8c",
+   "L": 46.4,
+   "a": 2.2,
+   "b": -18.2,
+   "chroma": 18.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tea Time",
+   "hex": "#bda78c",
+   "L": 69.7,
+   "a": 3.8,
+   "b": 16.9,
+   "chroma": 17.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Telegrau 1",
+   "hex": "#909090",
+   "L": 59.8,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Telegrau 2",
+   "hex": "#82898f",
+   "L": 56.7,
+   "a": -1.3,
+   "b": -4.1,
+   "chroma": 4.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Telegrau 4",
+   "hex": "#d0d0d0",
+   "L": 83.5,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Telemagenta",
+   "hex": "#cf3476",
+   "L": 48.3,
+   "a": 64.2,
+   "b": -0.6,
+   "chroma": 64.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Terrabraun",
+   "hex": "#4e3b31",
+   "L": 26.6,
+   "a": 6.7,
+   "b": 9.4,
+   "chroma": 11.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tiefer Traum",
+   "hex": "#431832",
+   "L": 15.9,
+   "a": 24.3,
+   "b": -7.1,
+   "chroma": 25.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tiefes Himmelblau",
+   "hex": "#00bfff",
+   "L": 72.5,
+   "a": -17.6,
+   "b": -42.5,
+   "chroma": 46.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tieforange",
+   "hex": "#ec7c26",
+   "L": 63.7,
+   "a": 37.9,
+   "b": 61.8,
+   "chroma": 72.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tiefrosa",
+   "hex": "#ff1493",
+   "L": 56.0,
+   "a": 84.6,
+   "b": -5.7,
+   "chroma": 84.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tiefschwarz",
+   "hex": "#0a0a0a",
+   "L": 2.7,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tochter der Antike",
+   "hex": "#eae1d7",
+   "L": 90.0,
+   "a": 1.4,
+   "b": 6.0,
+   "chroma": 6.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tomatencreme",
+   "hex": "#ffe4c4",
+   "L": 92.0,
+   "a": 4.4,
+   "b": 19.0,
+   "chroma": 19.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Tomatenrot",
+   "hex": "#a12312",
+   "L": 35.6,
+   "a": 50.0,
+   "b": 41.5,
+   "chroma": 65.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Torfbraun",
+   "hex": "#674e3f",
+   "L": 35.4,
+   "a": 8.2,
+   "b": 12.9,
+   "chroma": 15.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Türkis",
+   "hex": "#00ffff",
+   "L": 91.1,
+   "a": -48.1,
+   "b": -14.1,
+   "chroma": 50.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Türkisblau",
+   "hex": "#3f888f",
+   "L": 52.6,
+   "a": -20.5,
+   "b": -10.7,
+   "chroma": 23.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Türkisgrün",
+   "hex": "#1e5945",
+   "L": 33.7,
+   "a": -24.5,
+   "b": 6.0,
+   "chroma": 25.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ultramarinblau",
+   "hex": "#20214f",
+   "L": 15.3,
+   "a": 14.9,
+   "b": -28.6,
+   "chroma": 32.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Umbra",
+   "hex": "#635147",
+   "L": 36.0,
+   "a": 5.8,
+   "b": 8.7,
+   "chroma": 10.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Umbragrau",
+   "hex": "#332f2c",
+   "L": 19.7,
+   "a": 1.1,
+   "b": 2.6,
+   "chroma": 2.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Vanillegelb",
+   "hex": "#fbeebf",
+   "L": 94.1,
+   "a": -2.8,
+   "b": 24.4,
+   "chroma": 24.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Venezianischrot",
+   "hex": "#d57453",
+   "L": 59.2,
+   "a": 35.0,
+   "b": 34.9,
+   "chroma": 49.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrs-schwarz",
+   "hex": "#1e1e1e",
+   "L": 11.3,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsblau",
+   "hex": "#063971",
+   "L": 24.2,
+   "a": 7.9,
+   "b": -36.7,
+   "chroma": 37.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsgelb",
+   "hex": "#fad201",
+   "L": 85.2,
+   "a": -1.5,
+   "b": 85.6,
+   "chroma": 85.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsgrau A",
+   "hex": "#8d948d",
+   "L": 60.6,
+   "a": -3.9,
+   "b": 2.8,
+   "chroma": 4.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsgrau B",
+   "hex": "#4e5452",
+   "L": 35.1,
+   "a": -2.8,
+   "b": 0.3,
+   "chroma": 2.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsgrün",
+   "hex": "#308446",
+   "L": 49.0,
+   "a": -39.6,
+   "b": 26.1,
+   "chroma": 47.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsorange",
+   "hex": "#f54021",
+   "L": 55.3,
+   "a": 66.8,
+   "b": 57.4,
+   "chroma": 88.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrspurpur",
+   "hex": "#a03472",
+   "L": 39.8,
+   "a": 50.5,
+   "b": -11.6,
+   "chroma": 51.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsrot",
+   "hex": "#cc0605",
+   "L": 42.7,
+   "a": 67.2,
+   "b": 55.2,
+   "chroma": 87.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Verkehrsweiß",
+   "hex": "#f6f6f6",
+   "L": 96.9,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Vers in Pastell",
+   "hex": "#ddcebf",
+   "L": 83.6,
+   "a": 2.7,
+   "b": 9.3,
+   "chroma": 9.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Violett",
+   "hex": "#a146ff",
+   "L": 50.9,
+   "a": 69.8,
+   "b": -76.8,
+   "chroma": 103.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Violettblau",
+   "hex": "#354d73",
+   "L": 32.5,
+   "a": 2.7,
+   "b": -24.6,
+   "chroma": 24.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Waldgrün",
+   "hex": "#228b22",
+   "L": 50.6,
+   "a": -49.6,
+   "b": 45.0,
+   "chroma": 67.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Wanderlust",
+   "hex": "#b6ae8b",
+   "L": 70.9,
+   "a": -2.9,
+   "b": 19.0,
+   "chroma": 19.2,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Wasserblau",
+   "hex": "#256d7b",
+   "L": 42.4,
+   "a": -17.2,
+   "b": -14.3,
+   "chroma": 22.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Wasserfall",
+   "hex": "#b4dabf",
+   "L": 83.8,
+   "a": -17.7,
+   "b": 9.2,
+   "chroma": 19.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Weicher Sand",
+   "hex": "#dcccb5",
+   "L": 82.8,
+   "a": 1.9,
+   "b": 13.5,
+   "chroma": 13.6,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Weinrot",
+   "hex": "#5e2129",
+   "L": 22.4,
+   "a": 28.6,
+   "b": 9.3,
+   "chroma": 30.1,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Weiter Horizont",
+   "hex": "#3788ae",
+   "L": 53.5,
+   "a": -12.2,
+   "b": -27.2,
+   "chroma": 29.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Weizen",
+   "hex": "#f5deb3",
+   "L": 89.4,
+   "a": 1.5,
+   "b": 24.0,
+   "chroma": 24.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Weiß",
+   "hex": "#fdfdfd",
+   "L": 99.3,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Weißaluminium",
+   "hex": "#a5a5a5",
+   "L": 67.7,
+   "a": 0.0,
+   "b": -0.0,
+   "chroma": 0.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Weißgrün",
+   "hex": "#bdecb6",
+   "L": 89.0,
+   "a": -25.1,
+   "b": 21.3,
+   "chroma": 32.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Wellenblau",
+   "hex": "#b8d6e5",
+   "L": 83.9,
+   "a": -6.8,
+   "b": -10.7,
+   "chroma": 12.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Wildes Paradies",
+   "hex": "#2b875c",
+   "L": 50.2,
+   "a": -37.5,
+   "b": 15.4,
+   "chroma": 40.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Wolkengrau",
+   "hex": "#c4c0be",
+   "L": 78.0,
+   "a": 1.0,
+   "b": 1.5,
+   "chroma": 1.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Wolkenreise",
+   "hex": "#f6f3ec",
+   "L": 95.9,
+   "a": -0.2,
+   "b": 3.7,
+   "chroma": 3.7,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zartes Puder",
+   "hex": "#c0b4a9",
+   "L": 74.0,
+   "a": 2.4,
+   "b": 7.1,
+   "chroma": 7.5,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zartorange",
+   "hex": "#f9ebe5",
+   "L": 94.0,
+   "a": 3.7,
+   "b": 4.6,
+   "chroma": 5.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zauber der Wüste",
+   "hex": "#c3bcb0",
+   "L": 76.5,
+   "a": 0.4,
+   "b": 6.9,
+   "chroma": 6.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zeltgrau",
+   "hex": "#4c514a",
+   "L": 33.8,
+   "a": -3.5,
+   "b": 3.4,
+   "chroma": 4.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zementgrau",
+   "hex": "#7d8471",
+   "L": 54.1,
+   "a": -6.2,
+   "b": 9.4,
+   "chroma": 11.3,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Ziegelfarbe",
+   "hex": "#b22222",
+   "L": 39.1,
+   "a": 55.9,
+   "b": 37.6,
+   "chroma": 67.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zinkgelb",
+   "hex": "#f8f32b",
+   "L": 93.6,
+   "a": -18.1,
+   "b": 86.1,
+   "chroma": 88.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zitronengelb",
+   "hex": "#c7b446",
+   "L": 73.0,
+   "a": -6.1,
+   "b": 56.7,
+   "chroma": 57.0,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zitronengrün",
+   "hex": "#00ff00",
+   "L": 87.7,
+   "a": -86.2,
+   "b": 83.2,
+   "chroma": 119.8,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Zyanblau",
+   "hex": "#01fefe",
+   "L": 90.8,
+   "a": -47.9,
+   "b": -14.1,
+   "chroma": 49.9,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  },
+  {
+   "name": "Züriblau",
+   "hex": "#0f05a0",
+   "L": 19.0,
+   "a": 54.6,
+   "b": -74.6,
+   "chroma": 92.4,
+   "quelle": "meodai_farbnamen",
+   "sprache": "de"
+  }
+ ]
+}

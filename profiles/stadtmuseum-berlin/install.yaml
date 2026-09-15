@@ -1,0 +1,4 @@
+# Public reference profile resources are file-backed.
+# No institution-specific database bootstrap is required.
+
+database_sql: []

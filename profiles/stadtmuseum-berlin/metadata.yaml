@@ -1,0 +1,83 @@
+source:
+  table: museum.raw_objects
+  id_column: inv_nr
+  collection_column: sammlung
+  asset:
+    mode: s3
+    column: s3_url
+    key:
+      marker: /objects/
+      prefix: objects/
+
+# Ordered field mapping. The order is intentionally preserved in prompt context.
+fields:
+  - {id: inventory_number, source: inv_nr, label: "Inv Nr"}
+  - {id: collection, source: sammlung, label: "Sammlung"}
+  - {id: collection_section, source: sammlungsbereich, label: "Sammlungsbereich"}
+  - {id: object_type, source: objektbezeichnung, label: "Objektbezeichnung"}
+  - {id: title, source: titel, label: "Titel"}
+  - {id: place, source: ort, label: "Ort"}
+  - {id: dimensions, source: masse, label: "Maße"}
+  - {id: short_title, source: kurztitel, label: "Kurztitel"}
+  - {id: materials, source: materialien, label: "Materialien"}
+  - {id: techniques, source: techniken, label: "Techniken"}
+  - {id: material_notes, source: material_technik_bemerkungen, label: "Material/Technik Bemerkungen"}
+  - {id: persons, source: personen, label: "Personen"}
+  - {id: person_functions, source: funktionen_der_personen, label: "Funktionen der Personen"}
+  - {id: person_events, source: ereignisse_zu_personen, label: "Ereignisse zu den Personen"}
+  - {id: dating, source: datierung, label: "Datierung"}
+  - {id: dating_from, source: datierung_von, label: "Datierung von"}
+  - {id: dating_to, source: datierung_bis, label: "Datierung bis"}
+  - {id: dating_events, source: ereignisse_zur_datierung, label: "Ereignisse zur Datierung"}
+  - {id: place_time_notes, source: ort_zeit_bemerkung, label: "Ort, Zeit Bemerkung"}
+  - {id: legacy_keywords, source: schlagworte, label: "Schlagworte"}
+  - {id: description, source: beschreibung, label: "Beschreibung/Bemerkung (Autor, Datum)"}
+  - {id: context, source: kontext, label: "Kontext"}
+
+contexts:
+  tagging:
+    include: [inventory_number, collection, collection_section, object_type, title, place, dimensions, short_title, materials, techniques, material_notes, persons, person_functions, person_events, dating, dating_from, dating_to, dating_events, place_time_notes, legacy_keywords, description, context]
+  emotion:
+    include: [title, object_type, dating, description, legacy_keywords, context]
+    keyword_clusters: [Inhalt_Motiv, Thema_Phänomen, Gebrauchskontext, Funktion_Zweck, Kultureller_Kontext]
+    keyword_label: Inhaltsschlagworte
+    caption_drop_sections: [2, 6, 8]
+  topics:
+    include: [title, object_type, dating, description, legacy_keywords, context, materials, techniques, collection, place]
+    labels:
+      materials: Material
+      techniques: Technik
+    keyword_clusters: [Inhalt_Motiv, Thema_Phänomen, Gebrauchskontext, Funktion_Zweck, Kultureller_Kontext]
+    keyword_label: Inhaltsschlagworte
+
+# Text representations used by the BGE embedding stage.
+# Source columns are resolved through the canonical field mapping above.
+text_embeddings:
+  basis:
+    include:
+      - object_type
+      - title
+      - collection
+      - collection_section
+      - dating
+      - materials
+      - techniques
+      - place
+      - persons
+      - description
+      - context
+    labels:
+      collection: "Sammlung"
+      collection_section: "Bereich"
+      dating: "Datierung"
+      materials: "Material"
+      techniques: "Technik"
+      place: "Ort"
+      persons: "Personen"
+
+  flowing_text:
+    include:
+      - description
+      - context
+
+  keywords_label: "Schlagworte"
