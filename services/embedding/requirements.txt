@@ -6,7 +6,7 @@ safetensors==0.8.0
 pillow==12.3.0
 numpy==2.3.4
 sentencepiece==0.2.2
-protobuf==7.36.1
+protobuf==7.36.2
 requests==2.34.2
 boto3==1.43.55
 FlagEmbedding==1.4.0
